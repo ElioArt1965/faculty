@@ -1,0 +1,132 @@
+@charset "utf-8";
+header {
+	width: 1024px;
+	background-color: #3B3B3B;
+	padding-bottom: 20px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+ul li {
+	display: inline;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: lato, Arial, Cambria, Calibri;
+	font-weight: 400;
+	padding-left: 1em;
+	font-size: small;
+	margin-left: 5em;
+	font-style: normal;
+}
+header img {
+	float: left;
+	margin-left: 1em;
+	margin-top: 3px;
+}
+footer {
+	width: 1024px;
+	background-color: #3B3B3B;
+	text-align: center;
+	color: #ABABAB;
+	padding-top: 2px;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 4px;
+	margin: 0 auto;
+	word-spacing: 2px;
+	position: relative;
+	display: block;
+}
+.news-box {
+	display: block;
+	width: auto;
+	height: auto;
+	background-image: -webkit-linear-gradient(270deg,rgba(66,66,66,1.00) 0%,rgba(15,15,15,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(66,66,66,1.00) 0%,rgba(15,15,15,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(66,66,66,1.00) 0%,rgba(15,15,15,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(66,66,66,1.00) 0%,rgba(15,15,15,1.00) 100%);
+	border-radius: 0.5em;
+	margin-left: 26px;
+	margin-right: 26px;
+	margin-top: 2px;
+}
+
+
+#main {
+	float: left;
+	clear: both;
+}
+#calendar {
+	margin-left: 10px;
+	margin-top: 8px;
+	float: left;
+	clear: left;
+	display: inline-block;
+}
+
+wrapper {
+	margin: 0 auto;
+	width: 1024px;
+	position: relative;
+}
+
+
+.footer {
+	padding-left: 0px;
+	word-spacing: 5px;
+	display: inline;
+	font-family: lato, Arial, Cambria, Calibri;
+	font-style: normal;
+	font-weight: 100;
+	color: #FFFFFF;
+	text-align: center;
+}
+.wrapper {
+	width: 1024px;
+	display: block;
+	position: relative;
+}
+.news {
+	color: #62C5B2;
+	font-family: lato, Arial, Cambria, Calibri;
+	font-style: normal;
+	font-weight: 400;
+	width: 41em;
+	margin-left: 3em;
+	text-align: justify;
+	margin-bottom: 0em;
+	padding-bottom: 1em;
+}
+h1 {
+	font-family: lato, Arial, Cambria, Calibri;
+	font-style: normal;
+	font-weight: 400;
+	color: #FFFFFF;
+	margin-left: 1em;
+}
+wrapper {
+	width: 1024px;
+	background-color: #000000;
+	display: block;
+}
+iframe {
+	display: block;
+	margin-left: 26px;
+	padding-bottom: 11px;
+	margin-top: 13px;
+}
+.schedule {
+	margin-top: 17px;
+	margin-left: 7px;
+	display: inline-block;
+}
+ul li a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-family: lato, Arial, Cambria, Calibri;
+	font-style: normal;
+	font-weight: 400;
+}
+
+ul li a:hover {
+	color: #62C5B2;	
+}
