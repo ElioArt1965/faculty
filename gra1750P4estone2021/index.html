@@ -1,0 +1,230 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&family=Montserrat&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap" rel="stylesheet">
+    <title>Online Wedding Invitation | Edward Stone, 2021</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #BAC8D9;
+        font-family: 'Montserrat', sans-serif;
+      }
+
+      wrapper {
+        width: 630px;
+        height: 630px;
+        margin: 10px auto;
+        border: 6px solid white;
+        display: block;
+        padding: 0 50px;
+        text-align: left;
+        background-image: url("beachcard.png");
+        background-size: cover;
+        background-color: #b1ccdf;
+        box-shadow: 2px 3px 41px rgba(0, 0, 0, .5);
+      }
+
+
+      h1 {
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+        color: #3d848a;
+        font-family: 'Lobster', cursive;
+        margin-top: 1px;
+        padding-top: 2px;
+        position: relative;
+        animation: mymove 4s infinite;
+        font-size: 100px;
+        text-shadow: 2px 2px 5px whitesmoke;
+      }
+
+		/* this is code for the H1 animation aka mymove or the wave feature*/ 	
+      @keyframes mymove {
+        0% {
+          top: 0px;
+          width: -500px;
+        }
+
+        100% {
+          top: 50px;
+          width: 625px;
+        }
+
+        from {
+          color: whitesmoke;
+        }
+
+        to {
+          color: #53A6A6;
+        }
+      }
+
+      h2 {
+        margin-top: 15px;
+        font-size: 18px;
+        color: #7E858C;
+        text-transform: uppercase;
+        Padding: 0px;
+        font-family: 'Montserrat', sans-serif;
+        text-shadow: 2px 2px 5px whitesmoke;
+        animation: MoveUpDown 2s 1s linear;
+
+      }
+
+		/* this is code for the H2 animation bounce effect */
+      @keyframes MoveUpDown {
+
+        0%,
+        100% {
+          transform: translateY(0);
+        }
+
+        50% {
+          transform: translateY(-100px);
+        }
+      }
+
+      H3 {
+        padding-top: 0px;
+        Margin-bottom: 3px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        color: #7E858C;
+        text-shadow: 2px 2px 5px whitesmoke;
+        text-transform: uppercase;
+      }
+
+      .buttoncenter {
+        text-align: center;
+
+      }
+
+      .button {
+        display: inline-block;
+		padding: 15px 15px;
+        font-size: 20px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #53A6A6;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 5px #999;
+      }
+
+      .button:hover {
+        background-color: #BAC8D9
+      }
+
+      .button:active {
+        background-color: #D4D9BA;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+      }
+
+      /* this is the heart */
+
+      .heart {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        left: 50%;
+        top: 5%;
+        color: #94e3f2;
+        transform: translate(-50%, -50%);
+        background: url(https://cssanimation.rocks/images/posts/steps/heart.png) no-repeat;
+        background-position: 0 0;
+        cursor: pointer;
+        animation: fave-heart 1s steps(28);
+      }
+
+      .heart:hover {
+        background-position: -2800px 0;
+        transition: background 1s steps(28);
+      }
+
+      @keyframes fave-heart {
+        0% {
+          background-position: 0 0;
+        }
+
+        100% {
+          background-position: -2800px 0;
+        }
+      }
+
+      .writeup {
+        color: #857e5e;
+        text-shadow: 2px 2px 5px #D9D1D0;
+      }
+
+      h4,
+      h5 {
+        color: #599797;
+        Margin: 2px;
+        padding: 0px;
+        text-shadow: 2px 2px 5px whitesmoke;
+
+      }
+
+      footer {
+        font-size: 10px;
+        text-align: center;
+        padding: 0 100px;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <wrapper>
+      <div class="heart"></div>
+
+
+      <h2> With Joyful Hearts <br>
+        Join us to Celebrate the wedding of</h2>
+      <h1>
+        Lucy & Charlie
+      </h1>
+      <h3>
+        April 1, 2021 <br> at Sunset
+      </h3>
+
+      <h4>
+        Abaco Beach Resort
+      </h4>
+      <h5>
+        Marsh Harbor, Bahamas
+      </h5>
+      <div class="writeup">
+        <p>
+          After months of two hour lunches and 10am coffee runs we did what everyone tells you never to do, date your co-worker. Our love has grown daily and we can't wait to whoop it up with you on our wedding day. </p>
+        <p> So pack your passports, suncream, sunglasses, bathing suits, and a resort chic outfit. Looking forward to having you dive into our shared life together.</p>
+
+      </div>
+      <div class=buttoncenter>
+        <button class="button"> Yes, I’m in! </button>
+      </div>
+		
+    </wrapper>
+
+  </body>
+
+  <footer>
+    <p>&#169; Edward Stone, 2021. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+  </footer>
+
+</html>
+
