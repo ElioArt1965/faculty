@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            height: 100vh;
+            background-color: #000000;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+
+        /* Movie poster styles */
+        .movie-poster {
+            width: 100%;
+            height: auto;
+            max-height: calc(100% - 100px);
+            object-fit: cover;
+        }
+
+        .movie-poster img {
+            transform: rotate(180deg);
+        }
+
+        .movie-title {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .movie-title img {
+            width: 613px;
+            height: 381px;
+            position: absolute;
+            left: -130px;
+            top: 100px;
+            transform: rotate(-90deg);
+        }
+
+        /* Navbar styles */
+        .navbar {
+            background-color: transparent;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 60px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        /* Navbar buttons styles */
+        .navbar a {
+            color: #fff;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 10px 5px; 
+    		margin: 0 5px;
+            transition: background-color 0.3s, box-shadow 0.3s;
+        }
+	
+		
+
+        .navbar a:hover {
+            text-shadow: 0 0 10px rgba(255, 255, 0, 0.8);
+        }
+
+        
+        .overlay {
+            position: fixed;
+            top: 60px; 
+            right: 30px; 
+            width: 434px; 
+            height: 263px; 
+            background-image: url("awards.png"); 
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            opacity: 0;
+            animation: fadeIn 4s;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1; /* Set the desired final opacity (1 = 100%) */
+            }
+        }
+
+       
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 20px;
+            background-color: transparent;
+            color: #888;
+            text-align: left;
+            line-height: 20px;
+            font-size: 10px;
+            writing-mode: horizontal-tb;
+            padding-left: 10px;
+        }
+
+    
+        .video-overlay-container {
+            position: absolute;
+            top: 330px;
+            left: 50%;
+            transform: translate(-50%, -50%); 
+            z-index: 999;
+        }
+        
+        .video-overlay {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="movie-poster" src="CBBlack.jpeg" alt="Movie Poster">
+    </div>
+    <div class="movie-title">
+        <img src="TARtitle.jpeg"> 
+    </div>
+    <div class="navbar">
+        <a href="#">CAST</a>
+        <a href="#">AWARDS</a>
+        <a href="#">TICKETS</a>
+    </div>
+    <div class="overlay"></div>
+    <div class="video-overlay-container">
+        <video class="video-overlay" controls>
+            <source src="Trailer.mp4" type="video/mp4"> 
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="footer">© 2023 Patrick Davenport. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</div>
+</body>
+</html>
