@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Flower Shop</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+<style>
+h1 {
+    font-size: 80px;
+	margin:0;
+	padding-top:20px;
+	color:#eb35aa;
+	text-shadow:5px 5px 10px #999;
+}
+body {
+    background-color: antiquewhite;
+    text-align: center;
+	font-family:'Agbalumo';
+}
+wrapper {
+    width: 1024px;
+    margin: auto;
+    display: block;
+}
+p {
+    font-size: 30px;
+	margin:0;
+	color:green;
+}
+#div1 {
+    background-image: url(flowercart-01.png);
+    width: 400px;
+    margin: auto;
+    height: 400px;
+    background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 185px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#div1 img {
+    width: auto;
+}
+#div2, #div3, #div4 {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+}
+footer {
+	font-size:12px;
+	font-family:sans-serif;
+}
+</style>
+<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
+</head>
+<body>
+<wrapper>
+  <h1>Flower Shop</h1>
+  <p>Drag the flowers back and forth to place on the flower cart.</p>
+  <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+  <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"> <img src="flowercart-02.png" draggable="true" ondragstart="drag(event)" id="drag1" width="200px" height="100%"> </div>
+  <clearfloat></clearfloat>
+  <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"> <img src="flowercart-03.png" draggable="true" ondragstart="drag(event)" id="drag2" width="200px" height="100%"> </div>
+  <div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)"> <img src="flowercart-04.png" draggable="true" ondragstart="drag(event)" id="drag3" width="200px" height="100%"> </div>
+  <footer> © 2023, Ashley Rodriguez This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</footer>
+</wrapper>
+</body>
+</html>
