@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<link rel="stylesheet" href="https://use.typekit.net/vda8klz.css">
+<style>
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(farmbackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+wrapper {
+    width: 1280px;
+    height: 1024px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+h1 {
+    font-size: 50px;
+    font-family: flegrei, sans-serif;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    font-style: normal;
+}
+h2 {
+    font-size: 32px;
+    text-align: left;
+    font-family: sniglet, sans-serif;
+    font-weight: 400;
+    margin-top: -14px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    font-style: normal;
+}
+div {
+    position: absolute;
+    width: 320px;
+    height: 434px;
+    text-align: center;
+    padding-top: 62px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	}
+ul{
+    position: absolute;
+    top: 614px;
+	}
+li {
+    width: 281px;
+    height: 180px;
+    display: inline-block;
+    margin: 13px;
+    text-align: center;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: top;
+	}
+#drop_boy {
+    top: 170px;
+    left: 255px;
+    background-image: url(boy.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: hsla(195,100%,94%,0.59);
+    padding-left: 97px;
+}
+#drop_girl {
+    top: 170px;
+    left: 593px;
+    background-image: url(girl.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: hsla(195,100%,94%,0.59);
+}
+#drop_man {
+    top: 170px;
+    left: 928px;
+    background-image: url(man.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: hsla(195,100%,94%,0.59);
+}
+#drop_pink {
+    background-color: #FF99FF;
+}
+#drop_dkblue {
+    background-color: #3399FF;
+}
+#drop_yellow {
+    background-color: #FFFF99;
+}
+#drop_ltblue {
+    background-color: #E0F7FF;
+}
+#drop_green {
+    background-color: #93FF92;
+}
+#drop_ltpurple {
+    background-color: #CCCCFF;
+}
+#drop_aqua {
+    background-color: #00CCFF;
+}
+#drop_dkpurple {
+    background-color: #996699;
+}
+</style>
+	
+<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
+</head>
+<body>
+<wrapper>
+  <h1>Kids Family Farm</h1>
+  <h2>Drag and Drop Game</h2>
+  <div id="drop_boy" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <div id="drop_girl" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <div id="drop_man" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<ul>
+  <li id="drop_pink" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Zebra.png" alt="" width="115" height="148" id="zebra" draggable="true" ondragstart="drag(event)" /></li>
+  <li id="drop_dkblue" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Koala.png" alt="" width="187" height="134" id="koala" draggable="true" ondragstart="drag(event)" /></li>
+  <li id="drop_yellow" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="monkey.png" alt="" width="187" height="144" id="monkey" draggable="true" ondragstart="drag(event)" /></li>
+  <li id="drop_ltblue" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Dog.png" alt="" width="175" height="151" id="dog" draggable="true" ondragstart="drag(event)" /></li>
+  <li id="drop_green" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Lion.png" alt="" width="165" height="156" id="lion" draggable="true" ondragstart="drag(event)" /></li>
+  <li id="drop_ltpurple" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Pig.png" alt="" width="167" height="148" id="pig" draggable="true" ondragstart="drag(event)" /></li>
+  <li id="drop_aqua" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="horse.png" alt="" width="123" height="172" id="horse" draggable="true" ondragstart="drag(event)" /></li>
+  <li id="drop_dkpurple" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Panda.png" alt="" width="155" height="142" id="panda" draggable="true" ondragstart="drag(event)" /></li>
+</ul>
+</wrapper>
+</body>
+</html>

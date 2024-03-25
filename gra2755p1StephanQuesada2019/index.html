@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>GRA2755 - Project 1 | Mostache Selector</title>
+<style>
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #F7A85E;
+}
+h2 {
+    text-align: center;
+    font-family: dorsa;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-top: 15px;
+}
+p {
+    text-align: center;
+    font-family: dorsa;
+    font-style: normal;
+    /* [disabled]font-weight: 400; */
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-top: -30px;
+}
+
+#div1, #div2, #div3, #div4, #div5, #div6 {
+    width: 209px;
+    height: 209px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #F7A85E;
+}
+    #div1 {
+    background-image: url(face.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    #div2, #div3, #div4, #div5, #div6 {
+    background-image: url(back-face.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    }
+clearfloat {
+    display: block;
+    clear: both;
+}
+section {
+    text-align: center;
+    width: 100%;
+}
+</style>
+<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/dorsa:n4:default.js" type="text/javascript"></script>
+</head>
+<body>
+
+<h2>Mostache Selector</h2>
+<p>Click and Drag the mostache you like to try.</p>
+    
+
+  <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<clearfloat></clearfloat>
+  
+<section>
+  <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <img src="mostach-1.png" draggable="true" ondragstart="drag(event)" id="drag1" width="209" height="209">
+    </div>
+    <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <img src="mostach-2.png" draggable="true" ondragstart="drag(event)" id="drag2" width="209" height="209">
+      </div>
+    <div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <img src="mostach-3.png" draggable="true" ondragstart="drag(event)" id="drag3" width="209" height="209">
+      </div>
+    <div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <img src="mostach-4.png" draggable="true" ondragstart="drag(event)" id="drag4" width="209" height="209">
+      </div>
+    <div id="div6" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <img src="mostach-5.png" draggable="true" ondragstart="drag(event)" id="drag5" width="209" height="209">
+      </div>
+</section>
+
+</body>
+</html>
+
+

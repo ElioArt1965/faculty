@@ -1,0 +1,85 @@
+html, body{
+	height:100vh;
+}
+
+body{
+	margin:0;
+	padding:0;
+	font-family: 'Poppins', sans-serif;
+	
+}
+wrapper{
+	height:100vh;
+	margin:0 auto;
+	display:block;
+	perspective:1px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+header{
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+	text-decoration:none;
+	background-color:white;
+}
+#Logo{
+	width:250px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+	font-size:1em;
+	font-weight: 400;
+    padding: 8px 25px;
+    border-radius: 20px;
+}
+nav a:hover, nav a.active{
+    background-color: rgba(51,163,76,1.00);
+    color: white;
+    transition: .3s;
+}
+section {
+    height: 100vh;
+	position: relative;
+    background-size: cover;
+	background-position-x:66%;
+	padding-top:200px;
+	z-index: -1;
+}
+h1{
+    padding: 50px;
+    text-align: center;
+    font-size: 4em;
+    color: white;
+    text-shadow: 4px 5px 6px rgba(30,28,28,1.00);
+    letter-spacing: 3px;
+}
+.banner {
+    background-image: url("image1.jpg");
+	transform: translatez(-20px) scale(21);
+	margin-top:2700px;
+}
+.section-1 {
+    background-image: url("image3.jpg");
+	transform: translatez(-10px) scale(11);
+	margin-top:7900px;
+}
+.section-2 {
+    background-image: url(image2.jpg);
+	transform: translatez(-5px) scale(6);
+	margin-top:3700px;
+}
+.section-3 {
+    background-image: url(image5.jpg);
+	transform: translatez(-2px) scale(3);
+	margin-top:1700px;
+}
+footer{
+	text-align: center;
+	background: rgba(0,0,0,.5);
+	color:white;
+	margin-bottom: 0;
+		
+}
