@@ -1,0 +1,507 @@
+@charset "UTF-8";
+body {
+	padding: 0;
+	background-color: #CCCCCC;
+	margin-top: -29px;
+}
+wrapper {
+	width: 1366px;
+	margin: 0 auto;
+	display: block;
+	background-color: #FFFFFF;
+	padding-left: 0px;
+}
+header {
+	height: 100px;
+	background-color: #06086C;
+}
+nav {
+	height: 90px;
+}
+.news {
+	background-color: #111111;
+}
+nav ul {
+	margin-top: 28px;
+	margin-right: 28px;
+	margin-left: 28px;
+	padding-top: 26px;
+}
+ul a li {
+	display: inline-block;
+	padding-top: 16px;
+	padding-right: 8px;
+	padding-left: 8px;
+	padding-bottom: 16px;
+	color: #FFFFFF;
+	text-align: center;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: x-small;
+}
+.logo {
+	width: 313px;
+	padding-right: 263px;
+}
+ul a li:hover {
+	background-color: #666;
+	color: #000000;
+}
+footer {
+	padding-top: 16px;
+	padding-right: 16px;
+	padding-left: 16px;
+	padding-bottom: 16px;
+	color: #FFFFFF;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: small;
+	line-height: 23px;
+	background-color: #252525;
+}
+main {
+	height: 880px;
+}
+.home {
+	background-image: url(homebg.png);
+}
+footer ul li {
+	display: inline-block;
+	width: 5.5%;
+	margin-left: -38px;
+}
+.music {
+	background-image: url(musicbg.png);
+}
+.videos {
+	background-color: #252525;
+}
+.tour {
+	background-image: url(tourbg.png);
+}
+.photos {
+	background-image: url(photosbg.png);
+}
+.contact {
+	background-image: url(contactbg.png);
+}
+.merch {
+	background-image: url(merchbg.png);
+}
+.blog {
+	background-color: #252525;
+}
+.policy {
+	background-image: url(policybg.png);
+}
+h1 {
+	padding-top: 371px;
+	padding-left: 259px;
+}
+.home main button {
+	width: 303px;
+	height: 87px;
+	margin-left: 554px;
+	margin-top: 165px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	background-color: rgba(0,0,0,0.00);
+	border: 2px solid #FFFFFF;
+	color: #FFFFFF;
+	text-align: center;
+	letter-spacing: 2PX;
+}
+.home main p {
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-size: 33px;
+	letter-spacing: 10px;
+	color: #B0D4D8;
+	font-weight: 400;
+	padding-top: 21px;
+}
+.news main h2 {
+	color: rgba(255,255,255,1.00);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 39px;
+	text-align: center;
+	letter-spacing: 3px;
+}
+.news main button {
+	width: 304px;
+	height: 91px;
+	border: 1px solid rgba(255,255,255,1.00);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	background-color: rgba(0,0,0,0.00);
+	color: rgba(255,255,255,1.00);
+	margin-top: 59px;
+	margin-left: 505px;
+}
+.news1 p button {
+	margin-left: 54px;
+	width: 201px;
+	height: 60px;
+	margin-top: 72px;
+	font-size: 17px;
+}
+.news2 p button {
+	margin-left: 54px;
+	width: 201px;
+	height: 60px;
+	margin-top: 72px;
+	font-size: 17px;
+}
+.news3 p button {
+	margin-left: 54px;
+	width: 201px;
+	height: 60px;
+	margin-top: 72px;
+	font-size: 17px;
+}
+.music main h3 {
+	color: rgba(255,255,255,1.00);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	letter-spacing: 3PX;
+	font-size: 69px;
+	text-align: center;
+}
+.news main img {
+	display: inline-block;
+}
+.music main img {
+	padding-left: 469px;
+	margin-top: -17px;
+}
+.music main p {
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 47px;
+	font-weight: 700;
+	letter-spacing: 5px;
+	margin-top: 35px;
+	margin-bottom: 27px;
+}
+.viewmore    {
+	width: 164px;
+	height: 53px;
+	background-color: #252525;
+	border-style: none;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	color: rgba(255,255,255,1.00);
+	font-size: 17px;
+	letter-spacing: 2px;
+	text-align: center;
+}
+.apple {
+	margin-left: 339px;
+}
+.amazon {
+	margin-left: 14px;
+}
+.google {
+	margin-left: 14px;
+}
+.spotify {
+	margin-left: 14px;
+}
+.videos main h4 {
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-style: normal;
+	font-size: 70px;
+	margin-top: 42px;
+	letter-spacing: 3px;
+}
+.videos main button {
+	width: 205px;
+	height: 84px;
+	color: rgba(255,255,255,1.00);
+	background-color: rgba(0,0,0,0.00);
+	border: 1px solid rgba(255,255,255,1.00);
+	font-weight: 600;
+	font-size: 19px;
+	margin-top: 60px;
+	margin-left: 580px;
+	letter-spacing: 2px;
+}
+main section iframe {
+	width: 407px;
+	height: 226px;
+}
+.vid1 {
+	margin-left: 255px;
+}
+.vid2 {
+	margin-left: 43px;
+}
+.vid3 {
+	margin-left: 255px;
+	margin-top: 46px;
+}
+.vid4 {
+	margin-left: 43px;
+}
+.tour main .cover {
+	margin-left: 197px;
+	margin-top: 67px;
+	margin-right: 44px;
+}
+.tour main button {
+	height: 89px;
+	width: 303px;
+	margin-left: 530px;
+	margin-top: 31px;
+	color: rgba(255,255,255,1.00);
+	background-color: rgba(0,0,0,0.00);
+	border: 2px solid rgba(255,255,255,1.00);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 22px;
+	letter-spacing: 2px;
+}
+.photos main h5 {
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 54px;
+	letter-spacing: 2px;
+	width: auto;
+	margin-bottom: 29px;
+	margin-top: 40px;
+}
+.photos main img {
+	margin-top: -14px;
+}
+.photos main .photo3 {
+	width: 345px;
+	height: 225px;
+}
+.photos main .photo1 {
+	margin-left: 140px;
+}
+.photos main .suckerph {
+	margin-top: 28px;
+}
+.photos main p {
+	width: 1069px;
+	height: 20px;
+	background-color: #252525;
+	color: #FFFFFF;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	text-align: left;
+	padding-top: 11px;
+	padding-bottom: 5px;
+	margin-left: 140px;
+	padding-left: 20px;
+	letter-spacing: 2px;
+	margin-top: -1px;
+}
+.photos main button {
+	width: 258px;
+	height: 84px;
+	margin-left: 555px;
+	margin-top: 44px;
+	background-color: rgba(0,0,0,0.00);
+	border: 2px solid rgba(255,255,255,1.00);
+	color: rgba(255,255,255,1.00);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	letter-spacing: 2px;
+	font-size: 20px;
+	font-weight: 600;
+	font-style: normal;
+}
+.contact main h6 {
+	color: rgba(255,255,255,1.00);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	letter-spacing: 2px;
+	font-size: 38px;
+	text-align: center;
+	margin-top: 52px;
+	padding-top: 288px;
+}
+.contact main button {
+	width: 443px;
+	height: 131px;
+	background-color: rgba(0,0,0,0.00);
+	color: rgba(255,255,255,1.00);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-style: normal;
+	font-size: 31px;
+	font-weight: 600;
+	letter-spacing: 2PX;
+	border: 2px solid rgba(255,255,255,1.00);
+	margin-left: 463px;
+	margin-top: 103px;
+}
+.contact main hr {
+	width: 519px;
+}
+.contact main p {
+	color: rgba(255,255,255,1.00);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-style: normal;
+	font-size: 18px;
+	letter-spacing: 2px;
+	font-weight: 100;
+}
+.postal {
+	margin-left: 720px;
+	margin-top: -10px;
+}
+.postalc {
+	margin-left: 720px;
+	margin-top: -33px;
+	margin-bottom: 10px;
+}
+.email {
+	margin-left: 128px;
+	margin-top: 46px;
+}
+.policy main h7 {
+	color: rgba(255,255,255,1.00);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	letter-spacing: 2px;
+	font-size: 59px;
+	margin-left: 68px;
+	position: absolute;
+	top: 600px;
+	left: 26px;
+}
+.policy main p {
+	color: rgba(0,0,0,1.00);
+	font-style: normal;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	padding-top: 547px;
+	padding-left: 14px;
+	margin-top: 67px;
+}
+.policy main img {
+	margin-top: -431px;
+	padding-left: 1157px;
+}
+.merch1 {
+	padding-left: 166px;
+	padding-top: 13px;
+}
+.merch2 {
+	padding-left: 84px;
+}
+.merch3 {
+	padding-left: 84px;
+}
+.merch main p {
+	width: 190px;
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #212121;
+	font-weight: 200;
+	font-size: 13px;
+	line-height: 18px;
+	letter-spacing: 1.5px;
+}
+.desc1 {
+	margin-left: 209px;
+	padding-top: 9px;
+}
+.desc2 {
+	margin-left: 609px;
+	margin-top: -69px;
+	padding-top: 4px;
+}
+.desc3 {
+	margin-left: 1022px;
+	margin-top: -70px;
+	padding-top: 13px;
+}
+.merch4 {
+	padding-left: 179px;
+	margin-top: 28px;
+}
+.merch5 {
+	padding-left: 141px;
+}
+.merch6 {
+	padding-left: 152px;
+}
+.desc4 {
+	margin-left: 1023px;
+	margin-top: -72px;
+}
+.news main section {
+	height: 600px;
+	width: 374px;
+	background-color: #363636;
+	color: rgba(255,255,255,1.00);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-weight: normal;
+	letter-spacing: 1px;
+	font-size: 18px;
+	line-height: 28px;
+	display: inline-block;
+	margin-top: 13px;
+}
+main .news1 img {
+	padding-top: 20px;
+	padding-left: 17px;
+}
+main .news2 img {
+	padding-top: 20px;
+	padding-left: 17px;
+}
+main .news3 img {
+	padding-top: 20px;
+	padding-left: 17px;
+}
+.news1 {
+	margin-left: 78px;
+}
+.news3 {
+}
+.news2 {
+	margin-left: 42px;
+	margin-right: 42px;
+}
+main .news1 p {
+	margin-left: 29px;
+}
+main .news2 p {
+	margin-left: 29px;
+}
+main .news3 p {
+	margin-left: 29px;
+}
+.blog main img {
+	display: block;
+	margin-top: 57px;
+	margin-left: 171px;
+}
+.blog main .blog1 {
+	margin-top: -813px;
+	margin-left: 873px;
+}
+.blog main .blog2 {
+	margin-top: 16px;
+	margin-left: 873px;
+}
+.blog main .blog3 {
+	margin-top: 16px;
+	margin-left: 873px;
+}
