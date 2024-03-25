@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HTML5 Drag and Drop | Youdney Petit, 2023</title>
+<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
+<style>
+body {
+    margin: 0;
+    background-color: #ff9c9e;
+}
+wrapper {
+    width: 1280px;
+    height: 1024px;
+    display: block;
+    margin: auto;
+    background-image: url("gingerbread.jpg");
+}
+tbody td {
+    width: 160px;
+    height: 160px;
+}
+td img {
+    width: 80%;
+    height: auto;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+#group1, #group2 {
+    display: inline-block;
+    height: 812px;
+}
+table, td {
+    border: none;
+    height: auto;
+}
+#group3 {
+    width: 91%;
+    margin-left: 98px;
+    height: 160px;
+    margin-top: 2px;
+}
+#group2 {
+    margin-left: 663px;
+    width: 276px;
+}
+td {
+    width: 92px;
+    height: 160px;
+    /* [disabled]border-left-style: none;
+*/
+    /* [disabled]border-right-style: none;
+*/
+    /* [disabled]border-bottom: none;
+*/
+    /* [disabled]border-top-style: none;
+*/
+    /* [disabled]display: inline-block;
+*/
+}
+footer {
+    margin-top: 48px;
+}
+</style>
+</head>
+
+<body>
+<wrapper>
+  <table width="200" border="1" id="group1">
+    <tbody>
+      <tr>
+        <td id="drop1" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="AAAAAA.png" alt="" width="497" height="659" id="drag1" draggable="true" ondragstart="drag(event)"></td>
+        <td id="drop2" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="B2.png" alt="" width="497" height="659" id="drag2" draggable="true" ondragstart="drag(event)"></td>
+      </tr>
+      <tr>
+        <td id="drop3" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="C2.png" alt="" width="497" height="659" id="drag3" draggable="true" ondragstart="drag(event)"></td>
+        <td id="drop4" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="D2.png" alt="" width="497" height="659" id="drag4" draggable="true" ondragstart="drag(event)"></td>
+      </tr>
+      <tr>
+        <td id="drop5" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="E2.png" alt="" width="497" height="659" id="drag5" draggable="true" ondragstart="drag(event)"></td>
+        <td id="drop6" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="F2.png" alt="" width="498" height="659" id="drag6" draggable="true" ondragstart="drag(event)"></td>
+      </tr>
+      <tr>
+        <td id="drop7" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="G2.png" alt="" width="498" height="659" id="drag7" draggable="true" ondragstart="drag(event)"></td>
+        <td id="drop8" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="H2.png" alt="" width="498" height="659" id="drag8" draggable="true" ondragstart="drag(event)"></td>
+      </tr>
+      <tr>
+        <td id="drop9" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="I10.png" alt="" width="497" height="659" id="drag9" draggable="true" ondragstart="drag(event)"></td>
+        <td id="drop10" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="J2.png" alt="" width="498" height="659" id="drag10" draggable="true" ondragstart="drag(event)"></td>
+      </tr>
+    </tbody>
+  </table>
+  <table width="200" border="1" id="group2">
+    <tbody>
+      <tr>
+        <td id="drop11" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="K2.png" alt="" width="497" height="660" id="drag11" draggable="true" ondragstart="drag(event)"></td>
+        <td id="drop12" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="L2.png" alt="" width="498" height="659" id="drag12" draggable="true" ondragstart="drag(event)"></td>
+        <td id="drop13" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="M2.png" alt="" width="497" height="659" id="drag13" draggable="true" ondragstart="drag(event)"></td>
+      </tr>
+      <tr>
+        <td id="drop14" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="N2.png" alt="" width="498" height="659" id="drag14" draggable="true" ondragstart="drag(event)"></td>
+        <td id="drop15" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="O2.png" alt="" width="498" height="659" id="drag15" draggable="true" ondragstart="drag(event)"></td>
+        <td id="drop16" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="P2.png" alt="" width="497" height="659" id="drag16" draggable="true" ondragstart="drag(event)"></td>
+      </tr>
+      <tr>
+        <td id="drop17" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Q2.png" alt="" width="497" height="659" id="drag17" draggable="true" ondragstart="drag(event)"></td>
+        <td id="drop18" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="R2.png" alt="" width="497" height="659" id="drag18" draggable="true" ondragstart="drag(event)"></td>
+        <td id="drop19" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="S2.png" alt="" width="497" height="659" id="drag19" draggable="true" ondragstart="drag(event)"></td>
+      </tr>
+      <tr>
+        <td id="drop20" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="T2.png" alt="" width="497" height="659" id="drag20" draggable="true" ondragstart="drag(event)"></td>
+        <td id="drop21" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="U2.png" alt="" width="498" height="659" id="drag21" draggable="true" ondragstart="drag(event)"></td>
+        <td id="drop22" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="V2.png" alt="" width="497" height="659" id="drag22" draggable="true" ondragstart="drag(event)"></td>
+      </tr>
+      <tr>
+        <td id="drop23" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="W2.png" alt="" width="498" height="660" id="drag23" draggable="true" ondragstart="drag(event)"></td>
+        <td id="drop24" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="X2.png" alt="" width="498" height="659" id="drag24" draggable="true" ondragstart="drag(event)"></td>
+        <td id="drop25" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Y2.png" alt="" width="498" height="659" id="drag25" draggable="true" ondragstart="drag(event)"></td>
+      </tr>
+    </tbody>
+  </table>
+  <table width="200" border="1" id="group3">
+    <tbody>
+      <tr>
+        <td id="drop26" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+        <td id="drop27" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+        <td id="drop28" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+        <td id="drop29" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+        <td id="drop30" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+        <td id="drop31" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+      </tr>
+    </tbody>
+  </table>
+<footer>&copy; 2023, Youdney Petit
+  This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</footer>
+</wrapper>
+
+</body>
+</html>

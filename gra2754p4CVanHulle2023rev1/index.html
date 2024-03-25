@@ -1,0 +1,201 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HTML Drag&amp;Drop Game | Christine VanHulle, 2023</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>	
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500&display=swap" rel="stylesheet">  
+<style>
+body{
+    font-family: 'Zen Maru Gothic', serif;
+    margin: 0;
+    padding: 0;
+    background-color:#000000;
+	}
+wrapper{
+    width: 800px;
+    display: block;
+    background-color: #6A6866;
+    margin: 0 auto;
+    padding: 0 10%;
+	}
+}
+header {
+    background-color: #A68A56;
+    margin: 0 auto;
+    width: 90%;
+    height: 20%;
+    min-width: 400px;
+}
+h1{
+    font-size: 3em;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-weight: bold;
+    text-align: center;
+	margin: 0 auto;
+	padding-top: 0.3em;
+}
+div img {
+    width: 100%;
+	}
+main{
+    margin: 0 auto; 
+    width: 800px;
+    height: 500px;
+    min-height: 600px;
+    box-sizing: border-box;
+	}
+main{
+    background-image: url(final-ikebana.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#stem1, #stem2, #stem3, #stem4, #stem5, #stem6, #stem7 
+	{
+  width: 120px;
+  height: 120px;
+  margin: 0;
+  border: 5px solid rgba(0, 0, 0, 0.3);
+}
+#stem1{
+  position: relative;
+  top: 290px;
+  left: 0;
+}
+#stem2{
+  position: relative;
+  top: -150px;
+  left: 130px;
+}
+#stem3{
+  position: relative;
+  top: -100px;
+  left: 180px;
+}
+#stem4{
+  position: relative;
+  top: -300px;
+  left: 350px;
+}
+#stem5{
+  position: relative;
+  top: -280px;
+  left: 330px;
+}
+#stem6{
+  position: relative;
+  top: -610px;
+  left: 670px;
+}
+#stem7{
+  position: relative;
+  top: -560px;
+  left: 600px;
+}
+#fb1, #fb2, #fb3, #fb4, #fb5, #fb6, #fb7 {
+  float: left;
+  width: 83px;
+  height: 83px;
+  margin: 8px;
+  border: 5px solid black;
+}
+clearfloat{
+  clear:both;
+  display:block;
+}
+section{
+margin-left:15px;
+}
+section div{
+display: inline:		
+}	
+footer {
+    clear: both;
+    padding: 0.5em;
+    font-size: small;
+    width: 100%;
+    height: auto;
+}
+
+</style>
+<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
+</head>
+
+<body>
+<wrapper>
+  <header>
+<h1>Ikebana Drag and Drop Game</h1>
+</header>
+  <main>
+		
+<h2>&nbsp;Drag the flowers into interesting arrangements.</h2>
+
+
+<div id="stem1" ondrop="drop(event)" ondragover="allowDrop(event)">
+</div>
+
+<div id="stem2" ondrop="drop(event)" ondragover="allowDrop(event)">
+</div>
+	
+<div id="stem3" ondrop="drop(event)" ondragover="allowDrop(event)">
+</div>	
+<div id="stem4" ondrop="drop(event)" ondragover="allowDrop(event)">
+</div>
+
+<div id="stem5" ondrop="drop(event)" ondragover="allowDrop(event)">
+</div>
+	
+<div id="stem6" ondrop="drop(event)" ondragover="allowDrop(event)">
+</div>	
+<div id="stem7" ondrop="drop(event)" ondragover="allowDrop(event)">
+</div>	
+	</main>
+	<section>
+		<div id="fb1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="images/mum.png" draggable="true" ondragstart="drag(event)" id="drag1" width="100%" height="100%">
+</div>
+		<div id="fb2" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="images/purple.png" draggable="true" ondragstart="drag(event)" id="drag2" width="80%" height="100%">
+</div>
+		<div id="fb3" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="images/orchid.png" draggable="true" ondragstart="drag(event)" id="drag3" width="80%" height="100%">
+</div>
+		<div id="fb4" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="images/leaf.png" draggable="true" ondragstart="drag(event)" id="drag4" width="80%" height="100%">
+</div>
+		<div id="fb5" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="images/flower.png" draggable="true" ondragstart="drag(event)" id="drag5" width="80%" height="100%">
+</div>
+		<div id="fb6" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="images/yellow.png" draggable="true" ondragstart="drag(event)" id="drag6" width="80%" height="100%">
+</div>
+		<div id="fb7" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="images/bird-of.png" draggable="true" ondragstart="drag(event)" id="drag7" width="80%" height="100%">
+</div>
+	</section>
+	<footer>
+	<p>&copy; 2023, Christine VanHulle
+This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+
+	
+	</footer>
+</wrapper>
+</body>
+</html>

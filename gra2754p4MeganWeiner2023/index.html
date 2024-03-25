@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Cat Stickers | Megan Weiner, 2023</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
+<style>
+body {
+    background-color: mediumpurple;
+    color: white;
+    text-align: center;
+	font-family: 'Love Ya Like A Sister', cursive;
+}
+#div1, #div2, #div3, #div4, #div5, #div6, #div7 {
+    width: 173px;
+    height: 173px;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+#div1 {
+    background-image: url("notebook.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position: top;
+    width: 450px;
+    height: 500px;
+    background-size: 100% auto;
+    vertical-align: middle;
+}
+#div1 img {
+    width: 80%;
+    height: auto;
+    margin-top: 65px;
+}
+clearfloat {
+    display: block;
+    clear: both;
+}
+footer {
+    text-align: left;
+    display: block;
+}
+wrapper {
+    margin: auto;
+    width: 1060px;
+    display: block;
+}
+p{
+	font-size:150%;
+	margin:0;
+}
+h2{
+	font-size:250%;
+	margin:50px 0 0;
+}	
+</style>
+<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
+</head>
+<body>
+</body>
+<wrapper>
+  <h2>Cat Stickers On A Notebook</h2>
+  <p>Drag the cat stickers onto the notebook.</p>
+  <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <clearfloat></clearfloat>
+  <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="cat_cat1.png" draggable="true" ondragstart="drag(event)" id="drag1" width="173" height="173"></div>
+  <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="cat_cat2.png" draggable="true" ondragstart="drag(event)" id="drag2" width="173" height="173"></div>
+  <div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="cat_cat3.png" draggable="true" ondragstart="drag(event)" id="drag3" width="173" height="173"></div>
+  <br>
+  <div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="cat_cat4.png" draggable="true" ondragstart="drag(event)" id="drag4" width="173" height="173"></div>
+  <div id="div6" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="cat_cat5.png" draggable="true" ondragstart="drag(event)" id="drag5" width="173" height="173"></div>
+  <div id="div7" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="cat_cat6.png" draggable="true" ondragstart="drag(event)" id="drag6" width="173" height="173"></div>
+  <footer>&copy; 2023, Megan Weiner
+    This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</footer>
+</wrapper>
+</html>

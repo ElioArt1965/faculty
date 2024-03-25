@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>How to Garden | Elio Arteaga, 2024</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<script type="text/javascript">
+  $(document).ready(
+    function() {
+      $('#icon').click (
+        function() {
+          $('#nav').show();
+          $('#icon').hide();
+          $('#x_icon').show();
+        }
+  );
+  $('#x_icon').click (
+    function() {
+          $('#nav').hide();
+          $('#icon').show();
+          $('#x_icon').hide();
+        }
+      );
+    }
+  );
+</script>
+<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<wrapper>
+  <header>
+    <img src="images3/menu.png" alt="" width="384" height="384" id="icon"><img src="images3/x.png" alt="" width="384" height="384" id="x_icon">
+    <nav id="nav">
+      <ul>
+        <a href="index.html"><li>Home</li></a>
+		<a href="about.html"><li>About</li></a>
+		<a href="contact.html"><li>Contact</li></a>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>About</h1>
+    <section></section>
+    <section></section>
+  </main>
+  <footer></footer>
+</wrapper>
+</body>
+</html>
