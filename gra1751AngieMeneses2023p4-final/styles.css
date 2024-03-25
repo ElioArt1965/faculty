@@ -1,0 +1,404 @@
+@charset "utf-8";
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #ccc;
+}
+wrapper {
+    width: 1366px;
+    margin: 0 auto;
+    display: block;
+    background-color: #fff;
+}
+header {
+    background-color: #F7F5F5;
+    height: 150px;
+    text-align: center;
+}
+footer {
+    background-color: rgba(127,127,127,1.00);
+    margin-top: -16px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+}
+#merch .container {
+    padding-top: 224px;
+    margin-left: 216px;
+}
+#merch .container .hoodie {
+    border-radius: 10px;
+    margin-right: 10px;
+
+}
+
+
+
+
+#merch .container .sweatshirt {
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#merch .container .tee {
+    border-radius: 10px;
+    margin-left: 10px;
+}
+#merch nav ul {
+    text-align: left;
+    padding-left: 209px;
+}
+#merch nav ul:hover  {
+    text-align: left;
+    padding-left: 222px;
+    text-decoration: underline;
+}
+nav ul .phoodie {
+    padding-left: 9px;
+}
+nav ul .psweatshirt {
+    padding-left: 56px;
+}
+nav ul .ptee {
+    padding-left: 20px;
+}
+
+
+
+
+nav {
+    margin-left: 40px;
+
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+}
+ul a li {
+    display: inline-block;
+    padding-top: 16px;
+    padding-right: 31px;
+    padding-left: 30px;
+    padding-bottom: 16px;
+    font-size: 20px;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    color: rgba(224,224,224,1.00);
+    -webkit-box-shadow: 0px 0px 0px;
+    box-shadow: 0px 0px 0px;
+}
+ul a li:hover {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    color: rgba(255,255,255,1.00);
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+}
+#home {
+    background-image: url(Images/shakira_index.jpg);
+    background-position: center 0%;
+    height: 1080px;
+    text-align: center;
+    padding-top: 14px;
+    top: 0px;
+    margin-top: -35px;
+    font-size: 36px;
+    display: block;
+}
+#home h2 {
+    padding-top: 874px;
+    color: rgba(255,255,255,1.00);
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+#news {
+    background-image: url(Images/shakira_1.jpg);
+    background-position: center 0%;
+    height: 742px;
+    margin-top: -35px;
+    padding-top: 35px;
+
+}
+#store {
+    background-image: url(Images/shakira_5.jpg);
+    height: 683px;
+    margin-top: -35px;
+    display: block;
+    background-position: center center;
+    background-size: 100% auto;
+}
+#videos {
+    background-image: url(Images/Shakira_blogs.jpg);
+    background-position: center center;
+    height: 1580px;
+    margin-top: -35px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#photos {
+    background-image: url(Images/shakira_3.jpg);
+    height: 685px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center center;
+    margin-top: -46px;
+}
+#photos h2 {
+    padding-top: 0px;
+    margin-top: 150px;
+    position: absolute;
+    top: 100px;
+    padding-left: 96px;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    color: rgba(92,92,92,1.00);
+}
+
+
+#photos .shak1 {
+    padding-left: 47px;
+    padding-top: 87px;
+    margin-left: 68px;
+    padding-right: 50px;
+}
+#photos .container .shakconc {
+    padding-left: 59px;
+}
+#photos .container .shak2 {
+    padding-left: 114px;
+    margin-left: 8px;
+}
+.container  {
+    padding-top: 153px;
+    margin-left: 70px;
+    margin-top: 0px;
+    display: inherit;
+}
+
+
+
+
+#concerts {
+    background-image: url(Images/Shak_4.jpg);
+    height: 1000px;
+    margin-top: -35px;
+    background-position: center center;
+}
+
+#mailings {
+    background-image: url(Images/Shak_4.jpg);
+    height: 1065px;
+    margin-top: -41px;
+    display: block;
+    background-position: center center;
+    background-size: 141% auto;
+    background-repeat: no-repeat;
+}
+#merch {
+    background-image: url(Images/Shak_15.jpg);
+    height: 1000px;
+    margin-top: -35px;
+    display: block;
+    background-position: center center;
+}
+#blogs {
+    background-image: url(Images/shak_blog.png);
+    height: 769px;
+    margin-top: -60px;
+    display: block;
+    background-position: center center;
+    background-size: 100% auto;
+}
+
+#privacy {
+    background-image: url(Images/shak_privacy.png);
+    height: 842px;
+    margin-top: -60px;
+    display: block;
+    background-position: center center;
+}
+#concerts img {
+    margin-left: 228px;
+}
+#store .ladrones {
+    padding-left: 50px;
+    margin-left: 150px;
+    padding-top: 0px;
+    padding-right: 10px;
+    display: inline-block;
+}
+#store .container {
+    padding-top: 192px;
+    margin-left: 22px;
+}
+
+#store .laundry {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#store .dorado {
+    padding-left: 10px;
+}
+nav ul li {
+    display: inline-block;
+    color: rgba(255,255,255,1.00);
+    text-align: left;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    padding-bottom: 0px;
+    margin-bottom: -13px;
+    padding-top: 1px;
+}
+nav ul li:hover  {
+    display: inline-block;
+    color: rgba(255,255,255,1.00);
+    text-align: left;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    padding-bottom: 0px;
+    margin-bottom: -13px;
+    padding-top: 1px;
+    text-decoration: underline;
+}
+
+nav ul .lpladrones {
+    margin-left: 109px;
+    padding-left: 120px;
+}
+nav ul .lplaundry {
+    margin-left: 73px;
+}
+nav ul .cddorado {
+    margin-left: 161px;
+}
+#privacy .policy {
+    padding-top: 114px;
+    padding-left: 620px;
+    color: rgba(255,255,255,1.00);
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    border-width: thin;
+    display: block;
+    font-size: 28px;
+}
+#privacy .ppolicy {
+    padding-left: 91px;
+    padding-right: 87px;
+    color: rgba(255,255,255,1.00);
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    background-color: rgba(123,123,123,0.68);
+    border-radius: 15px;
+    margin-left: 35px;
+    margin-right: 39px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#videos .container {
+    padding-top: 246px;
+}
+#videos .container .video1 {
+    padding-left: 5px;
+    padding-right: 0px;
+}
+
+#videos .container .video2 {
+    padding-left: 21px;
+    padding-top: 53px;
+}
+
+#videos .container .video3 {
+    padding-left: 334px;
+    padding-top: 80px;
+}
+#blogs h3 {
+    color: rgba(255,255,255,1.00);
+    padding-top: 94px;
+    text-decoration: underline;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    text-align: center;
+    font-size: 32px;
+}
+#blogs h5 {
+    color: rgba(255,255,255,1.00);
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size: 26px;
+    padding-left: 49px;
+}
+#blogs p {
+    color: rgba(255,255,255,1.00);
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    padding-left: 33px;
+    padding-right: 25px;
+}
+
+section p a {
+    color: rgba(255,255,255,1.00);
+}
+#mailings section {
+    text-align: center;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    color: rgba(255,255,255,1.00);
+    padding-top: 405px;
+}
+#mailings section button {
+    width: 242px;
+    height: 56px;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    background-color: rgba(200,203,232,1.00);
+    font-size: 25px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+#mailings section h1 {
+    font-size: 32px;
+}
+
+#mailings section h2 {
+    background-color: rgba(145,145,145,0.56);
+    border-radius: 22px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#news ul {
+    display: inline-block;
+    color: rgba(255,255,255,1.00);
+    margin-top: 223px;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    list-style-type: none;
+    margin-left: 80px;
+}
+nav ul .acrostico {
+    background-color: rgba(137,137,137,0.54);
+    margin-left: 0px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 4px;
+}
+nav ul .tqg {
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    background-color: rgba(137,137,137,0.54);
+    border-radius: 4px;
+}
+nav ul .bzrp {
+    background-color: rgba(137,137,137,0.54);
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    border-radius: 4px;
+}
+#concerts table {
+    color: rgba(255,255,255,1.00);
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    padding-top: 2px;
+    margin-left: 258px;
+    padding-left: 100px;
+    background-color: rgba(123,123,123,0.68);
+    border-radius: 15px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    margin-top: 137px;
+}
