@@ -1,0 +1,309 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Rice Bowl | Micahel Rodriguez</title>
+<style type="text/css">
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #CCCCCC;
+}
+	wrapper {
+    margin: 0 auto;
+    width: 1366px;
+    display: block;
+    background-color: #FFFFFF;
+    perspective: 1;
+    background-image: url(images/papertexture.png);
+    background-size: cover;
+    overflow-x: hidden;
+    height: 100vh;
+}
+.parallax {
+    height: 0px;
+    min-height: 359px;
+    max-height: 0px;
+	overflow: hidden;
+}
+	
+nav {
+    background-color: rgba(0,0,0,0.70);
+    height: 73px;
+}
+.logo {
+    width: 110px;
+    height: 62px;
+    margin-left: 70px;
+    margin-top: 5px;
+}
+.calltoaction {
+    text-decoration: none;
+    list-style-type: none;
+}
+li a img {
+    display: inline;
+    float: left;
+    margin-top: 28px;
+    margin-right: 28px;
+    margin-bottom: 28px;
+    margin-left: 28px;
+}
+.navbar {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.navbar li {
+    color: #FFFFFF;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    padding-top: 27px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 27px;
+    margin-top: 0px;
+}
+.navbar a:hover li {
+    background-color: rgba(182,31,36,0.70);
+    display: inline-block;
+}
+
+banner {
+    height: 541px;
+    background-image: url("images/headerimg.png");
+    display: block;
+   	background-repeat: no-repeat;
+}
+.bannertxt h1 {
+    color: #FFFFFF;
+    font-family: brush-script-std;
+    text-align: center;
+    font-size: 98px;
+    margin-top: 98px;
+    font-weight: 400;
+    margin-bottom: -50px;
+    font-style: normal;
+}
+h3 {
+    text-align: center;
+    color: #B61F24;
+    display: block;
+    font-size: 30px;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+	
+.meetthechef {
+    height: 541px;
+    background-image: url("images/meetthechefs.png");
+    display: block;
+    background-repeat: no-repeat;
+    width: 1366px;
+}
+.blackbox {
+    background-color: rgba(0,0,0,0.70);
+    height: 415px;
+    width: 1239px;
+    margin-left: 52px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+.meetthechefhead {
+    text-align: center;
+    color: rgba(255,255,255,1.00);
+    font-family: brush-script-std;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    margin-top: 17px;
+}
+.chef1 {
+    background-color: rgba(255,255,255,0.00);
+    display: inline-block;
+    width: 550px;
+    height: 340px;
+    margin-left: 53px;
+    margin-top: -29px;
+}
+.chef1 img {
+    margin-left: 203px;
+    width: 140px;
+}
+.chef1 p {
+    color: rgba(255,255,255,1.00);
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    font-size: 18px;
+}
+.chef1 p a {
+    color: #B61F24;
+}
+.chef2 {
+    background-color: rgba(255,255,255,0.00);
+    display: block;
+    width: 550px;
+    height: 340px;
+    margin-left: 53px;
+    margin-top: -29px;
+    float: right;
+    margin-right: 29px;
+}
+.chef2 img {
+	margin-left: 203px;
+    width: 140px;
+}
+.chef2 p {
+	color: rgba(255,255,255,1.00);
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    font-size: 18px;
+}
+.chef2 p a {
+	color: #B61F24;
+}
+footer {
+    background-color: rgba(0,0,0,0.70);
+    height: 49px;
+    margin-top: 38px;
+}
+.footertext {
+    display: inline-block;
+}
+.copyright {
+    color: rgba(255,255,255,1.00);
+    margin-left: 35px;
+    display: inline-block;
+}
+.footeroptions {
+    color: rgba(255,255,255,1.00);
+    text-align: center;
+    display: inline-block;
+    margin-left: 282px;
+    margin-top: 14px;
+}
+.footeroptions a {
+    color: rgba(255,255,255,1.00);
+}
+.socialmedia {
+    display: block;
+    float: right;
+    margin-left: 417px;
+    margin-top: 4px;
+}
+.instagram {
+    display: inline-block;
+}
+.instagram img {
+    width: 37px;
+    clear: right;
+}
+.facebook {
+	display: inline-block;
+}
+.facebook img {
+	width: 37px;
+    clear: right;
+}
+.twitter {
+	display: inline-block;
+}
+.twitter img {
+	width: 37px;
+    clear: right;
+}
+.appsbutton a:hover .overlay1 img {
+    background-image: url(images/hover-apps.png);
+	position: absolute;
+	display: inline-block;}
+
+
+
+.footeroptions a:hover {
+    color: #B61F24;
+    text-decoration: none;
+}
+.footeroptions a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+</style>
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>
+var __adobewebfontsappname__="dreamweaver"
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script><script src="http://use.edgefonts.net/brush-script-std:n4:default.js" type="text/javascript"></script>
+</head>
+
+<body onLoad="MM_preloadImages('images/hover-sushi1.png','images/hover-bowls1.png','images/hover-ramen1.png','images/hover-apps1.png')">
+<wrapper> 
+	<banner>
+  
+<nav>
+  <ul class="navbar">
+	  <a href="#"><li>Menu</li></a>
+      <a href="#"><li>About Us</li></a>
+	  <a href="#"><li>Locations</li></a>
+	  <a href="#"><li>Contact Us</li></a>
+    </ul>
+    <a href="#"><img src="images/Rice-Bowl-White-Logo.png" alt="Rice Bowl Logo" class="logo"></a></nav>
+<div class="bannertxt">
+	<h1>Authentic &amp; Organic</h1>
+	<h3>Japanese Cuisine</h3>
+</div>
+	</banner> 
+<div class="parallax">
+	<ul class="calltoaction">
+	<li class="appsbutton"><a href="#"><img src="images/apps-button.png" alt="link to appetizers" id="Image4" onMouseOver="MM_swapImage('Image4','','images/hover-apps1.png',1)" onMouseOut="MM_swapImgRestore()"></a></li>
+	<li class="ramenbutton"><a href="#"><img src="images/bowl-button.png" alt="link to ramen" id="Image3" onMouseOver="MM_swapImage('Image3','','images/hover-ramen1.png',1)" onMouseOut="MM_swapImgRestore()"></a></li>
+	<li class="bowlsbutton"><a href="#"><img src="images/bowl1-button.png" alt="link to rice bowls" id="Image2" onMouseOver="MM_swapImage('Image2','','images/hover-bowls1.png',1)" onMouseOut="MM_swapImgRestore()"></a></li>
+	<li class="sushibutton"><a href="#"><img src="images/sushi-button.png" alt="link to sushi" id="Image1" onMouseOver="MM_swapImage('Image1','','images/hover-sushi1.png',1)" onMouseOut="MM_swapImgRestore()"></a></li>
+	</ul>
+</div>
+	<div class="meetthechef">
+		<div class="blackbox">
+			<h2 class="meetthechefhead">Meet the Chefs</h2>
+			<div class="chef1">
+				<img src="images/Chef1.png" alt="Picture of the Head Chef">
+				<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.".....<a href="#">Read More</a></p>
+			</div>
+			<div class="chef2">
+				<img src="images/Chef2.png" alt="Picture of the assistent Chef">
+				<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.".....<a href="#">Read More</a></p>
+			</div>
+		</div>
+		<footer>
+			<div class="footertext">
+				<div class="copyright">&copy;Rice Bowl | Michael Rodriguez 2019</div>
+				<div class="footeroptions"><a href="#">Privacy Policy</a> | <a href="#">Reviews</a> | <a href="#">FAQ</a></div>
+				<div class="socialmedia">
+					<div class="instagram"><a href="#"><img src="images/instagram-logo.png" alt="Instagram logo"></a></div>
+					<div class="facebook"><a href="#"><img src="images/fb-logo.png" alt="Facebook logo"></a></div>
+					<div class="twitter"><a href="#"><img src="images/twitterlogo.png" alt="Twitter logo"></a></div>
+
+				</div>
+			</div>
+		</footer>
+	</div>
+</wrapper>
+</body>
+</html>
