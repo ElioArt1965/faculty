@@ -1,0 +1,535 @@
+@charset "UTF-8";
+@import url("vcr_osd/stylesheet.css");
+@import url("keifont/stylesheet.css");
+@import url("vcr_osd_mono_1_001/stylesheet.css");
+@import url("vcr_osd_mono_1_001/stylesheet.css");
+@import url("vcr_osd_mono_1_001/stylesheet.css");
+@import url("vcr_osd_mono_1_001/stylesheet.css");
+@import url("vcr_osd_mono_1_001/stylesheet.css");
+@import url("vcr_osd_mono_1_001/stylesheet.css");
+@import url("vcr_osd_mono_1_001/stylesheet.css");
+@import url("vcr_osd_mono_1_001/stylesheet.css");
+@import url("vcr_osd_mono_1_001/stylesheet.css");
+
+
+
+
+
+
+
+
+
+
+#text-body-2 {
+    font-family: "vcr osd mono 1 001";
+    margin-right: 419px;
+    line-height: 19px;
+    left: 389px;
+    position: relative;
+    top: 63px;
+    color: #FAFAFA;
+    font-size: 13px;
+}
+body {
+    background-color: #1F1F1F;
+}
+wrapper {
+    width: 1024px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+}
+section {
+    height: 768px;
+}
+#merch {
+    background-image: url(merch.png);
+    background-repeat: no-repeat;
+}
+.sizes {
+    margin: 0 auto;
+    position: relative;
+    top: 21px;
+    left: 197px;
+    display: inline;
+}
+.shirts {
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    left: 30px;
+    top: 29px;
+}
+
+
+
+#home {
+    background-image: url(home.png);
+}
+nav {
+    border: medium solid #000000;
+    width: auto;
+    top: -1px;
+    z-index: 2;
+    background-color: #FFFFFF;
+}
+ul {
+    display: inline;
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+    margin-top: 0;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0;
+    /* [disabled]width: 0px; */
+}
+nav ul li {
+    margin-bottom: 0;
+    display: inline-block;
+    padding-top: 13px;
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: center;
+    width: 10%;
+    font-size: 9px;
+    /* [disabled]top: 0px; */
+    padding-bottom: 12px;
+    /* [disabled]left: 0px; */
+    color: #000000;
+    margin-right: -5px;
+    font-family: "vcr osd";
+}
+.home-image {
+    position: absolute;
+    top: 26px;
+    z-index: 0;
+}
+#news {
+    background-image: url(../img-dreamweaver/news.png);
+}
+#music-store {
+    background-image: url(../img-dreamweaver/music-store.png);
+}
+section #music-store {
+    height: 998px;
+}
+.store-header {
+    margin: 0 auto;
+    display: block;
+    padding-top: 23px;
+    position: relative;
+    left: 31pt;
+}
+.album-banner-info {
+    position: relative;
+    top: -125px;
+    padding-left: 543px;
+    margin-top: -128px;
+    font-family: "vcr osd mono 1 001";
+    font-weight: normal;
+    line-height: 26px;
+}
+.album-banner-body {
+    position: relative;
+    margin-left: 540px;
+    margin-right: 212px;
+    top: -126px;
+    margin-bottom: 1px;
+    padding-bottom: 3px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+.vinyl-text {
+    color: #FFFFFF;
+    font-family: keifont;
+    margin-top: 0;
+    margin-right: 850px;
+    margin-left: auto;
+    margin-bottom: 0;
+    display: block;
+    top: -67px;
+    position: relative;
+    left: 481px;
+    font-size: 49px;
+}
+nav ul li:hover {
+    background-color: #000000;
+    color: #E4E4E4;
+}
+.news-header {
+    font-size: 40px;
+    background-color: #FFFD00;
+    padding-right: 0px;
+    margin-right: 140px;
+    margin-left: 7px;
+    padding-left: 10px;
+    position: relative;
+    left: 118px;
+    top: 53px;
+    font-family: keifont;
+}
+.news-article {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    padding-left: 10px;
+    margin-left: 120px;
+    padding-bottom: 9px;
+    line-height: 39px;
+    padding-top: 59px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14.01px;
+    padding-right: 0px;
+    text-align: left;
+}
+.news-button {
+    position: relative;
+    margin: 0 auto;
+    left: 427px;
+    width: 277px;
+    height: 57px;
+    background-color: #FFFFFF;
+    border: medium solid #000000;
+    border-radius: 31px;
+    top: 22px;
+}
+.news-button-text {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    padding-bottom: 0px;
+    margin-bottom: 4px;
+    margin-top: 6px;
+    font-size: 18px;
+    text-align: left;
+    position: relative;
+    top: -4px;
+    left: 40px;
+}
+.vinyl-store {
+    margin: 0 auto;
+    display: block;
+    left: 55px;
+    position: relative;
+    top: -25px;
+}
+#videos {
+    background-image: url(../img-dreamweaver/videos.png);
+}
+.videos {
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    left: -137px;
+    top: 39px;
+}
+.lift {
+    display: block;
+    position: relative;
+    top: 39px;
+    left: 157px;
+}
+.radioheadtv {
+    display: block;
+    position: relative;
+    padding-left: 157px;
+    top: 23px;
+}
+.oknotok {
+    display: block;
+    margin-top: 0;
+    margin-right: 695px;
+    margin-left: auto;
+    margin-bottom: 0;
+    font-family: "vcr osd";
+    position: relative;
+    left: 635px;
+    top: -139px;
+}
+.oknotok-body {
+    display: block;
+    margin-top: 0;
+    margin-right: 695px;
+    margin-left: auto;
+    margin-bottom: 0;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    position: relative;
+    left: 635px;
+    top: -122px;
+}
+.there-there {
+    display: block;
+    margin-top: 0;
+    margin-right: 695px;
+    margin-left: auto;
+    margin-bottom: 0;
+    font-family: "vcr osd";
+    position: relative;
+    left: 635px;
+    top: -239px;
+}
+.there-there-body {
+    display: block;
+    margin-top: 0;
+    margin-right: 695px;
+    margin-left: auto;
+    margin-bottom: 0;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    position: relative;
+    left: 635px;
+    top: -214px;
+}
+.videos-button {
+    margin: 0 auto;
+    position: relative;
+    left: 427px;
+    width: 277px;
+    height: 57px;
+    border: medium solid #000000;
+    border-radius: 31px;
+    background-color: #FFFFFF;
+    top: -87px;
+}
+.merch-button {
+    margin: 0 auto;
+    position: relative;
+    left: 427px;
+    width: 277px;
+    border: medium solid #000000;
+    border-radius: 31px;
+    height: 57px;
+    background-color: #FFFFFF;
+    top: 65px;
+}
+
+#tour-dates {
+    background-image: url(../img-dreamweaver/tour-dates.png);
+    background-repeat: no-repeat;
+    background-position: 21% 9%;
+}
+.tour-dates {
+    background-color: #FFDD00;
+    display: block;
+    margin-left: 80px;
+    margin-right: 681px;
+    font-family: keifont;
+    font-size: 37px;
+    padding-left: 24px;
+    padding-bottom: 1px;
+    padding-top: 0px;
+    position: relative;
+    top: 301px;
+}
+.dates-oct {
+    font-family: "vcr osd";
+    position: relative;
+    top: 314px;
+    left: 42px;
+    font-size: 15px;
+}
+.dates-oct-body {
+    font-family: "vcr osd";
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    top: 316px;
+    text-align: center;
+    line-height: 22px;
+}
+.dates-mar {
+    font-family: "vcr osd";
+    position: relative;
+    top: 336px;
+    left: 42px;
+    font-size: 15px;
+}
+.dates-mar-body {
+    font-family: "vcr osd";
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 341px;
+    text-align: center;
+    line-height: 22px;
+}
+.there {
+    display: block;
+    position: relative;
+    top: -40px;
+    left: 157px;
+}
+#gallery {
+    background-image: url(../img-dreamweaver/gallery.png);
+    background-position: -10% 135%;
+    background-repeat: no-repeat;
+}
+#text-body {
+    font-family: "vcr osd";
+    margin-right: 419px;
+    line-height: 31px;
+    left: 167px;
+    position: relative;
+    top: 25px;
+    color: #FAFAFA;
+}
+#text-body-2 {
+    font-family: "vcr osd";
+    margin-right: 419px;
+    line-height: 19px;
+    left: 389px;
+    position: relative;
+    top: 63px;
+    color: #FAFAFA;
+    font-size: 13px;
+}
+#radio-logo {
+    position: relative;
+    left: 171px;
+    top: -102px;
+}
+#mailing-list {
+    background-image: url(mailing-list.png);
+    background-repeat: no-repeat;
+    background-position: 0% 8%;
+}
+.mail-head {
+    background-color: #FFED00;
+    text-align: center;
+    font-family: keifont;
+    padding-left: 1px;
+    margin-left: 766px;
+    position: relative;
+    top: 293px;
+    left: -24px;
+}
+.txt-head {
+    font-family: "vcr osd";
+    position: relative;
+    top: 300px;
+    margin-left: 291px;
+    line-height: 18px;
+    left: -260px;
+
+
+}
+.txt-name {
+    border-width: 2px;
+    border-style: solid;
+    position: relative;
+    top: 306px;
+    padding-left: 14px;
+    margin: 0 auto;
+    width: 545px;
+    height: 41px;
+    color: #000000;
+    font-family: "vcr osd";
+    padding-top: 11px;
+    left: -207px;
+}
+.text-base {
+    border-width: 2px;
+    border-style: solid;
+    position: relative;
+    top: 330px;
+    margin: 0 auto;
+    padding-left: 14px;
+    width: 958px;
+    height: 161px;
+    color: #000000;
+    font-family: "vcr osd";
+    padding-top: 11px;
+}
+.gallery-button {
+    margin: 0 auto;
+    position: relative;
+    left: 427px;
+    width: 277px;
+    height: 57px;
+    border: medium solid #000000;
+    border-radius: 31px;
+    background-color: #FFFFFF;
+    top: 625px;
+}
+.gallery-button-text {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    padding-bottom: 0px;
+    margin-bottom: 4px;
+    margin-top: 6px;
+    font-size: 18px;
+    text-align: left;
+    position: relative;
+    top: 578px;
+    left: 478px;
+}
+.videos-button-text {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    padding-bottom: 0px;
+    margin-bottom: 4px;
+    margin-top: 6px;
+    font-size: 18px;
+    text-align: left;
+    position: relative;
+    top: 0px;
+    left: 64px;
+}
+.merch-button-text {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    padding-bottom: 0px;
+    margin-bottom: 4px;
+    margin-top: 6px;
+    font-size: 18px;
+    text-align: left;
+    position: relative;
+    top: 21px;
+    left: 478px;
+}
+.blog-button {
+    margin: 0 auto;
+    position: relative;
+    left: 381px;
+    width: 277px;
+    border: medium solid #000000;
+    border-radius: 31px;
+    height: 57px;
+    background-color: #FFFFFF;
+    top: 113px;
+    text-align: center;
+}
+.blog-button-text {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    padding-bottom: 0px;
+    margin-bottom: 4px;
+    margin-top: 6px;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    top: 68px;
+    left: 8px;
+}
+#policy {
+    background-image: url(background-privacy-policy.png);
+}
+.policy {
+    font-family: "vcr osd";
+    font-size: 15px;
+    text-align: left;
+    line-height: 27pt;
+    width: 659px;
+    position: relative;
+    top: 127px;
+    left: 209px;
+}
+footer {
+    margin: 0 auto;
+    width: 1024px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: "vcr osd";
+    font-size: 9px;
+    text-align: justify;
+    position: relative;
+    top: -12px;
+}
