@@ -1,0 +1,7 @@
+<svg id="search_icon" xmlns="http://www.w3.org/2000/svg" width="13.18" height="13.27" viewBox="0 0 13.18 13.27">
+  <title>search_icon</title>
+  <g>
+    <circle cx="5.36" cy="5.36" r="4.86" fill="#fff" stroke="#231f20" stroke-miterlimit="10"/>
+    <path d="M944.46,83.3H947a0,0,0,0,1,0,0v4.17a1.25,1.25,0,0,1-1.25,1.25h0a1.25,1.25,0,0,1-1.25-1.25V83.3A0,0,0,0,1,944.46,83.3Z" transform="translate(-718.65 618.89) rotate(-45)" fill="#231f20"/>
+  </g>
+</svg>
