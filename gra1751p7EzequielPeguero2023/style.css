@@ -1,0 +1,113 @@
+@charset "UTF-8";
+body {
+	margin: 0;
+	padding: 0;
+    background-image: url("buidling-fiu.jpg");
+	background-repeat: no-repeat;
+    background-size:cover; 
+}
+wrapper {
+	width: 1300px;
+	display: block;
+	margin: 0 auto;
+	background-color: #1D3181;
+    height: 1250px;
+}
+header {
+	height: 170px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-image: url(application.jpg);
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+main {
+	height: 160px;
+	margin-top: 40px;
+}
+h1 {
+	color: white;
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	padding-top: -9px;
+	margin-top: 81px;
+}
+h2 {
+	color: white;
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	margin-top: -17px;
+	font-size: 29px;
+}
+.search {
+	margin-top: 169px;
+}
+
+.logo {
+    height: 100px;
+    margin: 20px;
+    width: auto;
+}
+section {
+	width: 47%;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 90px;
+	margin-top: -29px;
+}
+.section2 {
+	margin-left: -27px;
+	margin-top: 30px;
+}
+input, select {
+	border-radius: 10px;
+	border: thin solid black;
+	padding: 16px;
+	width: 80%;
+}
+div {
+    display: inline-block;
+}
+label {
+    margin: 18px;
+    display: block;
+	color: white;
+}
+.salutation {
+    margin-right: 16px;
+    margin-top: 60px;
+	width: 30%;
+}
+.firstname {
+	width: 40%;
+}
+.state {
+	width: 85%;
+}
+.city {
+	margin-top: 62px;
+
+}
+.agree {
+	margin-top: 36px;
+}
+
+.checkbox {
+	height: 40px;
+	margin-left: 39px;
+	margin-top: -11px;
+}
+
+.submit {
+	width: 40%;
+	border-radius: 25px;
+	background-color: #E4DC49;
+	margin-left: -158px;
+	margin-top: 17px;
+	font-weight: bold;
+}
+footer {
+}

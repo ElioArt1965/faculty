@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+wrapper {
+    margin: 0 auto;
+    display: block;
+    width: 1100px;
+    background-color: #000;
+}
+header {
+/*    height: 100px;*/
+	padding-top: 5rem;
+	margin-bottom: 2rem
+}
+
+h1, h2, h3 {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+}
+h1 {
+    font-size: 7rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+
+
+
+
+label {
+    padding-top: 1rem;
+    padding-right: 0rem;
+    padding-left: 1rem;
+    padding-bottom: 0rem;
+    display: block;
+    font-size: 16px;
+}
+body {
+    background-color: #000;
+    color: #f0f0f0;
+}
+
+input, select {
+    padding: 1rem;
+    margin: 1rem;
+    width: 90%;
+	border-radius: 8px;
+	border: 1px solid #f0f0f0;
+}
+
+section {
+    width: 50%;
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: top;
+}
+.inline {
+    display: flex;
+}
+#submit_txt {
+    padding: .5rem;
+    border: none;
+    background-color: #e2b92c;
+}
+#checkbox_txt {
+    padding-left: 0px;
+    margin-left: -218px;
+}
+.special-color {
+    color: #e2b92c;
+}
+.btn-confirm {
+    padding-top: 1rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    padding-bottom: 1rem;
+    border-radius: 8px;
+    background-color: #e2b92c;
+    font-family: 'Bebas Neue';
+    border: medium;
+    font-size: 1.5rem;
+    color: #000;
+    display: inline-block;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+.confirm {
+    text-align: center;
+    height: 100vh;
+    padding-top: 11rem;
+}
+.confirm h1 {
+    font-size: 5rem;
+}

@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Forms | Christian Bartholomew</title>
+<script type="text/javascript">
+window.onload = function () {
+	document.getElementById("password1").onchange = validatePassword;
+	document.getElementById("password2").onchange = validatePassword;
+}
+function validatePassword(){
+var pass2=document.getElementById("password2").value;
+var pass1=document.getElementById("password1").value;
+if(pass1!=pass2)
+	document.getElementById("password2").setCustomValidity("Passwords Don't Match");
+else
+	document.getElementById("password2").setCustomValidity('');	 
+//empty string means no validation error
+}
+</script>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<wrapper>
+  
+	
+  <main>
+	  <header>
+		<h1>Travel<span class="special-color">Now</span></h1>
+		<h2>Make Better Your Travel Experience</h2>
+		<h3>Join the Rewards Program</h3>
+	  </header>
+	  
+    <form action="confirm.html">
+      <section>
+		  <div class="inline">
+			  <div class="column">
+			<label>Salutation</label>
+			<select name="salutation_txt" required="required" id="salutation_txt">
+			  <option value="0">Salutation</option>
+			  <option value="1">Mr.</option>
+			  <option value="2">Mrs.</option>
+			  <option value="3">Miss</option>
+			  <option value="4">Ms</option>
+			  <option value="5">None</option>
+			</select></div>
+		  
+			<div class="column">
+				<label>First Name</label>
+				<input name="firstname_txt" type="text" required="required" id="firstname_txt" placeholder="First Name">
+			 </div>
+		  	</div>
+
+			<label>Last Name</label>
+			<input name="lastname_txt" type="text" required="required" id="lastname_txt" placeholder="Last Name">
+		  
+		  	<label>Birthdate</label>
+			<input name="birthdate_txt" type="date" required="required" id="birthdate_txt">
+
+			  <label>Primary Phone Number</label>
+			  <input name="phone_txt" type="tel" required="required" id="phone_txt" placeholder="(000) 000-000" pattern="[\(][0-9]{3}[\)][\s][0-9]{3}[\-][0-9]{4}">
+
+
+			 <label>Address</label>
+			<input name="address_txt" type="text" required="required" id="address_txt" placeholder="Enter your address">
+
+
+			<label>Additional Address</label>
+			<input name="additionaladdress_txt" type="text" id="additionaladdress_txt" placeholder="Enter Another Address (Optional)">
+		  
+		</section>
+       
+		
+			<section>
+			  <label>City</label>
+			  <input name="city_txt" type="text" required="required" id="city_txt" placeholder="Enter City">
+				
+			  <label>State</label>
+			  <select name="state_txt" required="required" id="state_txt">
+			    <option value="0"></option>
+			    <option value="1">FL</option>
+			    <option value="2">MIA</option>
+			    <option value="3">TX</option>
+			    <option value="4">CA</option>
+		      </select>
+				
+			  <label>Zip Code</label>
+			  <input name="zipcode_txt" type="text" required="required" id="zipcode_txt" placeholder="Zip Code" pattern="[0-9]{5}">
+				
+			  <label>Email</label>
+			  <input name="email_txt" type="email" required="required" id="email_txt" placeholder="you@example.com">
+				
+			  <label>Password</label>
+			  <input name="password1" type="password" required="required" id="password1" placeholder="Must consist of 6-12 uppercase and/or lowercase letters and/or numbers" pattern="[0-9A-Za-z]{6,12}">
+				
+			  <label>Confirm Password</label>
+			  <input name="password2" type="password" required="required" id="password2" placeholder="Confirm Password" pattern="[0-9A-Za-z]{6,12}">
+              <div class="inline">
+                <label>I agree to the terms and conditions.</label>
+                <input name="checkbox_txt" type="checkbox" required="required" id="checkbox_txt">
+              </div>
+				
+				<input name="submit_txt" type="submit" id="submit_txt" value="Join the Rewards Program">
+				
+				
+	    </section>
+			
+	  
+</form>
+	</main>
+  
+</wrapper>
+	
+</body>
+<footer></footer>
+</html>

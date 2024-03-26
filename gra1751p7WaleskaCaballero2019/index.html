@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Working with Forms</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+window.onload = function () {
+	document.getElementById("password1").onchange = validatePassword;
+	document.getElementById("password2").onchange = validatePassword;
+}
+function validatePassword(){
+var pass2=document.getElementById("password2").value;
+var pass1=document.getElementById("password1").value;
+if(pass1!=pass2)
+	document.getElementById("password2").setCustomValidity("Passwords Don't Match");
+else
+	document.getElementById("password2").setCustomValidity('');	 
+//empty string means no validation error
+}
+</script>
+</head>
+
+<body>
+<wrapper>
+  <header><img src="Grove.png" alt="" width="433" height="197" id="grove"><img src="C%20A%20F%20E.png" alt="" width="247" height="63" id="cafe"></header>
+  <nav></nav>
+  <h1 id="lets-order-text">LETS ORDER!</h1>
+  <h2 id="requiered-fields-text">please fill all the required fields</h2>
+  <form action="thankyou.html">
+    <section>
+      <label class="sal">Salutation</label>
+      <label class="fname">First Name</label>
+      <br>
+      <select class="sal">
+        <option value="0" selected="selected">-</option>
+        <option value="1">Mr.</option>
+        <option value="2">Mrs.</option>
+        <option value="3">Miss</option>
+        <option value="4">Ms.</option>
+        <option value="5">n/a</option>
+      </select>
+      <input type="text" required="required" class="fname" placeholder="First Name">
+      <br>
+      <label>Last Name</label>
+      <br>
+      <input required="required" placeholder="Last name">
+      <br>
+      <label>Birthdate</label>
+      <br>
+      <input type="date" required="required">
+      <br>
+      <label>Primary phone number</label>
+      <br>
+      <input type="tel" required="required" placeholder="(000) 000-0000" pattern="[\(][0-9]{3}[\)][\s][0-9]{3}[\-][0-9]{4}" title="Please use this format (000) 000-0000">
+      <label>Address</label>
+      <br>
+      <input required="required" placeholder="Enter Street Address">
+      <br>
+      <label>Additional address info (optional)</label>
+      <br>
+      <input placeholder="Enter apt., unit or floor">
+      <br>
+    </section>
+    <section>
+      <label> City</label>
+      <br>
+      <input required="required" placeholder="Enter city">
+      <br>
+      <label>State</label>
+      <br>
+      <select required="required" class="st">
+        <option value="0" selected="selected">-</option>
+        <option value="FL">Florida</option>
+        <option value="NY">New York</option>
+        <option value="CA">California</option>
+      </select>
+      <br>
+      <label>Zip code</label>
+      <br>
+      <input type="text" required="required" placeholder="zip code" pattern="[0-9]{5}">
+      <br>
+      <label>Email</label>
+      <br>
+      <input type="email" required="required" placeholder="you@example.com">
+      <br>
+      <label>Password</label>
+      <br>
+      <input name="pass1" type="password" required="required" id="password1">
+      <br>
+      <label>Confirm Password</label>
+      <br>
+      <input name="pass2" type="password" required="required" id="password2">
+      <br>
+      <label>I agree to the Terms and Conditions</label>
+      <br>
+      <input type="checkbox" required="required" id="terms">
+    </section>
+    <input type="submit" id="submit">
+  </form>
+</wrapper>
+<footer><p id="disclaimer1">© 2019, Waleska Caballero</p> <p id="disclaimer2">This is a fictitious web page created by Waleska Caballero solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p></footer>
+</body>
+</html>
