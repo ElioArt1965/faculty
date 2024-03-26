@@ -1,0 +1,361 @@
+@charset "utf-8";
+body {
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding: 0;
+    background-color: #DF9EBC;
+}
+nav {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    width: 1366px;
+    height: 55px;
+}
+div {
+    width: 1366px;
+    height: 500px;
+    background-color: #190212;
+}
+
+wrapper {
+    width: 1366px;
+    margin: 0 auto;
+    display: block;
+    background-color: #212121;
+	position: relative;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+ul a li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 13px;
+    margin-left: 78px;
+    font-family: 'Bebas Neue', cursive;
+    color: #110C0D;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+button {
+    border-radius: 50px;
+    font-size: x-large;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Bebas Neue', cursive;
+    position: absolute;
+    margin-top: 575px;
+    margin-left: -725px;
+    background-color: #D895BD;
+    border-color: #D896BD;
+    font-weight: 700;
+    letter-spacing: 2.7px;
+}
+button:hover {
+    color: #D895BD;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+#banner {
+    position: relative;
+}
+#concertsbanner {
+    position: relative;
+}
+h1 {
+    color: #F6A6B9;
+    position: absolute;
+    margin-left: 175px;
+    margin-top: -415px;
+}
+
+h2 {
+    color: #F6A6B9;
+    position: absolute;
+    margin-left: 175px;
+    margin-top: -380px;
+}
+p {
+    color: #F6A6B9;
+    position: absolute;
+    margin-top: -350PX;
+    margin-left: 175px;
+}
+#atlanta {
+    margin-left: 175px;
+    margin-top: -265px;
+	position: absolute;
+}
+#atlantadate {
+    margin-left: 175px;
+    margin-top: -230px;
+	position: absolute;
+}
+
+#statefarm {
+    margin-left: 175px;
+    margin-top: -200px;
+	position: absolute;
+}
+#chicago {
+    margin-top: -265px;
+    margin-left: 575px;
+	position: absolute;
+}
+#chicagodate {
+    margin-top: -230px;
+    margin-left: 575px;
+	position: absolute;
+}
+#unitedcenter {
+    margin-top: -200px;
+    margin-left: 575px;
+	position: absolute;
+}
+
+#hamilton {
+    margin-top: -415px;
+    margin-left: 575px;
+	position: absolute;
+}
+
+#hamiltondate {
+    margin-top: -380px;
+    margin-left: 575px;
+	position: absolute;
+}
+#firstontario {
+    margin-left: 575px;
+	position: absolute;
+}
+
+#losangeles {
+    margin-left: 945px;
+	position: absolute;
+}
+#losangelesdate {
+    margin-left: 945px;
+	position: absolute;
+}
+#banc {
+    margin-left: 945px;
+	position: absolute;
+}
+#houston {
+    margin-left: 945px;
+    margin-top: -265px;
+	position: absolute;
+}
+#houstondate {
+    margin-left: 945px;
+    margin-top: -230px;
+	position: absolute;
+}
+#toyota {
+    margin-left: 945px;
+    margin-top: -200px;
+	position: absolute;
+}
+#privacytitle {
+    margin-left: 300px;
+    margin-top: -500px;
+    text-align: center;
+}
+#privacytext {
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+
+}
+#bornpink {
+    margin-top: -550px;
+    margin-left: 485px;
+}
+#bornpinksigned {
+    margin-top: -565px;
+    margin-left: 1030px;
+    margin-right: 100px;
+    text-align: center;
+
+}
+#pinkvenom {
+    margin-left: 480px;
+    margin-top: -230px;
+}
+
+#thealbum {
+    margin-top: -235px;
+    margin-left: 1075px;
+    margin-right: 100px;
+}
+#bornpinkbutton {
+    margin-left: -885px;
+    margin-top: 190px;
+    background-color: #F6A6B9;
+}
+#bornpinkbutton:hover {
+    margin-left: -885px;
+    margin-top: 190px;
+    background-color: #FFFFFF;
+    color: #F6A6B9;
+}
+#bornpinksignedbutton {
+    margin-left: -290px;
+    margin-top: 200px;
+    background-color: #F6A6B9;
+}
+#bornpinksignedbutton:hover {
+    margin-left: -290px;
+    margin-top: 200px;
+    background-color: #FFFFFF;
+    color: #F6A6B9;
+}
+#pinkvenombutton {
+    margin-left: -885px;
+    margin-top: 510px;
+    background-color: #F6A6B9;
+}
+#pinkvenombutton:hover {
+    margin-left: -885px;
+    margin-top: 510px;
+    background-color: #FFFFFF;
+    color: #F6A6B9;
+}
+#thealbumbutton {
+    margin-left: -290px;
+    margin-top: 530px;
+    background-color: #F6A6B9;
+}
+#thealbumbutton:hover {
+    margin-left: -290px;
+    margin-top: 530px;
+    background-color: #FFFFFF;
+    color: #F6A6B9;
+}
+footer {
+    color: #FFFFFF;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    height: 100px;
+    vertical-align: middle;
+    font-family: 'Bebas Neue', cursive;
+    font-size: large;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+#rosecrew {
+    margin-left: 130px;
+    margin-top: -368px;
+}
+#venomt {
+    margin-left: 470px;
+    margin-top: -130px;
+}
+#price4 {
+    margin-left: 1125px;
+    margin-top: -95px;
+    color: #FFFFFF;
+    font-size: large;
+}
+#price2 {
+    margin-top: -95px;
+    margin-left: 518px;
+    color: #FFFFFF;
+    font-size: large;
+}
+#price3 {
+    margin-left: 842px;
+    margin-top: -330px;
+    color: #FFFFFF;
+    font-size: large;
+}
+#price1 {
+    margin-left: 185px;
+    margin-top: -330px;
+    color: #FFFFFF;
+    font-size: large;
+}
+
+
+
+
+#venomt2 {
+    margin-left: 795px;
+    margin-top: -365px;
+}
+#pinkcrew {
+    margin-left: 1075px;
+    margin-top: -130px;
+}
+#mailingstitle {
+    margin-left: 910px;
+    text-align: center;
+    margin-right: 100px;
+    margin-top: -400px;
+}
+#email {
+    color: #909090;
+    font-size: large;
+    margin-left: 1020px;
+    margin-top: -292px;
+}
+#subscribe {
+    margin-left: 1020px;
+    margin-top: -207px;
+    color: #FFFFFF;
+}
+section {
+    width: 1366px;
+    height: 700px;
+    background-color: #0E0E0E;
+}
+#news1 {
+    margin-left: 50px;
+    margin-top: 150px;
+}
+#newstitle {
+    margin-top: 70px;
+    margin-left: 595px;
+
+}
+
+#news2 {
+    margin-left: 50px;
+}
+#news3 {
+    margin-left: 50px;
+}
+#mediasection {
+    height: 1800px;
+    background-color: #000000;
+}
+#photo1 {
+    margin-left: 375px;
+    margin-top: 50px;
+}
+#photo2 {
+    margin-top: 50px;
+    margin-left: 280px;
+}
+
+
+#musicvideo {
+    margin-top: 80px;
+    margin-left: 250px;
+}
+
+#blogposts:hover {
+    width: 1400px;
+    height: 750px;
+}
