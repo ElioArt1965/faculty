@@ -1,0 +1,312 @@
+@charset "utf-8";
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #ccc;
+}
+wrapper {
+    width: 1366px;
+    margin: 0 auto;
+    display: block;
+    background-color: #fff;
+}
+header {
+    background-color: #fff;
+}
+
+footer {
+    padding: 16px 16px;
+    font-family: "Playfair Display", "Playfair Display Black";
+    font-size: 12px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.61);
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+ul a li {
+    display: inline-block;
+    font-family: "Playfair Display", "Playfair Display Black";
+    padding: 8px 50px;
+    color: #731C1C;
+    background-color: #FFFFFF;
+}
+h1 {
+    margin: 0;
+    text-align: center;
+    background-color: rgba(0,0,0,0.00);
+}
+header h1 a {
+    margin: 0;
+    padding: 0;
+    color: #731C1C;
+    font-family: "Playfair Display", "Playfair Display Black";
+    font-size: 100px;
+    text-align: center;
+    text-decoration: none;
+}
+header h1 a:hover  {
+    margin: 0;
+    padding: 0;
+    color: #D16B6C;
+    font-family: "Playfair Display", "Playfair Display Black";
+    font-size: 100px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+ul a li:hover {
+    color: #D16B6C;
+    background-color: rgba(0,0,0,0.00);
+}
+#home {
+    background-image: url(images/bg1.jpg);
+    height: 1024px;
+}
+#home h2 {
+    color: rgba(255,255,255,1.00);
+    font-family: "Playfair Display", "Playfair Display Black";
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: normal;
+    padding-top: 55px;
+}
+#home h2 a {
+    color: rgba(255,255,255,1.00);
+}
+#home h2 a:hover {
+    color: rgba(94,157,210,1.00);
+}
+#tour {
+    background-image: url(images/bg2.jpg);
+    height: 1024px;
+}
+#tourdates {
+    color: rgba(255,255,255,1.00);
+    font-family: "Playfair Display", "Playfair Display Black";
+    font-style: normal;
+    font-weight: bolder;
+    float: right;
+    padding-right: 74px;
+    font-size: 50px;
+    padding-top: 47px;
+}
+#tour ul {
+    float: right;
+    margin-top: 197px;
+    margin-left: 315px;
+    margin-right: -248px;
+}
+#tour ul li {
+    color: rgba(255,255,255,1.00);
+    font-family: "Playfair Display", "Playfair Display Black";
+    font-style: normal;
+    padding-top: 37px;
+    font-size: 25px;
+}
+#blog {
+    background-image: url(images/bg2.jpg);
+    height: 1024px;
+}
+#blogg {
+    color: rgba(255,255,255,1.00);
+    font-family: "Playfair Display", "Playfair Display Black";
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 50px;
+    float: right;
+    padding-top: 47px;
+    padding-right: 74px;
+}
+#post1 {
+    color: rgba(255,255,255,1.00);
+    font-family: "Playfair Display", "Playfair Display Black";
+    font-style: normal;
+    font-size: 20px;
+    clear: right;
+    text-align: right;
+    padding-right: 66px;
+    text-decoration: underline;
+    padding-top: 67px;
+}
+#post4 {
+    color: rgba(255,255,255,1.00);
+    font-family: "Playfair Display", "Playfair Display Black";
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: underline;
+    text-align: right;
+    margin-top: 127px;
+    margin-right: 66px;
+}
+
+#post2 {
+    color: rgba(255,255,255,1.00);
+    font-family: "Playfair Display", "Playfair Display Black";
+    font-size: 20px;
+    font-style: normal;
+    text-align: right;
+    padding-right: 66px;
+    text-decoration: underline;
+    padding-top: 127px;
+}
+#post3 {
+    color: rgba(255,255,255,1.00);
+    font-family: "Playfair Display", "Playfair Display Black";
+    font-style: normal;
+    font-size: 20px;
+    text-align: right;
+    text-decoration: underline;
+    padding-top: 127px;
+    padding-right: 66px;
+}
+
+
+
+#musicstore {
+    background-image: url(images/bg3.jpg);
+    height: 1024px;
+    display: block;
+}
+#cd1 {
+    margin-top: 97px;
+    margin-left: 125px;
+}
+#cd2 {
+    /* [disabled]float: right; */
+    display: list-item;
+    margin-top: 31px;
+    margin-bottom: 31px;
+    margin-left: 125px;
+    padding-top: 29px;
+    padding-bottom: 29px;
+}
+#mylove {
+    float: right;
+    margin-right: 846px;
+    margin-top: 277px;
+    color: rgba(255,255,255,1.00);
+    font-family: "Playfair Display", "Playfair Display Black";
+    font-size: 20px;
+    text-decoration: underline;
+}
+#maybebaby {
+    color: rgba(255,255,255,1.00);
+    font-family: "Playfair Display", "Playfair Display Black";
+    font-size: 20px;
+    float: right;
+    margin-top: -89px;
+    margin-right: 808px;
+    text-decoration: underline;
+}
+#descifrar {
+    color: rgba(255,255,255,1.00);
+    font-family: "Playfair Display", "Playfair Display Black";
+    font-size: 20px;
+    text-decoration: underline;
+    float: right;
+    margin-top: 181px;
+    margin-right: 832px;
+}
+
+
+
+#cd3 {
+    margin-left: 125px;
+}
+#merch {
+    background-image: url(images/bg3.jpg);
+    height: 1024px;
+}
+#tee1 {
+    display: block;
+    padding-top: 104px;
+    padding-bottom: 111px;
+    padding-left: 69px;
+}
+#tee2 {
+    padding-left: 69px;
+}
+#tee1text {
+    color: rgba(255,255,255,1.00);
+    font-family: "Playfair Display", "Playfair Display Black";
+    font-size: 20px;
+    text-decoration: underline;
+    float: right;
+    margin-right: 542px;
+    margin-top: -139px;
+}
+#tee2text {
+    color: rgba(255,255,255,1.00);
+    font-family: "Playfair Display", "Playfair Display Black";
+    font-size: 20px;
+    text-decoration: underline;
+    float: right;
+    margin-right: 566px;
+    margin-top: 311px;
+}
+#gallery {
+    background-image: url(images/bg4.jpg);
+    height: 1024px;
+    text-align: center;
+}
+#videos {
+    background-image: url(images/bg4.jpg);
+    height: 1024px;
+}
+#vid1 {
+    padding-left: 748px;
+    padding-top: 150px;
+}
+#vid2 {
+    padding-left: 748px;
+    padding-top: 98px;
+}
+
+
+#mailinglist {
+    background-image: url(images/bg5.jpg);
+    height: 1024px;
+}
+#signup {
+    color: rgba(255,255,255,1.00);
+    font-family: "Playfair Display", "Playfair Display Black";
+    font-size: 40px;
+    padding-top: 287px;
+    padding-left: 106px;
+}
+#email {
+    padding-left: 111px;
+}
+#privacy {
+    background-image: url(images/bg5.jpg);
+    height: 1024px;
+}
+#privacypolicy {
+    color: rgba(255,255,255,1.00);
+    font-family: "Playfair Display", "Playfair Display Black";
+    font-size: 40px;
+    font-weight: bolder;
+    padding-left: 90px;
+    padding-top: 105px;
+}
+#pp {
+    color: rgba(255,255,255,1.00);
+    font-family: "Playfair Display", "Playfair Display Black";
+    font-size: 20px;
+    text-align: left;
+    display: block;
+    max-width: 600px;
+    padding-left: 91px;
+}
+#photos {
+    padding-top: 144px;
+
+}
