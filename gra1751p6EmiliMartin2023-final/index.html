@@ -1,0 +1,255 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Welcome to VoyagePro | Emili Martin, 2023</title>
+<style type="text/css">
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(pexels-aleksandar-pasaric-1285625.jpg);
+}
+header {
+    background-color: rgba(223,223,223,0.97);
+    height: 100px;
+}
+wrapper {
+    width: 1366px;
+    margin: 0 auto;
+    display: block;
+    height: 800px;
+    background-color: rgba(53,87,119,0.44);
+}
+nav {
+    height: 30px;
+    background-color: rgba(145,167,198,0.71);
+    margin-top: -17px;
+}
+input,select{
+    border-radius: 8px;
+    padding: 12px;
+    margin-left: 10px;
+    background-color: rgba(215,219,221,0.71);
+}
+.submit {
+    background-color: rgba(145,167,198,0.71);
+    color: rgba(0,38,128,1.00);
+    font-weight: bold;
+    cursor: pointer;
+}
+svg {
+    margin-top: -127px;
+    margin-left: 31px;
+}
+li a img {
+    padding-left: 0px;
+    width: auto;
+    border: none;
+    height: 26px;
+}
+li  {
+    text-align: center;
+    width: auto;
+    border: none;
+    background-color: rgba(255,255,255,0.04);
+}
+#Tabs1 ul {
+    background-image: none;
+    border: none;
+    background-color: rgba(255,255,255,0.00);
+    padding-left: 436px;
+    margin-top: 2px;
+}
+#Tabs1 {
+    background-image: none;
+    border: none;
+    background-color: transparent;
+    margin-top: 21px;
+}
+#Tabs1 div {
+    background-color: rgba(255,255,255,0.53);
+    text-align: center;
+    border: none;
+    margin-top: 7px;
+    padding-top: 42px;
+    padding-bottom: 42px;
+}
+#Tabs1 ul li a {
+    border: none;
+    color: rgba(0,0,0,1.00);
+    background-color: rgba(240,240,240,1.00);
+}
+#Tabs1 ul li a:hover {
+    color: rgba(10,37,122,1.00);
+    background-color: rgba(223,223,223,0.66);
+    border: thin solid rgba(223,223,223,1.00);
+}
+.vac {
+    width: 40px;
+}
+video {
+    margin-left: 461px;
+    margin-top: -6px;
+    width: 464px;
+    background-color: rgba(255,255,255,1.00);
+}
+h1 {
+    color: rgba(10,37,122,1.00);
+    padding-bottom: 35px;
+    margin-top: 0px;
+    padding-top: 29px;
+    padding-left: 0px;
+    font-size: 39px;
+    margin-left: 85px;
+    font-family: "Futura Medium";
+    font-weight: normal;
+}
+ul  {
+    margin-left: 885px;
+    font-style: normal;
+    font-family: "Futura Medium";
+}
+ul a li:hover {
+    color: rgba(255,255,255,1.00);
+}
+ul a li {
+    display: inline-block;
+    color: rgba(0,38,128,1.00);
+    text-align: center;
+    background-color: none;
+    font-style: normal;
+    font-family: "Futura Medium";
+    margin-top: 5px;
+    margin-left: 52px;
+}
+h2 {
+    color: rgba(255,255,255,1.00);
+    font-family: "Futura Medium";
+    margin-left: 621px;
+    padding-top: 33px;
+    font-style: normal;
+    font-weight: lighter;
+}
+h2:hover {
+    color: rgba(193,193,193,1.00);
+}
+p {
+    color: rgba(255,255,255,1.00);
+    padding-top: 9px;
+    padding-right: 12px;
+    padding-bottom: 9px;
+    padding-left: 12px;
+}
+</style>
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+</head>
+
+<body>
+<header>
+<h1>
+  VoyagePro</h1>
+  <svg>
+    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="45" height="80" viewBox="0 0 69.52 80">
+      <path d="m69.49,20.75c.02-.09.03-.18.03-.28,0-.04,0-.07,0-.11-.02-.13-.05-.25-.12-.36-.07-.12-.16-.21-.26-.29-.03-.02-.06-.04-.09-.05-.08-.05-.17-.09-.27-.12-.02,0-.03-.02-.05-.02l-19.82-4.04L35.51.34s-.04-.02-.05-.04c-.08-.08-.17-.15-.28-.2,0,0-.01,0-.02-.01-.12-.06-.26-.09-.4-.09s-.28.04-.4.09c0,0-.01,0-.02.01-.1.05-.2.11-.28.2-.02.01-.04.02-.05.04l-13.41,15.14L.79,19.52s-.04.02-.06.02c-.09.03-.18.06-.26.12-.03.02-.06.03-.09.06-.1.08-.19.17-.26.28-.07.11-.1.24-.12.36,0,.04,0,.07,0,.11,0,.09,0,.18.03.28,0,.02,0,.05,0,.07l6.41,19.18L.04,59.18s0,.05,0,.07c-.02.09-.03.18-.03.28,0,.04,0,.07,0,.11.02.13.05.25.12.36.07.11.16.21.26.28.03.02.06.04.09.06.08.05.17.09.26.11.02,0,.04.02.06.03l19.82,4.04,13.41,15.14s.04.02.06.04c.07.07.14.12.22.16.03.02.06.04.1.05.12.05.24.08.37.08s.26-.03.37-.08c.03-.01.06-.03.1-.05.08-.04.16-.1.22-.16.02-.02.04-.02.06-.04l13.41-15.14,19.82-4.04s.04-.02.06-.03c.09-.03.18-.06.26-.11.03-.02.06-.03.09-.06.1-.08.19-.17.26-.28.07-.11.1-.24.12-.36,0-.04,0-.07,0-.11,0-.09,0-.18-.03-.28,0-.02,0-.05,0-.07l-6.41-19.18,6.41-19.18s0-.05,0-.07Zm-41.24,30.53l-6.51-11.28,6.51-11.28h13.03l6.51,11.28-6.51,11.28h-13.03Zm12.3,2l-2.47,9.32h-6.63l-2.47-9.32h11.58Zm-21.39-13.28l-6.67,6.64-3.83-6.64,3.83-6.64,6.67,6.64Zm-5.64-8.43l3.32-5.74,9.31,2.52-5.79,10.03-6.84-6.8Zm6.84,10.06l5.79,10.03-9.31,2.52-3.32-5.74,6.84-6.8Zm8.61-14.91l2.47-9.32h6.63l2.47,9.32h-11.58Zm14.4,1.63l9.31-2.52,3.32,5.74-6.84,6.8-5.79-10.03Zm5.79,13.28l6.84,6.8-3.32,5.74-9.31-2.52,5.79-10.03Zm1.2-1.63l6.67-6.64,3.83,6.64-3.83,6.64-6.67-6.64Zm4.32-14.72l10.48-2.84-7.7,7.66-2.79-4.82Zm9.52-4.65l-10.56,2.86-3.28-5.68,13.84,2.82Zm-12.56,3.4l-9.08,2.46-2.41-9.1h7.67l3.83,6.64Zm-5.48-8.64h-6.55l-2.81-10.57,9.36,10.57Zm-11.41-10.5l2.79,10.5h-5.57l2.79-10.5Zm-2.05-.07l-2.81,10.57h-6.55l9.36-10.57Zm-11,12.57h7.67l-2.41,9.1-9.08-2.46,3.83-6.64Zm-2.55.42l-3.28,5.68-10.56-2.86,13.84-2.82Zm-4.31,7.47l-2.79,4.82-7.7-7.66,10.48,2.84Zm-11.57-1.1l7.75,7.71-3.28,5.67-4.47-13.39Zm4.47,18.24l3.28,5.67-7.75,7.71,4.47-13.39Zm4.31,7.47l2.79,4.82-10.48,2.84,7.7-7.66Zm-6.74,9.47l10.56-2.86,3.28,5.68-13.84-2.82Zm12.56-3.4l9.08-2.46,2.41,9.1h-7.67l-3.83-6.64Zm5.48,8.64h6.55l2.81,10.57-9.36-10.57Zm11.41,10.5l-2.79-10.5h5.57l-2.79,10.5Zm2.05.07l2.81-10.57h6.55l-9.36,10.57Zm11-12.57h-7.67l2.41-9.1,9.08,2.46-3.83,6.64Zm2.55-.42l3.28-5.68,10.56,2.86-13.84,2.82Zm4.31-7.47l2.79-4.82,7.7,7.66-10.48-2.84Zm11.57,1.1l-7.75-7.71,3.28-5.67,4.47,13.39Zm-4.47-18.24l-3.28-5.67,7.75-7.71-4.47,13.39Z" fill="#0b0b84" stroke-width="0"/>
+    </svg>
+  </svg>
+</header>
+<wrapper>
+  <nav><ul>
+        <a href="#trips"><li>Trips</li></a> <a href="#about">
+        <li>About</li></a> <a href="#support">
+        <li>Support</li></a>  <a href="#login">
+        <li>login</li>       </a>
+      </ul></nav>
+  <main>
+    <div id="Tabs1">
+      <ul>
+        <li><a href="#tabs-1"><img src="noun-flights-3533298.png" alt="" width="700" height="333"><br>
+        Flights</a></li>
+        <li><a href="#tabs-2"><img src="noun-hotel-1054806.png" alt="" width="700" height="342"><br>
+        Hotel</a></li>
+        <li><a href="#tabs-3"><img src="noun-car-6303802.png" alt="" width="700" height="415"><br>
+        Cars</a></li>
+        <li><a href="#tabs-4"><img src="noun-cruise-2560899.png" alt="" width="700" height="339"><br>        
+        Cruises</a></li>
+        <li><a href="#tabs-5"><img src="noun-vacation-5925242.png" alt="" width="700" height="515" class="vac"><br>        
+        Vacations</a></li>
+      </ul>
+      <div id="tabs-1">
+        <input placeholder="Departing From">
+        <input type="date">
+        <input placeholder="Arriving To">
+<input type="date">
+		<select>
+		  <option value="0">No. of Traveler</option>
+		  <option value="1">1</option>
+		  <option value="2">2</option>
+		  <option value="3">3</option>
+		  <option value="4">4</option>
+		  <option value="5">5</option>
+		</select>
+		<input type="submit" class="submit" value="Search">
+</div>
+      <div id="tabs-2">
+        <input placeholder="Hotel Name">
+		  <input type="date">
+		  <input type="date">
+		  <select>
+		    <option value="0">No. of Guests</option>
+		    <option value="1">1</option>
+		    <option value="2">2</option>
+		    <option value="3">3</option>
+		    <option value="4">4</option>
+		  </select>
+		  <input type="submit" class="submit" value="Search">
+      </div>
+      <div id="tabs-3">
+        <input placeholder="Pick-up">
+		 <input type="date">
+		 <input type="time">
+		 <input placeholder="Drop-off">
+		 <input type="date">
+		 <input type="time">
+		 <input type="submit" class="submit" value="Search">
+      </div>
+      <div id="tabs-4">
+        <input placeholder="Where to?">
+		  <input type="date">
+		  <input placeholder="Duration">
+		  <select>
+		    <option value="0">No. of Travelers</option>
+		    <option value="1">1</option>
+		    <option value="2">2</option>
+		    <option value="3">3</option>
+		    <option value="4">4</option>
+		  </select>
+		  <input type="submit" class="submit" value="Search">
+      </div>
+      <div id="tabs-5">
+        <input placeholder="Attraction or activity">
+		  <input type="date">
+		  <input type="time">
+		  <input type="submit" class="submit" value="Search">
+      </div>
+    </div>
+    <h2>Explore More</h2>
+    <video autoplay loop muted plays-inline>
+    <source src="pexels_videos_2249630 (720p).mp4" type="video/mp4"></video>
+  </main>
+  <footer><p>© 2023, Emili Martin. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p></footer>
+</wrapper>
+<script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+</script>
+</body>
+</html>

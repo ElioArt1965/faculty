@@ -1,0 +1,195 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Virgin Voyages | Christian Jean, 2023</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
+<style type="text/css">
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(david-kohler-rome-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Rubik', sans-serif;
+    background-position: 0% -156px;
+}
+header {
+    background-color: #fff;
+}
+.logo {
+    height: 99px;
+    width: auto;
+    margin-left: 14px;
+}
+wrapper {
+    width: 1366px;
+    margin: 32px auto;
+    display: block;
+    border-radius: 16px;
+    background-color: rgba(0,0,0,0.50);
+}
+#Tabs1 ul {
+    background-image: none;
+    border: none;
+    background-color: transparent;
+}
+#Tabs1 {
+    background-image: none;
+    border: none;
+    background-color: transparent;
+}
+#Tabs1 li {
+    background-image: none;
+    background-color: rgba(255,255,255,0.24);
+    margin: 8px;
+    text-align: center;
+    border-width: thin;
+    border-radius: 8px;
+    border-style: solid;
+}
+#Tabs1 li:hover {
+    background-color: rgba(225,10,10,0.50);
+}
+#Tabs1 a {
+    color: #fff;
+    font-family: Rubik,sans-serif;
+    ;
+    ;
+}
+input ,select{
+    margin: 8px;
+    padding: 8px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Rubik,sans-serif;
+    border: thin solid rgba(211,0,3,1.00);
+    border-radius: 8px;
+}
+section {
+    width: 50%;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: -4px;
+}
+#submit {
+    width: 200px;
+    margin: 0 auto;
+    background-color: rgba(211,0,3,1.00);
+    display: block;
+    color: #fff;
+}
+</style>
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+</head>
+
+<body>
+<header><img src="Client_Virgin-Voyages-1.png" alt="" width="500" height="296" class="logo"></header>
+<wrapper>
+  <div id="Tabs1">
+    <ul>
+      <li><a href="#tabs-1"><img src="airplane.png" alt="" width="180" height="50"><br>
+      Flights</a></li>
+      <li><a href="#tabs-2"><img src="hotel.png" alt="" width="50" height="50"><br>
+      Hotels</a></li>
+      <li><a href="#tabs-3"><img src="car.png" alt="" width="88" height="50"><br>
+      Cars</a></li>
+      <li><a href="#tabs-4"><img src="cruise.png" alt="" width="51" height="50"><br>
+      Cruises</a></li>
+      <li><a href="#tabs-5"><img src="camera.png" alt="" width="58" height="50"><br>
+      Things to Do</a></li>
+    </ul>
+    <div id="tabs-1"><input type="text" placeholder="Going to">
+      <section><input type="text" placeholder="Check-In"></section>
+      <section><input type="text" placeholder="Check-out"></section>
+      <select>
+        <option value="0">Number of Travelers</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+		<input name="submit" type="submit" id="submit">
+    </div>
+    <div id="tabs-2"><input type="text" placeholder="Hotel name">
+      <section><input type="date"></section>
+      <section><input type="date"></section>
+      <select>
+        <option value="0">Numbers of Rooms</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+		<input name="submit" type="submit" id="submit">
+    </div>
+    <div id="tabs-3"><input type="text" placeholder="Picking up from">
+      <section><input type="date"></section>
+      <section><input type="date"></section>
+      <select>
+        <option value="0">Type of Car</option>
+        <option value="0">Volkswagon Passat</option>
+        <option value="0">Honda Civic</option>
+        <option value="0">Dodge Charger</option>
+        <option>Infiniti G37</option>
+      </select>
+		<input name="submit" type="submit" id="submit">
+    </div>
+    <div id="tabs-4"><input type="text" placeholder="Going to">
+      <section><input type="date"></section>
+      <section><input type="date"></section>
+		<input name="submit" type="submit" id="submit">
+    </div>
+    <div id="tabs-5"><select>
+      <option value="0" selected="selected">Things to do</option>
+      <option value="0">Zip-lining</option>
+      <option value="0">ATVs</option>
+      <option value="0">Shows</option>
+      <option value="0">Clubs</option>
+      <option value="0">Resturants</option>
+    </select>
+      <section><input type="time"></section>
+      <section><input type="date"></section>
+      <select>
+        <option value="0" selected="selected">Thing to do</option>
+        <option value="0">Zip-lining</option>
+        <option value="0">ATVs</option>
+        <option value="0">Shows</option>
+        <option value="0">Clubs</option>
+        <option value="0">Resturants</option>
+      </select>
+      <section><input type="time"></section>
+      <section><input type="date"></section>
+      <select>
+        <option value="0">Things to do</option>
+        <option value="0">Zip-lining</option>
+        <option value="0">ATVs</option>
+        <option value="0">Shows</option>
+        <option value="0">Clubs</option>
+        <option value="0">Resturants</option>
+      </select>
+      <section><input type="time"></section>
+      <section><input type="date"></section>
+		<input name="submit" type="submit" id="submit">
+    </div>
+</div>
+</wrapper>
+<script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+</script>
+</body>
+</html>

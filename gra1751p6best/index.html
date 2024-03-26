@@ -1,0 +1,1056 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Curate Unique Travel with CUT</title>
+<style type="text/css">
+@import url("webfonts/shutter_stone_standar/stylesheet.css");
+@import url("webfonts/Montserrat_Regular/stylesheet.css");
+@import url("webfonts/Montserrat_Light/stylesheet.css");
+@import url("webfonts/Montserrat_ExtraLight/stylesheet.css");
+@import url("webfonts/Montserrat_Medium/stylesheet.css");
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #093356;
+	background-image: url(images/body-background-image.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0% center;
+}
+header {
+	height: 150px;
+	background-color: rgba(9,51,86,0.75);
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+}
+.cut-logo {
+	padding-top: 21px;
+	margin: 0;
+}
+wrapper {
+	width: 1366px;
+	margin-top: 25px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
+	display: block;
+	background-color: rgba(255,255,255,0.80);
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 7px 15px 5px rgba(0,0,0,0.40);
+	box-shadow: 0px 7px 15px 5px rgba(0,0,0,0.40);
+	position: relative;
+}
+#Tabs1 {
+	background-image: none;
+	border: none;
+	background-color: transparent;
+}
+#Tabs1 ul li {
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+}
+#Tabs1 .ui-tabs-nav.ui-helper-clearfix.ui-widget-header {
+	background-image: none;
+	border-radius: none;
+	border: none;
+	background-color: transparent;
+}
+#Tabs1 .ui-tabs-nav.ui-helper-clearfix.ui-widget-header .ui-state-default {
+	border: none;
+	background-image: none;
+	background-color: none;
+	padding: 0;
+	vertical-align: text-bottom;
+}
+.ui-tabs-nav.ui-helper-clearfix.ui-widget-header a  {
+	background-color: rgba(9,51,86,0.75);
+	border: none;
+	color: #E0CFCB;
+	border-radius: 10px;
+	background-image: none;
+	margin: 0;
+	font-family: "shutter stone standar";
+	font-size: 50px;
+	-webkit-box-shadow: 0px 1px 18px rgba(0,0,0,0.70);
+	box-shadow: 0px 1px 18px rgba(0,0,0,0.70);
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-weight: lighter;
+	padding-bottom: 0px;
+}
+.ui-tabs-nav.ui-helper-clearfix.ui-widget-header .ui-state-active a {
+	border-radius: none;
+	border: none;
+	background-color: #636363;
+	color: rgba(224,207,203,1.00);
+	font-family: "shutter stone standar";
+	font-size: 50px;
+	font-weight: lighter;
+}
+.round-trip-button {
+	color: #093356;
+	background-color: #E0CFCB;
+	margin: 0;
+	width: 130px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	font-family: "Montserrat Regular";
+	border-radius: 5px;
+	text-align: center;
+	font-size: small;
+	-webkit-box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	font-weight: bold;
+}
+.flying-from-section {
+	display: inline-block;
+}
+.flying-from-text {
+	margin: 0;
+	color: #093356;
+	font-family: "Montserrat Medium";
+	font-size: 10px;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+.flying-from-input-field {
+	width: 440px;
+	color: #636363;
+	margin: 0;
+	font-family: "Montserrat Regular";
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	border: none;
+	padding-left: 10px;
+	border-radius: 5px;
+	-webkit-box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+}
+.flying-to-section {
+	margin-right: 10px;
+	margin-left: 18px;
+	display: inline-block;
+	width: 800px;
+}
+.departing-section {
+	margin: 0;
+	display: inline-block;
+}
+.departing-text {
+	margin: 0;
+	color: #093356;
+	font-family: "Montserrat Medium";
+	font-size: 10px;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+#Datepicker1 {
+	border: none;
+	height: 40px;
+	background-image: none;
+	border-radius: 5px;
+	-webkit-box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	display: inline-block;
+	width: 210px;
+	padding-left: 10px;
+}
+.returning-section {
+	display: inline-block;
+	width: 1000px;
+	margin-left: 16px;
+}
+.returning-text {
+	margin: 0;
+	color: #093356;
+	font-family: "Montserrat Medium";
+	font-size: 10px;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+#Datepicker2 {
+	border: none;
+	height: 40px;
+	border-radius: 5px;
+	background-image: none;
+	-webkit-box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	display: inline-block;
+	width: 210px;
+	padding-left: 10px;
+}
+.adults-section {
+	margin: 0;
+	padding-top: 20px;
+	width: 100px;
+	display: inline-block;
+}
+.adults-text {
+	margin: 0;
+	color: #093356;
+	font-family: "Montserrat Medium";
+	font-size: 10px;
+	padding-left: 10px;
+}
+.adult-travelers {
+	margin: 0;
+	width: 95px;
+	text-align: center;
+	height: 40px;
+	border: none;
+	border-radius: 5px;
+	-webkit-box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	font-family: "Montserrat Light";
+	font-size: medium;
+	display: inline-block;
+}
+.children-section {
+	font-size: small;
+	width: 110px;
+	display: inline-block;
+	margin-left: 18px;
+}
+.children-text {
+	margin: 0;
+	padding-top: 20px;
+	padding-right: 0;
+	padding-left: 10px;
+	padding-bottom: 0;
+	color: #093356;
+	font-family: "Montserrat Medium";
+	font-size: 10px;
+}
+.children-input {
+	margin: 0;
+	border: none;
+	border-radius: 5px;
+	width: 95px;
+	text-align: center;
+	height: 40px;
+	-webkit-box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	font-family: "Montserrat Light";
+	font-size: medium;
+	display: inline-block;
+}
+.search-button-section {
+	padding: 0;
+	margin-top: 20px;
+	display: inline-block;
+	margin-left: 0px;
+}
+.search-button {
+	background-color: #E0CFCB;
+	border-radius: 5px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	width: 100px;
+	margin: 0;
+	color: rgba(9,51,86,1.00);
+	font-family: "Montserrat Medium";
+	font-weight: bold;
+}
+.hotel-going-to-section {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	width: 1300px;
+}
+.hotel-going-to-text {
+	margin: 0;
+	color: #093356;
+	font-family: "Montserrat Medium";
+	font-size: 10px;
+	padding-left: 10px;
+}
+.hotel-going-to-input-field {
+	width: 922.8px;
+	margin: 0;
+	color: #636363;
+	font-family: "Montserrat Regular";
+	padding-top: 10px;
+	padding-right: 10px;
+	border: none;
+	padding-bottom: 10px;
+	border-radius: 5px;
+	padding-left: 10px;
+	-webkit-box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+}
+.hotel-check-in-section {
+	margin: 0;
+	display: inline-block;
+}
+.hotel-check-in-text {
+	margin: 0;
+	color: #093356;
+	font-family: "Montserrat Medium";
+	font-size: 10px;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+#Datepicker3 {
+	border: none;
+	border-radius: 5px;
+	height: 40px;
+	background-image: none;
+	-webkit-box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	display: inline-block;
+	width: 215px;
+	padding-left: 5px;
+}
+.hotel-check-out-section {
+	display: inline-block;
+	width: 1000px;
+	margin-left: 18px;
+}
+.hotel-check-out-text {
+	margin: 0;
+	color: #093356;
+	font-family: "Montserrat Medium";
+	font-size: 10px;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+#Datepicker4 {
+	border-radius: 5px;
+	border: none;
+	height: 40px;
+	background-image: none;
+	-webkit-box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	display: inline-block;
+	width: 215px;
+	padding-left: 5px;
+}
+.hotel-rooms-section {
+	margin: 0;
+	padding-top: 20px;
+	width: 100px;
+	display: inline-block;
+}
+.hotel-rooms-text {
+	margin: 0;
+	color: #093356;
+	font-family: "Montserrat Medium";
+	font-size: 10px;
+	padding-left: 10px;
+}
+.hotel-rooms-input {
+	margin: 0;
+	width: 100px;
+	text-align: center;
+	border: none;
+	border-radius: 5px;
+	height: 40px;
+	-webkit-box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+}
+.hotel-adults-section {
+	margin-top: 0;
+	margin-right: 0;
+	margin-left: 16px;
+	margin-bottom: 0;
+	padding-top: 20px;
+	width: 100px;
+	display: inline-block;
+}
+.hotel-adults-text {
+	margin: 0;
+	color: #093356;
+	font-family: "Montserrat Medium";
+	font-size: 10px;
+	padding-left: 10px;
+}
+.hotel-adults-input {
+	margin: 0;
+	width: 100px;
+	border: none;
+	border-radius: 5px;
+	text-align: center;
+	height: 40px;
+	-webkit-box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+}
+.hotel-children-section {
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	padding-top: 20px;
+	width: 100px;
+	display: inline-block;
+	margin-left: 16px;
+}
+.hotel-children-text {
+	margin: 0;
+	color: #093356;
+	font-family: "Montserrat Medium";
+	font-size: 10px;
+	padding-left: 10px;
+}
+.hotel-children-input {
+	margin: 0;
+	border: none;
+	border-radius: 5px;
+	width: 100px;
+	text-align: center;
+	height: 40px;
+	-webkit-box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+}
+.hotel-search-button-section {
+	padding: 0;
+	margin-top: 20px;
+	display: inline-block;
+	margin-left: 17.2px;
+}
+.hotel-search-button {
+	border-radius: 5px;
+	background-color: #E0CFCB;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	margin: 0;
+	padding-left: 10px;
+	width: 100px;
+	color: rgba(9,51,86,1.00);
+	font-family: "Montserrat Medium";
+	font-weight: bold;
+}
+.cruises-going-to-section {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	width: 1300px;
+}
+.cruises-going-to-text {
+	margin: 0;
+	color: #093356;
+	font-family: "Montserrat Medium";
+	font-size: 10px;
+	padding-left: 10px;
+}
+.cruises-going-to-input-field {
+	width: 922.8px;
+	margin: 0;
+	color: #636363;
+	font-family: "Montserrat Regular";
+	padding-top: 10px;
+	padding-right: 10px;
+	border: none;
+	padding-bottom: 10px;
+	border-radius: 5px;
+	padding-left: 10px;
+	-webkit-box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+}
+.cruises-depart-aea-section {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+.cruises-depart-aea-text {
+	margin: 0;
+	color: #093356;
+	font-family: "Montserrat Medium";
+	font-size: 10px;
+	padding-left: 10px;
+}
+#Datepicker5 {
+	border: none;
+	height: 40px;
+	border-radius: 5px;
+	background-image: none;
+	-webkit-box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	display: inline-block;
+	width: 215px;
+	padding-left: 5px;
+}
+.cruises-depart-ala-section {
+	display: inline-block;
+	width: 1000px;
+	margin-left: 18px;
+}
+.cruises-depart-ala-text {
+	margin: 0;
+	color: #093356;
+	font-family: "Montserrat Medium";
+	font-size: 10px;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+#Datepicker6 {
+	border: none;
+	border-radius: 5px;
+	height: 40px;
+	background-image: none;
+	-webkit-box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	display: inline-block;
+	width: 215px;
+	padding-left: 5px;
+}
+.cruises-cabins-section {
+	margin: 0;
+	width: 100px;
+	display: inline-block;
+}
+.cruises-cabins-text {
+	margin: 0;
+	color: #093356;
+	font-family: "Montserrat Medium";
+	font-size: 10px;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+.cruises-cabins-input {
+	margin: 0;
+	width: 100px;
+	text-align: center;
+	border: none;
+	border-radius: 5px;
+	height: 40px;
+	-webkit-box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+}
+.cruises-adults-section {
+	font-size: small;
+	width: 110px;
+	display: inline-block;
+	padding: 0;
+	margin-left: 16px;
+}
+.cruises-adults-text {
+	margin: 0;
+	padding-top: 20px;
+	padding-left: 10px;
+	color: #093356;
+	font-family: "Montserrat Medium";
+	font-size: 10px;
+}
+.cruises-adults-input {
+	margin: 0;
+	width: 100px;
+	border: none;
+	border-radius: 5px;
+	text-align: center;
+	height: 40px;
+	-webkit-box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+}
+.cruises-children-section {
+	font-size: small;
+	width: 110px;
+	display: inline-block;
+	margin-left: 6px;
+}
+.cruises-children-text {
+	margin: 0;
+	padding-top: 20px;
+	padding-right: 0;
+	padding-left: 10px;
+	padding-bottom: 0;
+	color: #093356;
+	font-family: "Montserrat Medium";
+	font-size: 10px;
+}
+.cruises-children-input {
+	margin: 0;
+	border: none;
+	border-radius: 5px;
+	width: 100px;
+	text-align: center;
+	height: 40px;
+	-webkit-box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+}
+.cruises-search-button-section {
+	padding: 0;
+	margin-top: 20px;
+	display: inline-block;
+	margin-left: 6px;
+}
+.cruises-search-button {
+	border-radius: 5px;
+	background-color: #E0CFCB;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	margin: 0;
+	width: 100px;
+	color: rgba(9,51,86,1.00);
+	font-family: "Montserrat Medium";
+	font-weight: bold;
+}
+.cars-picking-up-section {
+	display: inline-block;
+}
+.cars-picking-up-text {
+	margin: 0;
+	color: #093356;
+	font-family: "Montserrat Medium";
+	font-size: 10px;
+	padding-left: 10px;
+}
+.cars-picking-up-input-field {
+	width: 440px;
+	margin: 0;
+	color: #636363;
+	font-family: "Montserrat Regular";
+	padding-top: 10px;
+	padding-right: 10px;
+	border: none;
+	padding-bottom: 10px;
+	border-radius: 5px;
+	padding-left: 10px;
+	-webkit-box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+}
+.cars-dropping-off-section {
+	margin-right: 10px;
+	margin-left: 18px;
+	display: inline-block;
+	width: 800px;
+}
+.cars-dropping-off-text {
+	margin: 0;
+	color: #093356;
+	font-family: "Montserrat Medium";
+	font-size: 10px;
+	padding-left: 10px;
+}
+.cars-dropping-off-input-field {
+	width: 440px;
+	margin: 0;
+	color: #636363;
+	font-family: "Montserrat Regular";
+	padding-top: 10px;
+	padding-right: 10px;
+	border: none;
+	padding-bottom: 10px;
+	border-radius: 5px;
+	padding-left: 10px;
+	-webkit-box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+}
+.cars-pick-up-date-section {
+	margin: 0;
+	display: inline-block;
+}
+.cars-pick-up-date-text {
+	margin: 0;
+	color: #093356;
+	font-family: "Montserrat Medium";
+	font-size: 10px;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+#Datepicker7 {
+	border: none;
+	height: 40px;
+	border-radius: 5px;
+	background-image: none;
+	-webkit-box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	display: inline-block;
+	width: 215px;
+	padding-left: 5px;
+}
+.cars-drop-off-date-section {
+	display: inline-block;
+	width: 1000px;
+	margin-left: 15px;
+}
+.cars-drop-off-date-text {
+	margin: 0;
+	color: #093356;
+	font-family: "Montserrat Medium";
+	font-size: 10px;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+#Datepicker8 {
+	border: none;
+	border-radius: 5px;
+	height: 40px;
+	background-image: none;
+	-webkit-box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	display: inline-block;
+	width: 215px;
+	padding-left: 5px;
+}
+.cars-search-button-section {
+	padding: 0;
+	margin-top: 20px;
+	display: inline-block;
+}
+.cars-search-button {
+	border-radius: 5px;
+	background-color: #E0CFCB;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	margin: 0;
+	width: 100px;
+	color: rgba(9,51,86,1.00);
+	font-family: "Montserrat Medium";
+	font-weight: bold;
+}
+.activities-destination-section {
+	display: inline-block;
+	width: 1300px;
+}
+.activities-destination-text {
+	margin: 0;
+	color: #093356;
+	font-family: "Montserrat Medium";
+	font-size: 10px;
+	padding-left: 10px;
+}
+.activities-destination-input-field {
+	width: 922.8px;
+	margin: 0;
+	color: #636363;
+	font-family: "Montserrat Regular";
+	padding-top: 10px;
+	padding-right: 10px;
+	border: none;
+	padding-bottom: 10px;
+	border-radius: 5px;
+	padding-left: 10px;
+	-webkit-box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+}
+.activities-from-section {
+	margin: 0;
+	display: inline-block;
+}
+.activities-from-text {
+	margin: 0;
+	color: #093356;
+	font-family: "Montserrat Medium";
+	font-size: 10px;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+#Datepicker9 {
+	border: none;
+	height: 40px;
+	border-radius: 5px;
+	background-image: none;
+	-webkit-box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	display: inline-block;
+	width: 215px;
+	padding-left: 5px;
+}
+.activities-to-section {
+	display: inline-block;
+	width: 1000px;
+	margin-left: 18px;
+}
+.activities-to-text {
+	margin: 0;
+	color: #093356;
+	font-family: "Montserrat Medium";
+	font-size: 10px;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+#Datepicker10 {
+	border: none;
+	border-radius: 5px;
+	height: 40px;
+	background-image: none;
+	-webkit-box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+	display: inline-block;
+	width: 215px;
+	padding-left: 5px;
+}
+.activities-search-button-section {
+	padding: 0;
+	margin-top: 20px;
+	display: inline-block;
+}
+.activities-search-button {
+	border-radius: 5px;
+	background-color: #E0CFCB;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	margin: 0;
+	width: 100px;
+	color: rgba(9,51,86,1.00);
+	font-family: "Montserrat Medium";
+	font-weight: bold;
+}
+footer {
+	padding: 0;
+	height: 73px;
+	font-family: "Montserrat Regular";
+	font-size: small;
+	color: #FFFFFF;
+	background-color: rgba(9,51,86,0.75);
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
+footer p {
+	margin: 0 auto;
+	width: 1366px;
+}
+.copyright {
+	padding-top: 13px;
+	font-family: "Montserrat Light";
+	font-size: 12.5px;
+	top: auto;
+}
+</style>
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.datepicker.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.datepicker.min.js"></script>
+</head>
+ 
+<body>
+<header><img src="images/cut_logo.png" alt="" width="260" height="114" class="cut-logo"></header>
+<wrapper>
+  <div id="Tabs1">
+    <ul>
+      <li><a href="#tabs-1"><img src="images/flights_icon.png" alt="" width="51" height="42" class="flights-icon">flights</a></li>
+      <li><a href="#tabs-2"><img src="images/hotels_icon.png" alt="" width="42" height="42" class="hotels_icon">hotels</a></li>
+      <li><a href="#tabs-3"><img src="images/cruises_icon.png" alt="" width="38" height="42" class="cruises_icon">cruises</a></li>
+      <li><a href="#tabs-4"><img src="images/cars_icon.png" width="46" height="42" class="cars_icon">cars</a></li>
+      <li><a href="#tabs-5"><img src="images/activities_icon.png" alt="" width="42" height="42" class="activities_icon">activities</a></li>
+    </ul>
+    <div id="tabs-1">
+      <section class="round-trip-button">ROUND TRIP</section>
+      <section class="flying-from-section">
+        <p class="flying-from-text">FLYING FROM</p>
+        <input type="text" class="flying-from-input-field" placeholder="City or Airport">
+      </section>
+<section class="flying-to-section">
+        <p class="flying-from-text">FLYING TO</p>
+        <input type="text" class="flying-from-input-field" placeholder="City or Airport">
+      </section>
+      <section class="departing-section">
+        <p class="departing-text">DEPARTING</p>
+        <input type="text" id="Datepicker1" placeholder=" mm/dd/yyyy">
+</section>
+<section class="returning-section">
+        <p class="returning-text">RETURNING</p>
+        <input type="text" id="Datepicker2" placeholder=" mm/dd/yyyy">
+      </section>
+      <section class="adults-section">
+        <p class="adults-text">ADULTS (18+)</p>
+<select class="adult-travelers">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+</section>
+      <section class="children-section">
+        <p class="children-text">CHILDREN (0-17)</p>
+<select class="children-input">
+  <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+</select></section>
+      <section class="search-button-section"><input type="submit" class="search-button" value="SEARCH"></section>
+    </div>
+    <div id="tabs-2">
+      <section class="hotel-going-to-section">
+        <p class="hotel-going-to-text">GOING TO</p>
+        <input type="text" class="hotel-going-to-input-field" placeholder="Destination, Hotel Name, Airport, Train Station, Landmark or Address  ">
+      </section>
+<section class="hotel-check-in-section">
+        <p class="hotel-check-in-text">CHECK-IN</p>
+        <input type="text" id="Datepicker3" placeholder=" mm/dd/yyyy">
+	  </section>
+      <section class="hotel-check-out-section">
+        <p class="hotel-check-out-text">CHECK-OUT</p>
+        <input type="text" id="Datepicker4" placeholder=" mm/dd/yyyy">
+      </section>
+      <section class="hotel-rooms-section">
+        <p class="hotel-rooms-text">ROOMS</p>
+        <select class="hotel-rooms-input">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select></section>
+      <section class="hotel-adults-section">
+        <p class="hotel-adults-text">ADULTS (18+)</p>
+        <select name="select2" class="hotel-adults-input">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </section>
+      <section class="hotel-children-section">
+        <p class="hotel-children-text">CHILDREN (0-17)</p>
+        <select name="select2" class="hotel-children-input">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </section>
+      <section class="hotel-search-button-section"><input type="submit" class="hotel-search-button" value="SEARCH"></section>
+    </div>
+    <div id="tabs-3">
+      <section class="cruises-going-to-section">
+        <p class="cruises-going-to-text">GOING TO</p>
+        <input type="text" class="cruises-going-to-input-field" placeholder="Select Destination">
+      </section>
+      <section class="cruises-depart-aea-section">
+        <p class="cruises-depart-aea-text">DEPARTING AS EARLY AS</p>
+        <input type="text" id="Datepicker5" placeholder=" mm/dd/yyyy">
+      </section>
+      <section class="cruises-depart-ala-section">
+        <p class="cruises-depart-ala-text">DEPARTING AS LATE AS</p>
+        <input type="text" id="Datepicker6" placeholder=" mm/dd/yyyy">
+      </section>
+      <section class="cruises-cabins-section">
+        <p class="cruises-cabins-text">CABINS</p>
+        <select class="cruises-cabins-input">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select></section>
+      <section class="cruises-adults-section">
+        <p class="cruises-adults-text">ADULTS (18+)</p>
+        <select name="select3" class="cruises-adults-input">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </section>
+      <section class="cruises-children-section">
+        <p class="cruises-children-text">CHILDREN (0-17)</p>
+        <select name="select3" class="cruises-children-input">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </section>
+      <section class="cruises-search-button-section"><input type="submit" class="cruises-search-button" value="SEARCH"></section>
+    </div>
+<div id="tabs-4">
+      <section class="cars-picking-up-section">
+        <p class="cars-picking-up-text">PICKING UP</p>
+      <input type="text" class="cars-picking-up-input-field" placeholder="City, Airport or Address"></section>
+      <section class="cars-dropping-off-section">
+        <p class="cars-dropping-off-text">DROPPING OFF</p>
+        <input type="text" class="cars-dropping-off-input-field" placeholder="City, Airport or Address">
+      </section>
+      <section class="cars-pick-up-date-section">
+        <p class="cars-pick-up-date-text">PICK-UP DATE</p>
+        <input type="text" id="Datepicker7" placeholder=" mm/dd/yyyy">
+      </section>
+      <section class="cars-drop-off-date-section">
+        <p class="cars-drop-off-date-text">DROP-OFF DATE</p>
+        <input type="text" id="Datepicker8" placeholder=" mm/dd/yyyy">
+      </section>
+      <section class="cars-search-button-section"><input type="submit" class="cars-search-button" value="SEARCH"></section>
+    </div>
+    <div id="tabs-5">
+      <section class="activities-destination-section">
+        <p class="activities-destination-text">DESTINATION</p>
+      <input type="text" class="activities-destination-input-field" placeholder="City"></section>
+      <section class="activities-from-section">
+        <p class="activities-from-text">FROM</p>
+        <input type="text" id="Datepicker9" placeholder=" mm/dd/yyyy">
+      </section>
+      <section class="activities-to-section">
+        <p class="activities-to-text">TO</p>
+        <input type="text" id="Datepicker10" placeholder=" mm/dd/yyyy">
+      </section>
+      <section class="activities-search-button-section"><input type="submit" class="activities-search-button" value="SEARCH"></section>
+</div>
+</div>
+</wrapper>
+<footer>
+  <p class="copyright"><strong>© 2019, Katrina Best.</strong><br>
+    This is a fictitious web page created by Katrina Best solely for the purpose of education and training. All products and people associated with this web page are also fictitious. 
+    Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative
+    of actual products on the market in a similar product category.</p>
+</footer>
+<script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+$(function() {
+	$( "#Datepicker2" ).datepicker(); 
+});
+$(function() {
+	$( "#Datepicker3" ).datepicker(); 
+});
+$(function() {
+	$( "#Datepicker4" ).datepicker(); 
+});
+$(function() {
+	$( "#Datepicker5" ).datepicker(); 
+});
+$(function() {
+	$( "#Datepicker6" ).datepicker(); 
+});
+$(function() {
+	$( "#Datepicker7" ).datepicker(); 
+});
+$(function() {
+	$( "#Datepicker8" ).datepicker(); 
+});
+$(function() {
+	$( "#Datepicker9" ).datepicker(); 
+});
+$(function() {
+	$( "#Datepicker10" ).datepicker(); 
+});
+</script>
+</body>
+</html>
