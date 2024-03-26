@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Imagine Dragons | Jose Apaza, 2022</title>
+<!-- TemplateEndEditable -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500&display=swap" rel="stylesheet">
+<style type="text/css">
+@import url("file:///Macintosh HD/Users/jose/Desktop/GRA1751/gra1751p4-ja-2022/styles.css");
+</style>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<wrapper>
+  <header>
+	IMAGINE<br>DRAGONS
+	</header>
+  <nav>
+    <ul>
+      <a href="file:///Macintosh HD/Users/jose/Desktop/GRA1751/gra1751p4-ja-2022/index.html"><li>Home</li></a>
+      <a href="file:///Macintosh HD/Users/jose/Desktop/GRA1751/gra1751p4-ja-2022/news.html"><li>News</li></a>
+      <a href="file:///Macintosh HD/Users/jose/Desktop/GRA1751/gra1751p4-ja-2022/stores.html"><li>Store</li></a>
+      <a href="file:///Macintosh HD/Users/jose/Desktop/GRA1751/gra1751p4-ja-2022/videos.html"><li>Videos</li></a>
+      <a href="file:///Macintosh HD/Users/jose/Desktop/GRA1751/gra1751p4-ja-2022/concerts.html"><li>Concerts</li></a>
+      <a href="file:///Macintosh HD/Users/jose/Desktop/GRA1751/gra1751p4-ja-2022/photos.html"><li>Photos</li></a>
+      <a href="file:///Macintosh HD/Users/jose/Desktop/GRA1751/gra1751p4-ja-2022/mailing.html"><li>Mailings</li></a>
+      <a href="file:///Macintosh HD/Users/jose/Desktop/GRA1751/gra1751p4-ja-2022/merch.html"><li>Merch</li></a>
+      <a href="file:///Macintosh HD/Users/jose/Desktop/GRA1751/gra1751p4-ja-2022/blog.html"><li>Blogs</li></a>
+      <a href="file:///Macintosh HD/Users/jose/Desktop/GRA1751/gra1751p4-ja-2022/privacy.html"><li>Privacy</li></a>
+     
+    </ul>
+  </nav>
+  <!-- TemplateBeginEditable name="EditRegion1" -->
+  <main></main>
+  <!-- TemplateEndEditable -->
+<footer>
+	<p>&copy 2022, Jose Apaza. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+	</footer>
+</wrapper>
+</body>
+</html>
