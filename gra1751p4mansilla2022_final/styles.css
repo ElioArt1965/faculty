@@ -1,0 +1,577 @@
+@charset "utf-8";
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #ccc;
+}
+wrapper {
+    width: 1366px;
+    margin: 0 auto;
+    display: block;
+    background-color: black;
+	position: relative;
+}
+header{
+	padding: 0;
+	margin: 0;
+}
+footer {
+	font-family: sans-serif;
+    padding: 16px;
+    font-size: 12px;
+	color: white;
+	line-height: 20px;
+}
+
+main{
+	margin: 0;
+	padding: 0;
+	 
+}
+.content1, .content2, .content3, .content4, .content5, .content6, .content7, .content8, .content9, .content10{
+	height: 805px;
+}
+
+nav ul {
+	padding-top: 20px;
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+    margin: 0;
+}
+
+ul a li {
+	display: inline-block;
+    padding: 16px 20px;
+    color: #fff;
+    font-family: proxima-nova, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	text-align: center;
+	font-size: 14px;
+	text-decoration: none;
+	list-style-type: none;
+	vertical-align: middle;
+	
+}
+ul a li:hover{
+    color: #999;
+}
+
+.logo{
+	padding-right: 330px;
+	padding-left: 40px;
+}
+
+#home{
+	background-image: url("images/patd_home_background_brandon_urie.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+	
+	
+}
+
+.content1{
+	font-family: futura-pt, sans-serif;
+	text-align: center;
+	font-weight: 700;
+	font-style: bold;
+	color: white;
+}
+
+.content1-text1{
+	font-size: 46px;
+	padding: 250px 350px 0;
+}
+
+.content1-text2{
+	font-weight: 400;
+	font-size: 23px;
+	font-style: thin;
+}
+
+.btn{
+		padding: 12px 50px;
+		font-size: 18px;
+		text-transform: uppercase;
+		font-weight: 400;
+		cursor: pointer;
+		
+}
+
+
+.btn1{
+		background-color: transparent;
+		color: white;
+		border: 2px solid white;
+		border-radius: 40px;
+		display: block;
+		margin-right: 20px;
+		margin: 0 auto;
+		margin-top: 50px;
+}
+
+#news{
+	background-image: url("images/news_background2.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	
+	
+}
+
+
+.trans-bg{
+    margin: 0 50px;
+    display: block;
+    text-align: center;
+    background-color: rgba(0,0,0,0.60);	
+	padding-bottom: 170px;
+	
+	
+	
+}
+.content2-text1{
+	font-family: futura-pt, sans-serif;
+	text-align: center;
+	font-weight: 700;
+	font-style: bold;
+	color: white;
+	font-size: 46px;
+	padding-top: 100px;
+}
+section {
+    background-color: transparent;
+	vertical-align: top;
+	margin-top: 80px;
+	width: 370px;
+    display: inline-block;
+	color: white;
+	font-family: futura-pt, sans-serif;
+	text-align: center;
+	font-weight: 400;
+	font-size: 14px;
+	cursor: pointer;
+	
+}
+.art1{
+	margin-top: 20px;
+}
+
+.art2{
+	margin: 20px 0;
+	font-weight: 700;
+	text-decoration: underline;
+}
+.sec2, .sec3{
+	margin-left: 40px;
+	
+}
+
+#music{
+	background-image: url("images/patd_music_bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.content3{
+	font-family: futura-pt, sans-serif;
+	text-align: center;
+}
+
+.content3-text1{
+	font-weight: 700;
+	font-style: bold;
+	color: white;
+	font-size: 46px;
+	padding: 40px 0 30px 0;
+}
+
+.albums{
+	margin: 0;
+	vertical-align: top;
+	display: inline-block;
+	width: 22%;
+
+}
+.pic4:hover{
+	transform: scale(1.1);
+	transition: 4s;
+}
+
+.art3{
+	font-size: 13px;
+	color: white;
+	margin-top: 15px;
+	margin-bottom: 45px;
+	line-height: 20px;
+}
+.trans-bg1{
+    margin: 0 50px;
+    display: block;
+    text-align: center;
+    background-color: rgba(0,0,0,0.60);	
+	padding-bottom: 5px;
+}
+	
+
+#videos{
+	background-image: url("images/patd_vidoes_bg1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.video1{
+	position: absolute;
+	width: 390px;
+	height: 220px;
+	top: 440px;
+	left: 100px;
+}
+
+.video2{
+	position: absolute;
+	width: 560px;
+	height: 315px;
+	top: 400px;
+	left: 380px;
+}
+
+.video3{
+	position: absolute;
+	width: 390px;
+	height: 220px;
+	top: 440px;
+	left: 850px;
+}
+
+.content4-text1{
+	font-family: futura-pt, sans-serif;
+	text-align: center;
+	font-weight: 700;
+	font-style: bold;
+	color: white;
+	font-size: 46px;
+	padding: 80px 0 30px 0;
+}
+
+.trans-bg2{
+    margin: 0 50px;
+    display: block;
+    text-align: center;
+    background-color: rgba(0,0,0,0.60);	
+	padding-bottom: 550px;
+}
+.content4-text2{
+	font-family: futura-pt, sans-serif;
+	text-align: center;
+	font-weight: 400;
+	text-decoration: underline;
+	font-size: 20px;
+	margin-top: 50px;
+	cursor: pointer;
+	color: white;
+	position: absolute;
+	top: 730px;
+	left: 870px;
+}
+
+.content4-text2:hover{
+	color: #999;
+}
+
+#tours{
+	background-image: url("images/patd_vidoes_bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.trans-bg3{
+    margin: 0 50px;
+    display: block;
+    text-align: center;
+    background-color: rgba(0,0,0,0.60);	
+	padding-bottom: 60px;
+}
+
+.content5-text1{
+	font-family: futura-pt, sans-serif;
+	text-align: center;
+	font-weight: 700;
+	font-style: bold;
+	color: white;
+	font-size: 46px;
+	padding: 80px 0 25px 0;
+}
+
+table  {
+	width: 90%;
+	font-family: futura-pt, sans-serif;
+	text-align: center;
+	margin-top: 0;
+	margin-right: auto;
+	margin-left: 10px;
+	margin-bottom: 0;
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	border-style: none;
+
+}
+td {
+	border: 0;
+	color: white;
+	height: 2.5em;
+	width: 35.5%;
+}
+
+#photos{
+	background-image: url("images/patd_photos_bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.content6{
+	font-family: futura-pt, sans-serif;
+	text-align: center;
+	font-weight: 400;
+	color: white;
+}
+
+.content6-text1{
+	font-weight: 700;
+	font-style: bold;
+	font-size: 46px;
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+
+.content6-text2{
+	font-weight: 400;
+	text-decoration: underline;
+	font-size: 20px;
+	margin-top: 50px;
+	cursor: pointer;
+}
+
+.content6-text2:hover{
+	color: #999;
+}
+
+.photo-albums{
+	background-color: yellow;
+	vertical-align: top;
+	width: 370px;
+	height: 194px;
+    display: inline-block;
+	color: white;
+	font-size: 14px;
+	cursor: pointer;
+	margin-top: 0;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+.trans-bg4{
+	margin: 0 50px;
+    display: block;
+    text-align: center;
+    background-color: rgba(0,0,0,0.60);	
+	padding-bottom: 30px;
+}
+
+.pa1, .pa2, .pa3, .pa4, .pa5, .pa6{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.pa1{
+	background-image: url("images/patd_photo_gallery_album_1.png");
+	margin-bottom: 55px;
+}
+
+.pa2{
+	background-image: url("images/patd_photo_gallery_album_2.jpg");
+	margin-bottom: 55px;
+}
+
+.pa3{
+	background-image: url("images/patd_photo_gallery_album_3.jpg");
+	margin-bottom: 55px;
+}
+
+.pa4{
+	background-image: url("images/patd_photo_gallery_album_4.jpg");
+}
+
+.pa5{
+	background-image: url("images/patd_photo_gallery_album_5.jpg");
+}
+
+.pa6{
+	background-image: url("images/patd_photo_gallery_album_6.jpg");
+}
+
+#store{
+	background-color: black;
+}
+
+.content7{
+	font-family: futura-pt, sans-serif;
+	text-align: center;
+	font-weight: 400;
+	height: 840px;
+}
+
+
+
+.merch-container2{
+	background-color: white;
+
+	
+}
+
+.merch{
+	display: inline-block;
+	width: 33%;
+	text-align: center;
+	padding-top: 30px;
+	padding-left: 0;
+	padding-right: 0;
+	
+}
+
+.art4{
+	font-size: 15px;
+	padding: 20px 0 10px 0;
+}
+
+.content7-text1{
+	font-weight: 400;
+	text-decoration: underline;
+	font-size: 20px;
+	padding-bottom: 28px;
+	cursor: pointer;
+}
+
+#blog{
+	background-image: url("images/patd_blog_bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+#signup{
+	background-image: url("images/patd_signup_bg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.content9{
+	font-family: futura-pt, sans-serif;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.content9-text1{
+	font-weight: 700;
+	font-style: bold;
+	font-size: 36px;
+	color: white;
+	padding-top: 70px;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-bottom: 0;
+}
+
+.content9-text2{
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-weight: 700;
+	padding: 25px 0;
+	letter-spacing: 1px;
+}
+
+form{
+    background-color: rgba(255,255,255,0.90);
+    height: 420px;
+    margin-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    width: 33%;
+}
+input{
+	display: block;
+	margin-top: 90px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
+	width: 75%;
+	border: 2px solid black;
+	height: 44px;
+	font-size: 1.2em;
+	padding-left: 3px;
+	text-align: center;
+}
+.submit{
+	font-weight: 400;
+	height: 65px;
+	margin-top: 75px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
+	border: none;
+	width: 75%;
+	background-color: black;
+	color: white;
+}
+
+.submit:hover{
+	background-color: #999;
+}
+
+#privacy{
+	background-image: url("images/patd_privacy_policy_bg2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+
+.content10{
+	font-family: futura-pt, sans-serif;
+	color: white;
+}
+
+.content10-text1{
+	text-align: center;
+	font-weight: 700;
+	font-style: bold;
+	font-size: 46px;
+	padding-top: 60px;
+	padding-bottom: 0px;
+}
+
+.content10-text2{
+	font-weight: 400;
+	padding: 0 100px;
+	text-align: left;
+	font-size: 15px;
+	line-height: 20px;
+}
+.trans-bg5{
+    margin: 0 30px;
+    display: block;
+    text-align: center;
+    background-color: rgba(0,0,0,0.60);	
+	padding-bottom: 30px;
+}
