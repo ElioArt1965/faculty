@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SVG Keyframe Animation | &copy; 2019, Tony Manuel</title>
+<style type="text/css">
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #74B3B6;
+}
+wrapper {
+	width: 1217px;
+	margin: 0 auto;
+	padding: 0;
+	display: block;
+	background-image: url(wallpaper.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 950px;
+	position: relative;
+}
+#balloon {
+	position: absolute;
+	left: 130px;
+	top: 518px;
+	animation: rising 8s infinite linear;
+}
+	@keyframes rising{
+		0%{
+			transform: translateY(0px);
+		}
+		100%{
+			transform: translateY(-1000px);
+		}
+	}
+#swans {
+	padding-top: 0px;
+	padding-left: 9px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	position: absolute;
+	left: 738px;
+	top: 761px;
+	animation: swan 8s infinite linear;
+}
+	@keyframes swan{
+		0%{
+			transform: translateX(0px)
+		}
+		100%{
+			transform: translateX(370px)
+		}
+	}
+#cloud {
+	position: absolute;
+	left: 98px;
+	top: 116px;
+	animation: cloud 10s infinite linear;
+}
+	@keyframes cloud{
+		0%{
+			transform: translateX(0px)
+		}
+		100%{
+			transform: translateX(950px)
+		}
+	}
+#cloud2 {
+	position: absolute;
+	left: 451px;
+	top: 182px;
+	animation: cloud2 15s infinite linear;
+}
+	@keyframes cloud2{
+		0%{
+			transform: translateX(0px)
+		}
+		100%{
+			transform: translateX(585px)
+		}
+	}
+#cloud3 {
+	position: absolute;
+	top: 38px;
+	left: 835px;
+	animation: cloud3 8s infinite linear;
+}
+	@keyframes cloud3{
+		0%{
+			transform: translateX(0px)
+		}
+		100%{
+			transform: translateX(200px)
+		}
+	}
+#cloud4 {
+	position: absolute;
+	left: 885px;
+	top: 53px;
+	animation: cloud4 8s infinite linear;
+}
+	@keyframes cloud4{
+		0%{
+			transform: translateX(0px)
+		}
+		100%{
+			transform: translateX(150px)
+		}
+	}
+#enjoy {
+	position: absolute;
+	left: 1039px;
+	top: 332px;
+}
+#the {
+	position: absolute;
+	top: 416px;
+	left: 1104px;
+}
+#summer {
+	position: absolute;
+	top: 482px;
+	left: 965px;
+}
+footer {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-style: italic;
+}
+</style>
+</head>
+
+<body>
+<wrapper><img src="balloon.svg" alt="" width="" height="" id="balloon"><img src="swan.svg" alt="" height="" id="swans"><img src="cloud.svg" alt="" width="" height="" id="cloud"><img src="cloud2.svg" alt="" width="" height="" id="cloud2"><img src="cloud3.svg" alt="" width="" height="" id="cloud3"><img src="cloud4.svg" alt="" width="" height="" id="cloud4"><img src="enjoy.svg" alt="" width="" height="" id="enjoy"><img src="the.svg" alt="" width="" height="" id="the"><img src="summer.svg" alt="" width="" height="" id="summer"></wrapper>
+	
+<footer style="padding:16px;"><p style="margin:0 0 16px;">© 2019, Tony Manuel Jr.</p> <p style="margin:0;">This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p></footer>
+</body>
+</html>
