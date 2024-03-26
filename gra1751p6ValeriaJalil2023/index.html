@@ -1,0 +1,197 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Welcome to Baires Travel | Valeria Jalil, 2023</title>
+<style type="text/css">
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(nature.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #AAA9A9;
+}
+header {
+    background-color: #4C78A8;
+    height: 120px;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 28px;
+}
+wrapper {
+    width: 1366px;
+    min-width: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    display: block;
+    background-color: rgba(255,255,255,0.45);
+    height: 600px;
+}
+nav {
+    height: 35px;
+    background-color: rgba(242,236,198,1.00);
+}
+li a img {
+    width: auto;
+    height: 30px;
+}
+li  {
+    text-align: center;
+}
+ul {
+    background-image: none;
+    background-color: transparent;
+}
+#Tabs1 ul {
+    background-image: none;
+    border: none;
+    background-color: transparent;
+<h3></h3>;
+    padding-left: 413px;
+}
+#Tabs1 {
+    background-image: none;
+    border: none;
+    background-color: transparent;
+    padding-top: 0px;
+}
+#Tabs1 a {
+    color: #3376C0;
+}
+#Tabs1 a:hover {
+    color: #EAB601;
+}
+#Tabs1 li:hover {
+    border: thin solid #FED443;
+}
+#Tabs1 div {
+    background-color: rgba(242,236,198,0.50);
+    text-align: center;
+}
+footer {
+    padding: 16px;
+    text-align: center;
+    background-color: rgba(242,236,198,1.00);
+    margin-top: 384px;
+}
+input   , select{
+    padding: 12px;
+    border-radius: 8px;
+    margin-right: 8px;
+    border: thin solid #4C78A8;
+}
+.submit {
+    background-color: #3376C0;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+</style>
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+</head>
+
+<body>
+<header><img src="logo-baires.png" alt="" width="248" height="94"></header>
+<wrapper>
+  <nav></nav>
+  <main>
+    <div id="Tabs1">
+      <ul>
+        <li><a href="#tabs-1"><img src="airport.png" alt="" width="564" height="360"><br>
+        Flights</a></li>
+        <li><a href="#tabs-2"><img src="hotel.png" alt="" width="564" height="500"><br>
+        Hotels</a></li>
+        <li><a href="#tabs-3"><img src="car.png" alt="" width="564" height="524"><br>
+        Cars</a></li>
+        <li><a href="#tabs-4"><img src="cruise-ship.png" alt="" width="500" height="564"><br>
+        Cruises</a></li>
+        <li><a href="#tabs-5"><img src="vacations.png" alt="" width="564" height="498"><br>
+        Vacations</a></li>
+      </ul>
+      <div id="tabs-1">
+        <input placeholder="Departing From?">
+        <input placeholder="Arriving To?">
+        <input type="date">
+        <input type="date">
+		 <select>
+		   <option value="0">Number of Travelers</option>
+		   <option value="1">1</option>
+		   <option value="2">2</option>
+		   <option value="3">3</option>
+		   <option value="4">4</option>
+		 </select>
+		 <input type="submit" class="submit" value="Search">
+</div>
+      <div id="tabs-2">
+        <input placeholder="Where to?">
+        <input type="date">
+        <input type="date">
+		 <select>
+		   <option value="0">Number of Guests</option>
+		   <option value="1">1</option>
+		   <option value="2">2</option>
+		   <option value="3">3</option>
+		   <option value="4">4</option>
+		 </select> 
+		  
+		  
+	    <input type="submit" class="submit" value="Search">  
+		  
+		</div>
+      <div id="tabs-3">
+        <input placeholder="Pick-up">
+        <input type="time">
+        <input placeholder="Drop-off">
+		 <input type="time">
+		  <select>
+		   <option value="0">Number of Car Seats</option>
+		   <option value="1">1</option>
+		   <option value="2">2</option>
+		   <option value="3">3</option>
+		 </select> 
+		  
+		  <input type="submit" class="submit" value="Search">  
+      </div>
+      <div id="tabs-4">
+        <input placeholder="Destination">
+        <input placeholder="Departure Date">
+        <input placeholder="Cruise Ship">
+		 <select>
+		   <option value="0">Number of Travelers</option>
+		   <option value="1">1</option>
+		   <option value="2">2</option>
+		   <option value="3">3</option>
+		   <option value="4">4</option>
+		 </select> 
+		  
+		  
+	    <input type="submit" class="submit" value="Search">   
+		  
+		  
+      </div>
+      <div id="tabs-5">
+        <input placeholder="Activities">
+        <input placeholder="Museums">
+<input placeholder="Other Options">
+		<input type="date">
+		 <input type="submit" class="submit" value="Search">   
+      </div>
+    </div>
+  </main>
+<footer><p>© 2023, Valeria Jalil. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p></footer>
+</wrapper>
+<script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+</script>
+</body>
+</html>
