@@ -1,0 +1,11 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+body wrapper {
+    width: 1366px;
+    margin: 0 auto;
+    display: block;
+    background-color: #000000;
+}
