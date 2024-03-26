@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="198.1" height="49.29" viewBox="0 0 198.1 49.29">
+  <title>Asset 13</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="playlayer">
+      <g>
+        <rect id="play-button" width="198.1" height="39.56" rx="19.78" ry="19.78" fill="#8c113d"/>
+        <text transform="translate(68.12 30.87)" font-size="30" fill="#8c113d" font-family="OriyaSangamMN-Bold, Oriya Sangam MN" font-weight="700">PL<tspan x="29.67" y="0" letter-spacing="-0.07em">A</tspan><tspan x="44.61" y="0" letter-spacing="0em">Y</tspan></text>
+      </g>
+      <g>
+        <rect id="play-button-2" data-name="play-button" width="198.1" height="39.56" rx="19.78" ry="19.78" fill="#600823"/>
+        <text transform="translate(68.12 30.87)" font-size="30" fill="#fff" font-family="OriyaSangamMN-Bold, Oriya Sangam MN" font-weight="700">PL<tspan x="29.67" y="0" letter-spacing="-0.07em">A</tspan><tspan x="44.61" y="0" letter-spacing="0em">Y</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

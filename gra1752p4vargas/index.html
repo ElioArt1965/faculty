@@ -1,0 +1,1066 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SVG Animations | &copy; 2019, Kelley Vargas</title>
+<style type="text/css">
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #ccc;
+}
+wrapper {
+	width: 1024px;
+	margin: 0 auto;
+	display: block;
+	background-color: #fff;
+	text-align: center;
+	background-image: url(background.jpg);
+	background-position: 0% 100px;
+}
+header {
+	height: 100px;
+	font-size: 65px;
+	font-style: italic;
+	background-color: #6887A9;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+svg {
+	width: 1024px;
+	height: 768px;
+}
+#Wheel {
+	animation: spining infinite linear 10s;
+}
+	@keyframes spining {
+		0%{
+		transform: rotate(0deg);
+		transform-origin: 50% 45%; 
+		}
+		100%{
+		transform: rotate(360deg);
+		transform-origin: 50% 45%; 
+		}
+	}
+	#cart1{
+		animation: cart1spin infinite linear reverse 10s;
+	}
+	@keyframes cart1spin {
+		0%{
+		transform: rotate(0deg);
+		transform-origin: 52% 2%;
+		}
+		100%{
+		transform: rotate(360deg);
+		transform-origin: 52% 2%;	
+		}
+	}
+	#cart2{
+		animation: cart2spin infinite linear reverse 10s;
+	}
+	@keyframes cart2spin {
+		0%{
+		transform: rotate(0deg);
+		transform-origin: 66% 69%;
+		}
+		100%{
+		transform: rotate(360deg);
+		transform-origin: 66% 69%;	
+		}
+	}
+	#cart3{
+		animation: cart3spin infinite linear reverse 10s;
+	}
+	@keyframes cart3spin {
+		0%{
+		transform: rotate(0deg);
+		transform-origin: 75% 54%;
+		}
+		100%{
+		transform: rotate(360deg);
+		transform-origin: 75% 54%;	
+		}
+	}
+		#cart4 {
+		animation: cart4spin infinite linear reverse 10s;
+	}
+	@keyframes cart4spin {
+		0%{
+		transform: rotate(0deg);
+		transform-origin: 78% 39%;
+		}
+		100%{
+		transform: rotate(360deg);
+		transform-origin: 78% 39%;		
+	}
+	}
+	#cart5{
+		animation: cart5spin infinite linear reverse 10s;
+	}
+	@keyframes cart5spin {
+		0%{
+		transform: rotate(0deg);
+		transform-origin: 74% 21%;
+		}
+		100%{
+		transform: rotate(360deg);
+		transform-origin: 74% 21%;	
+		}
+	}
+	#cart6{
+		animation: cart6spin infinite linear reverse 10s;
+	}	
+	@keyframes cart6spin {
+		0%{
+		transform: rotate(0deg);
+		transform-origin: 65% 7%;
+		}
+		100%{
+		transform: rotate(360deg);
+		transform-origin: 65% 7%;	
+		}
+	}
+	#cart7{
+		animation: cart7spin infinite linear reverse 10s;
+	}	
+	@keyframes cart7spin {
+		0%{
+		transform: rotate(0deg);
+		transform-origin: 38% 6%;
+		}
+		100%{
+		transform: rotate(360deg);
+		transform-origin: 38% 6%;	
+		}
+	}
+	#cart8{
+		animation: cart8spin infinite linear reverse 10s;
+	}
+	@keyframes cart8spin {
+		0%{
+		transform: rotate(0deg);
+		transform-origin: 28% 19%;
+		}
+		100%{
+		transform: rotate(360deg);
+		transform-origin: 28% 19%;	
+		}
+	}
+#cart9 {
+	   animation: cart9spin infinite linear reverse 10s;
+	}
+	@keyframes cart9spin {
+		0%{
+		transform: rotate(0deg);
+		transform-origin: 24% 37%;
+		}
+		100%{
+		transform: rotate(360deg);
+		transform-origin: 24% 37%;	
+}
+	}
+#cart10{
+			animation: cart10spin infinite linear reverse 10s;
+	}
+	@keyframes cart10spin {
+		0%{
+		transform: rotate(0deg);
+		transform-origin: 27% 55%;
+		}
+		100%{
+		transform: rotate(360deg);
+		transform-origin: 27% 55%;	
+		}	
+	}
+#cart11{
+			animation: cart11spin infinite linear reverse 10s;
+	}
+	@keyframes cart11spin {
+		0%{
+		transform: rotate(0deg);
+		transform-origin: 37% 68%;
+		}
+		100%{
+		transform: rotate(360deg);
+		transform-origin: 37% 68%;	
+		}	
+	}
+#cart12{
+			animation: cart12spin infinite linear reverse 10s;
+	}
+#jumpingball {
+	animation: bounce infinite linear 1s;
+}
+	@keyframes bounce {
+		0%{
+			transform:translateY(-50px);
+		}
+		50% {
+			transform:translateY(0px);
+		}
+		100%{
+			transform:translateY(-50px);
+		}
+	}
+	@keyframes cart12spin {
+		0%{
+		transform: rotate(0deg);
+		transform-origin: 51% 74%;
+		}
+		100%{
+		transform: rotate(360deg);
+		transform-origin: 51% 74%;	
+		}	
+}
+footer {
+	background-color: #3B8545;
+}
+#rotatemonkey {
+	animation: cycle infinite linear 3s;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}	@keyframes cycle {
+		0%{
+			transform:rotate(0deg);
+			transform-origin: 91% 75%;
+		}
+
+		100%{
+			transform:rotate(360deg);
+			transform-origin: 91% 75%;
+		}
+	}
+</style>
+</head>
+
+<body>
+<wrapper>
+  <header>Visit the Ferrris Wheel at Zoo Miami</header>
+  <svg xmlns="http://www.w3.org/2000/svg" width="917" height="734.53" viewBox="0 0 917 734.53">
+    <title>circusMod4</title>
+    <g id="ferriswheel">
+      <polygon points="445.87 325.86 292.5 728.69 313.97 728.69 445.87 360.86 460.18 423.86 460.18 383.86 452 336.86 456.09 325.86 445.87 325.86" fill="#e1bb05"/>
+      <polygon points="467.86 381.86 467.86 413.69 481.14 354.69 610.14 728.69 632.14 728.69 479.14 325.86 467.86 325.86 467.86 362.86 467.86 381.86" fill="#e1bb05"/>
+    </g>
+    <g id="Wheel">
+      <polygon points="514.21 290.64 581.64 285.95 620.18 286.54 525.15 301.54 510.21 298.79 514.21 290.64" fill="#e1bb05"/>
+      <polygon points="513.63 311.97 566.77 338.52 595.33 356.18 515.81 325.1 506.13 316.35 513.63 311.97" fill="#e1bb05"/>
+      <circle cx="473.42" cy="9.69" r="8.19" fill="#62b7cb" stroke="#1e1c1b" stroke-miterlimit="10" stroke-width="3"/>
+      <circle cx="322.83" cy="50.38" r="8.19" fill="#62b7cb" stroke="#1e1c1b" stroke-miterlimit="10" stroke-width="3"/>
+      <circle cx="604.58" cy="51.86" r="8.19" fill="#62b7cb" stroke="#1e1c1b" stroke-miterlimit="10" stroke-width="3"/>
+      <circle cx="687.2" cy="155.82" r="8.19" fill="#62b7cb" stroke="#1e1c1b" stroke-miterlimit="10" stroke-width="3"/>
+      <circle cx="710.66" cy="412.4" r="8.19" fill="#62b7cb" stroke="#1e1c1b" stroke-miterlimit="10" stroke-width="3"/>
+      <circle cx="604.58" cy="519.09" r="8.19" fill="#62b7cb" stroke="#1e1c1b" stroke-miterlimit="10" stroke-width="3"/>
+      <circle cx="229.68" cy="139.35" r="8.19" fill="#62b7cb" stroke="#1e1c1b" stroke-miterlimit="10" stroke-width="3"/>
+      <circle cx="180" cy="279.69" r="8.19" fill="#62b7cb" stroke="#1e1c1b" stroke-miterlimit="10" stroke-width="3"/>
+      <circle cx="212.5" cy="420.59" r="8.19" fill="#62b7cb" stroke="#1e1c1b" stroke-miterlimit="10" stroke-width="3"/>
+      <circle cx="321.5" cy="524.53" r="8.19" fill="#62b7cb" stroke="#1e1c1b" stroke-miterlimit="10" stroke-width="3"/>
+      <circle cx="734.83" cy="292.87" r="8.19" fill="#62b7cb" stroke="#1e1c1b" stroke-miterlimit="10" stroke-width="3"/>
+      <circle cx="460.52" cy="560.61" r="8.19" fill="#62b7cb" stroke="#1e1c1b" stroke-miterlimit="10" stroke-width="3"/>
+      <ellipse cx="460.18" cy="284.11" rx="272" ry="267.85" fill="none" stroke="#c97100" stroke-miterlimit="10" stroke-width="7"/>
+      <polygon points="416.62 326.21 381.09 403.84 376.24 424.46 424.4 334 416.62 326.21" fill="#e1bb05"/>
+      <polygon points="408.98 296.06 335.66 339.82 319.97 354.06 410.96 306.88 408.98 296.06" fill="#e1bb05"/>
+      <polygon points="328.94 372.46 401.5 327.48 416.96 312.99 326.77 361.68 328.94 372.46" fill="#e1bb05"/>
+      <polygon points="503.5 283.02 503.5 289.55 731.54 289.55 731.68 283.02 503.5 283.02" fill="#935e99"/>
+      <polygon points="504.86 321.33 532.97 373.93 544.51 406.41 497.61 328.22 504.86 321.33" fill="#e1bb05"/>
+      <polygon points="510.62 290.84 578.03 338.67 534.66 318.74 501.62 295.84 510.62 290.84" fill="#e1bb05"/>
+      <polygon points="493.16 272.2 551.64 238.3 586.5 221.86 507.78 277.17 493.16 281.28 493.16 272.2" fill="#e1bb05"/>
+      <polygon points="428.59 258.07 371.63 231.56 340.31 213.77 423.74 244.39 434.93 253.31 428.59 258.07" fill="#e1bb05"/>
+      <polygon points="397.36 169.85 420.23 196.11 452.52 233.17 444.95 242.88 397.36 169.85" fill="#e1bb05"/>
+      <polygon points="598.84 280.63 564.11 283.36 515.12 287.2 511.83 275.35 598.84 280.63" fill="#e1bb05"/>
+      <polygon points="392.86 177.19 410.66 207.13 435.78 249.37 426.6 257.56 392.86 177.19" fill="#e1bb05"/>
+      <polygon points="340.46 226.6 371.43 242.54 415.13 265.03 411.69 276.85 340.46 226.6" fill="#e1bb05"/>
+      <polygon points="455.98 151.42 458.65 186.15 462.43 235.15 450.57 238.42 455.98 151.42" fill="#e1bb05"/>
+      <polygon points="468.04 157.97 472.87 192.47 479.68 241.14 468.04 245.14 468.04 157.97" fill="#e1bb05"/>
+      <path d="M595.94,167.34l-45.33,88,14.4,4.34,23.42-57.1Z" transform="translate(-63.5 -7.14)" fill="#e1bb05"/>
+      <polygon points="342.02 284.12 390.43 270.01 421.65 271.8 409.91 281.14 342.02 284.12" fill="#e1bb05"/>
+      <polygon points="416.27 285.66 309.5 283.58 376.66 294.63 420.21 296.63 416.27 285.66" fill="#e1bb05"/>
+      <polygon points="432.5 318.86 442.5 325.86 334.5 527.28 325.5 511.5 432.5 318.86" fill="#935e99"/>
+      <polygon points="452.5 325.86 467.86 325.86 467.86 551.96 456.5 551.96 452.5 325.86" fill="#935e99"/>
+      <polygon points="494.09 314.76 479.14 325.86 594.5 519.69 606.75 513.61 494.09 314.76" fill="#935e99"/>
+      <polygon points="503.5 298.53 498.5 306.69 705.35 412.4 710.66 402.43 503.5 298.53" fill="#935e99"/>
+      <polygon points="494.5 260.19 500.5 268.86 696.17 159.53 690.17 150.53 494.5 260.19" fill="#935e99"/>
+      <polygon points="484.83 252.53 593.5 60.19 583.83 51.86 475.83 245.66 484.83 252.53" fill="#935e99"/>
+      <polygon points="456.79 245.66 467.86 244.86 467.86 22.53 456.79 22.53 456.79 245.66" fill="#935e99"/>
+      <polygon points="437.99 250.78 446.19 245.53 328.52 50.38 317.5 56.87 437.99 250.78" fill="#935e99"/>
+      <polygon points="469.5 129.53 532.09 144.71 529.61 149.17 467.86 136.19 469.5 129.53" fill="#935e99"/>
+      <polygon points="542.94 149.68 599.62 201.28 593.5 204.71 540.05 154.79 542.94 149.68" fill="#935e99"/>
+      <polygon points="604.58 210.7 599.62 213.95 615.17 288.53 621.68 288.53 604.58 210.7" fill="#935e99"/>
+      <polygon points="615.17 288.53 621.68 288.53 604.58 350.53 599.62 346.74 615.17 288.53" fill="#935e99"/>
+      <polygon points="595.33 356.18 599.62 358.37 550.91 415.05 547.26 408.62 595.33 356.18" fill="#935e99"/>
+      <polygon points="517.83 423.07 533.51 417.23 536.53 423.07 520.17 428.86 517.83 423.07" fill="#935e99"/>
+      <polygon points="465.83 438.19 505.8 426.2 507.87 432.2 467.86 442.86 465.83 438.19" fill="#935e99"/>
+      <polygon points="419.5 428.86 454.4 437.18 454.4 443.86 417.83 434.53 419.5 428.86" fill="#935e99"/>
+      <polygon points="379.64 423.36 404.86 427.27 401.81 431.22 377.32 427.29 379.64 423.36" fill="#935e99"/>
+      <polygon points="327.17 363.53 321.5 367.53 379.5 421.68 384.5 415.05 327.17 363.53" fill="#935e99"/>
+      <polygon points="419.27 300.53 220.69 409.9 226.28 420.59 424.17 311.27 419.27 300.53" fill="#935e99"/>
+      <polygon points="419.5 276.06 188.18 277.35 188.18 285.64 417.05 285.64 419.5 276.06" fill="#935e99"/>
+      <polygon points="426.83 258.78 420.95 268.86 216.69 163.24 222.57 152.99 426.83 258.78" fill="#935e99"/>
+      <polygon points="298.83 279.69 304.5 279.69 321.5 361.19 315.59 367.53 298.83 279.69" fill="#935e99"/>
+      <polygon points="298.83 277.19 316.6 214.98 321.5 217.51 305.5 279.69 298.83 277.19" fill="#935e99"/>
+      <polygon points="322.83 204.71 379.64 152.19 381.83 157.69 327.17 209.69 322.83 204.71" fill="#935e99"/>
+      <polygon points="389.23 147.35 456.5 129.53 456.5 135.53 392.49 152.99 389.23 147.35" fill="#935e99"/>
+      <circle cx="460.56" cy="290.11" r="59" fill="#d00000"/>
+      <circle cx="460.28" cy="290.11" r="38.05" fill="#0160b1"/>
+      <polygon points="482.46 319.12 463.34 311.31 446.06 322.63 447.58 302.03 431.47 289.09 451.54 284.17 458.86 264.86 469.74 282.42 490.37 283.42 477.03 299.19 482.46 319.12" fill="#dfbd01"/>
+      <g id="cart12">
+        <g id="Layer_247" data-name="Layer 247">
+          <circle cx="456.79" cy="616.33" r="50.36" fill="#d00000"/>
+        </g>
+        <g id="Layer_246" data-name="Layer 246">
+          <path d="M482.66,614h75.27c-1.34-22.9-22.81-36.16-37.64-33.33C500.35,582.36,489.05,595.06,482.66,614Z" transform="translate(-63.5 -7.14)" fill="#fff"/>
+        </g>
+        <g id="Layer_245" data-name="Layer 245">
+          <path d="M521.83,623.47v0Z" transform="translate(-63.5 -7.14)" fill="#1c1a17"/>
+        </g>
+        <g id="Layer_244" data-name="Layer 244">
+          <circle cx="437.55" cy="620.42" r="4.09" fill="#eacf0c"/>
+        </g>
+        <g id="Layer_243" data-name="Layer 243">
+          <circle cx="477.81" cy="620.42" r="4.09" fill="#eacf0c"/>
+        </g>
+        <g id="Layer_242" data-name="Layer 242">
+          <path d="M477.53,647.41h85.55q-.21,5.43-6.29,10.86H485.08Q477.12,652.84,477.53,647.41Z" transform="translate(-63.5 -7.14)" fill="#f4d916"/>
+        </g>
+        <g id="Layer_241" data-name="Layer 241">
+          <polygon points="436.94 651.12 433.34 649.29 429.8 651.22 430.42 647.24 427.5 644.46 431.48 643.82 433.21 640.18 435.05 643.77 439.05 644.3 436.2 647.15 436.94 651.12" fill="#42aeca"/>
+        </g>
+        <g id="Layer_240" data-name="Layer 240">
+          <polygon points="452.91 651.12 449.31 649.29 445.76 651.22 446.39 647.24 443.46 644.46 447.44 643.82 449.18 640.18 451.02 643.77 455.02 644.3 452.17 647.15 452.91 651.12" fill="#42aeca"/>
+        </g>
+        <g id="Layer_239" data-name="Layer 239">
+          <polygon points="473.76 651.12 470.17 649.29 466.62 651.22 467.25 647.24 464.32 644.46 468.3 643.82 470.04 640.18 471.87 643.77 475.87 644.3 473.02 647.15 473.76 651.12" fill="#42aeca"/>
+        </g>
+        <g id="Layer_238" data-name="Layer 238">
+          <polygon points="492.96 651.12 489.36 649.29 485.82 651.22 486.44 647.24 483.52 644.46 487.5 643.82 489.23 640.18 491.07 643.77 495.07 644.3 492.22 647.15 492.96 651.12" fill="#42aeca"/>
+        </g>
+        <g id="Layer_237" data-name="Layer 237">
+          <rect x="427.08" y="606.88" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_236" data-name="Layer 236">
+          <rect x="435.3" y="606.88" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_235" data-name="Layer 235">
+          <rect x="442.95" y="606.88" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_234" data-name="Layer 234">
+          <rect x="451.27" y="606.88" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_233" data-name="Layer 233">
+          <rect x="458.83" y="606.88" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_232" data-name="Layer 232">
+          <rect x="467.29" y="606.88" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_231" data-name="Layer 231">
+          <rect x="475.87" y="606.88" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_230" data-name="Layer 230">
+          <rect x="483.52" y="606.88" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_229" data-name="Layer 229">
+          <rect x="419.16" y="606.88" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+      </g>
+      <g id="cart11">
+        <g id="Layer_227" data-name="Layer 227">
+          <circle cx="298.06" cy="565.96" r="50.36" fill="#d00000"/>
+        </g>
+        <g id="Layer_226" data-name="Layer 226">
+          <path d="M325.52,558.72l74.59,10c1.73-22.87-17.78-38.88-32.85-38C347.28,529.71,334.38,540.77,325.52,558.72Z" transform="translate(-63.5 -7.14)" fill="#fff"/>
+        </g>
+        <g id="Layer_225" data-name="Layer 225">
+          <path d="M363.08,573.31l-4.27,31.75Z" transform="translate(-63.5 -7.14)" fill="#1c1a17"/>
+        </g>
+        <g id="Layer_224" data-name="Layer 224">
+          <circle cx="278.44" cy="567.45" r="4.09" fill="#eacf0c"/>
+        </g>
+        <g id="Layer_223" data-name="Layer 223">
+          <circle cx="318.34" cy="572.82" r="4.09" fill="#eacf0c"/>
+        </g>
+        <g id="Layer_222" data-name="Layer 222">
+          <path d="M316,591.12l84.79,11.42q-.94,5.36-7.69,9.93L322,602.9Q314.84,596.45,316,591.12Z" transform="translate(-63.5 -7.14)" fill="#f4d916"/>
+        </g>
+        <g id="Layer_221" data-name="Layer 221">
+          <polygon points="273.74 597.79 270.42 595.5 266.65 596.94 267.8 593.08 265.26 589.93 269.3 589.84 271.5 586.46 272.85 590.26 276.74 591.31 273.54 593.76 273.74 597.79" fill="#42aeca"/>
+        </g>
+        <g id="Layer_220" data-name="Layer 220">
+          <polygon points="289.56 599.92 286.24 597.63 282.47 599.07 283.62 595.21 281.09 592.07 285.12 591.97 287.33 588.59 288.67 592.39 292.56 593.44 289.36 595.9 289.56 599.92" fill="#42aeca"/>
+        </g>
+        <g id="Layer_219" data-name="Layer 219">
+          <polygon points="310.23 602.71 306.91 600.42 303.14 601.86 304.29 597.99 301.76 594.85 305.79 594.75 308 591.37 309.34 595.17 313.24 596.23 310.03 598.68 310.23 602.71" fill="#42aeca"/>
+        </g>
+        <g id="Layer_218" data-name="Layer 218">
+          <polygon points="329.26 605.27 325.94 602.98 322.17 604.42 323.32 600.55 320.79 597.41 324.82 597.31 327.02 593.93 328.37 597.74 332.26 598.79 329.06 601.24 329.26 605.27" fill="#42aeca"/>
+        </g>
+        <g id="Layer_217" data-name="Layer 217">
+          <rect x="333.11" y="560.26" width="7.5" height="3.33" rx="1.67" ry="1.67" transform="translate(14.49 -47.06) rotate(7.67)" fill="#42aeca"/>
+        </g>
+        <g id="Layer_216" data-name="Layer 216">
+          <rect x="341.26" y="561.36" width="7.5" height="3.33" rx="1.67" ry="1.67" transform="translate(14.71 -48.14) rotate(7.67)" fill="#42aeca"/>
+        </g>
+        <g id="Layer_215" data-name="Layer 215">
+          <rect x="348.84" y="562.38" width="7.5" height="3.33" rx="1.67" ry="1.67" transform="translate(14.91 -49.14) rotate(7.67)" fill="#42aeca"/>
+        </g>
+        <g id="Layer_214" data-name="Layer 214">
+          <rect x="357.08" y="563.49" width="7.5" height="3.33" rx="1.67" ry="1.67" transform="translate(15.13 -50.23) rotate(7.67)" fill="#42aeca"/>
+        </g>
+        <g id="Layer_213" data-name="Layer 213">
+          <rect x="364.57" y="564.5" width="7.5" height="3.33" rx="1.67" ry="1.67" transform="translate(15.33 -51.22) rotate(7.67)" fill="#42aeca"/>
+        </g>
+        <g id="Layer_212" data-name="Layer 212">
+          <rect x="372.97" y="565.63" width="7.5" height="3.33" rx="1.67" ry="1.67" transform="translate(15.56 -52.33) rotate(7.67)" fill="#42aeca"/>
+        </g>
+        <g id="Layer_211" data-name="Layer 211">
+          <rect x="381.47" y="566.77" width="7.5" height="3.33" rx="1.67" ry="1.67" transform="translate(15.79 -53.46) rotate(7.67)" fill="#42aeca"/>
+        </g>
+        <g id="Layer_210" data-name="Layer 210">
+          <rect x="389.04" y="567.79" width="7.5" height="3.33" rx="1.67" ry="1.67" transform="translate(15.99 -54.46) rotate(7.67)" fill="#42aeca"/>
+        </g>
+        <g id="Layer_209" data-name="Layer 209">
+          <rect x="325.26" y="559.21" width="7.5" height="3.33" rx="1.67" ry="1.67" transform="translate(14.27 -46.02) rotate(7.67)" fill="#42aeca"/>
+        </g>
+      </g>
+      <g id="cart10">
+        <g id="Layer_207" data-name="Layer 207">
+          <circle cx="208.86" cy="469.01" r="50.36" fill="#d00000"/>
+        </g>
+        <g id="Layer_206" data-name="Layer 206">
+          <path d="M235.17,465.08l75.2,3.26c-.35-22.94-21.23-37.11-36.16-34.93C254.21,434.22,242.37,446.41,235.17,465.08Z" transform="translate(-63.5 -7.14)" fill="#fff"/>
+        </g>
+        <g id="Layer_205" data-name="Layer 205">
+          <path d="M273.9,476.21l-1.39,32Z" transform="translate(-63.5 -7.14)" fill="#1c1a17"/>
+        </g>
+        <g id="Layer_204" data-name="Layer 204">
+          <circle cx="189.46" cy="472.26" r="4.09" fill="#eacf0c"/>
+        </g>
+        <g id="Layer_203" data-name="Layer 203">
+          <circle cx="229.68" cy="474" r="4.09" fill="#eacf0c"/>
+        </g>
+        <g id="Layer_202" data-name="Layer 202">
+          <path d="M228.6,498.22l85.47,3.7q-.45,5.41-6.75,10.58l-71.65-3.1Q227.95,503.63,228.6,498.22Z" transform="translate(-63.5 -7.14)" fill="#f4d916"/>
+        </g>
+        <g id="Layer_201" data-name="Layer 201">
+          <polygon points="187.52 502.91 184 500.93 180.38 502.7 181.18 498.75 178.37 495.85 182.38 495.38 184.27 491.82 185.95 495.49 189.92 496.18 186.95 498.91 187.52 502.91" fill="#42aeca"/>
+        </g>
+        <g id="Layer_200" data-name="Layer 200">
+          <polygon points="203.47 503.6 199.96 501.62 196.33 503.39 197.13 499.44 194.32 496.54 198.33 496.07 200.22 492.51 201.9 496.18 205.87 496.87 202.9 499.61 203.47 503.6" fill="#42aeca"/>
+        </g>
+        <g id="Layer_199" data-name="Layer 199">
+          <polygon points="224.31 504.5 220.79 502.52 217.17 504.29 217.97 500.34 215.16 497.44 219.17 496.98 221.06 493.41 222.74 497.08 226.71 497.78 223.74 500.51 224.31 504.5" fill="#42aeca"/>
+        </g>
+        <g id="Layer_198" data-name="Layer 198">
+          <polygon points="243.49 505.33 239.97 503.35 236.35 505.12 237.15 501.17 234.34 498.27 238.35 497.81 240.24 494.24 241.92 497.91 245.89 498.61 242.92 501.34 243.49 505.33" fill="#42aeca"/>
+        </g>
+        <g id="Layer_197" data-name="Layer 197">
+          <rect x="243" y="465.59" width="7.5" height="3.33" rx="1.67" ry="1.67" transform="translate(-43.06 -17.37) rotate(2.48)" fill="#42aeca"/>
+        </g>
+        <g id="Layer_196" data-name="Layer 196">
+          <rect x="251.22" y="465.94" width="7.5" height="3.33" rx="1.67" ry="1.67" transform="translate(-43.04 -17.73) rotate(2.48)" fill="#42aeca"/>
+        </g>
+        <g id="Layer_195" data-name="Layer 195">
+          <rect x="258.86" y="466.27" width="7.5" height="3.33" rx="1.67" ry="1.67" transform="translate(-43.02 -18.06) rotate(2.48)" fill="#42aeca"/>
+        </g>
+        <g id="Layer_194" data-name="Layer 194">
+          <rect x="267.17" y="466.63" width="7.5" height="3.33" rx="1.67" ry="1.67" transform="translate(-42.99 -18.42) rotate(2.48)" fill="#42aeca"/>
+        </g>
+        <g id="Layer_193" data-name="Layer 193">
+          <rect x="274.72" y="466.96" width="7.5" height="3.33" rx="1.67" ry="1.67" transform="translate(-42.97 -18.75) rotate(2.48)" fill="#42aeca"/>
+        </g>
+        <g id="Layer_192" data-name="Layer 192">
+          <rect x="283.18" y="467.33" width="7.5" height="3.33" rx="1.67" ry="1.67" transform="translate(-42.95 -19.11) rotate(2.48)" fill="#42aeca"/>
+        </g>
+        <g id="Layer_191" data-name="Layer 191">
+          <rect x="291.75" y="467.7" width="7.5" height="3.33" rx="1.67" ry="1.67" transform="translate(-42.92 -19.48) rotate(2.48)" fill="#42aeca"/>
+        </g>
+        <g id="Layer_190" data-name="Layer 190">
+          <rect x="299.39" y="468.03" width="7.5" height="3.33" rx="1.67" ry="1.67" transform="translate(-42.9 -19.81) rotate(2.48)" fill="#42aeca"/>
+        </g>
+        <g id="Layer_189" data-name="Layer 189">
+          <rect x="235.09" y="465.25" width="7.5" height="3.33" rx="1.67" ry="1.67" transform="translate(-43.08 -17.03) rotate(2.48)" fill="#42aeca"/>
+        </g>
+      </g>
+      <g id="cart9">
+        <g id="Layer_187" data-name="Layer 187">
+          <circle cx="177.2" cy="333.78" r="50.36" fill="#d00000"/>
+        </g>
+        <g id="Layer_186" data-name="Layer 186">
+          <path d="M203.44,330.11l75.21,2.74c-.5-22.94-21.48-37-36.39-34.68C222.27,299.11,210.51,311.38,203.44,330.11Z" transform="translate(-63.5 -7.14)" fill="#fff"/>
+        </g>
+        <g id="Layer_185" data-name="Layer 185">
+          <path d="M242.24,341l-1.17,32Z" transform="translate(-63.5 -7.14)" fill="#1c1a17"/>
+        </g>
+        <g id="Layer_184" data-name="Layer 184">
+          <circle cx="157.83" cy="337.17" r="4.09" fill="#eacf0c"/>
+        </g>
+        <g id="Layer_183" data-name="Layer 183">
+          <circle cx="198.06" cy="338.63" r="4.09" fill="#eacf0c"/>
+        </g>
+        <g id="Layer_182" data-name="Layer 182">
+          <path d="M197.09,363.29l85.5,3.11q-.4,5.43-6.68,10.63l-71.67-2.61Q196.47,368.69,197.09,363.29Z" transform="translate(-63.5 -7.14)" fill="#f4d916"/>
+        </g>
+        <g id="Layer_181" data-name="Layer 181">
+          <polygon points="156.09 367.82 152.56 365.87 148.95 367.67 149.72 363.7 146.9 360.82 150.9 360.33 152.77 356.76 154.47 360.41 158.45 361.08 155.5 363.83 156.09 367.82" fill="#42aeca"/>
+        </g>
+        <g id="Layer_180" data-name="Layer 180">
+          <polygon points="172.05 368.4 168.52 366.45 164.91 368.25 165.68 364.29 162.85 361.41 166.86 360.92 168.72 357.34 170.43 360.99 174.41 361.66 171.46 364.41 172.05 368.4" fill="#42aeca"/>
+        </g>
+        <g id="Layer_179" data-name="Layer 179">
+          <polygon points="192.89 369.17 189.36 367.21 185.75 369.01 186.52 365.05 183.7 362.17 187.7 361.67 189.57 358.1 191.27 361.75 195.25 362.42 192.3 365.17 192.89 369.17" fill="#42aeca"/>
+        </g>
+        <g id="Layer_178" data-name="Layer 178">
+          <polygon points="212.08 369.86 208.55 367.91 204.94 369.7 205.71 365.75 202.88 362.87 206.89 362.37 208.75 358.8 210.46 362.45 214.44 363.12 211.48 365.87 212.08 369.86" fill="#42aeca"/>
+        </g>
+        <g id="Layer_177" data-name="Layer 177">
+          <rect x="211.29" y="330.53" width="7.5" height="3.33" rx="1.67" ry="1.67" transform="translate(-51.26 -14.75) rotate(2.09)" fill="#42aeca"/>
+        </g>
+        <g id="Layer_176" data-name="Layer 176">
+          <rect x="219.5" y="330.83" width="7.5" height="3.33" rx="1.67" ry="1.67" transform="translate(-51.24 -15.05) rotate(2.09)" fill="#42aeca"/>
+        </g>
+        <g id="Layer_175" data-name="Layer 175">
+          <rect x="227.15" y="331.11" width="7.5" height="3.33" rx="1.67" ry="1.67" transform="translate(-51.23 -15.33) rotate(2.09)" fill="#42aeca"/>
+        </g>
+        <g id="Layer_174" data-name="Layer 174">
+          <rect x="235.46" y="331.41" width="7.5" height="3.33" rx="1.67" ry="1.67" transform="translate(-51.21 -15.63) rotate(2.09)" fill="#42aeca"/>
+        </g>
+        <g id="Layer_173" data-name="Layer 173">
+          <rect x="243.01" y="331.69" width="7.5" height="3.33" rx="1.67" ry="1.67" transform="translate(-51.19 -15.91) rotate(2.09)" fill="#42aeca"/>
+        </g>
+        <g id="Layer_172" data-name="Layer 172">
+          <rect x="251.48" y="332" width="7.5" height="3.33" rx="1.67" ry="1.67" transform="translate(-51.18 -16.22) rotate(2.09)" fill="#42aeca"/>
+        </g>
+        <g id="Layer_171" data-name="Layer 171">
+          <rect x="260.05" y="332.31" width="7.5" height="3.33" rx="1.67" ry="1.67" transform="translate(-51.16 -16.53) rotate(2.09)" fill="#42aeca"/>
+        </g>
+        <g id="Layer_170" data-name="Layer 170">
+          <rect x="267.69" y="332.59" width="7.5" height="3.33" rx="1.67" ry="1.67" transform="translate(-51.15 -16.81) rotate(2.09)" fill="#42aeca"/>
+        </g>
+        <g id="Layer_169" data-name="Layer 169">
+          <rect x="203.37" y="330.24" width="7.5" height="3.33" rx="1.67" ry="1.67" transform="translate(-51.27 -14.46) rotate(2.09)" fill="#42aeca"/>
+        </g>
+      </g>
+      <g id="cart8">
+        <g id="Layer_167" data-name="Layer 167">
+          <circle cx="216.69" cy="192.48" r="50.36" fill="#d00000"/>
+        </g>
+        <g id="Layer_166" data-name="Layer 166">
+          <path d="M243,188.58l75.2,3.21c-.37-22.94-21.25-37.1-36.18-34.91C262,157.7,250.18,169.9,243,188.58Z" transform="translate(-63.5 -7.14)" fill="#fff"/>
+        </g>
+        <g id="Layer_165" data-name="Layer 165">
+          <path d="M281.72,199.68l-1.36,32Z" transform="translate(-63.5 -7.14)" fill="#1c1a17"/>
+        </g>
+        <g id="Layer_164" data-name="Layer 164">
+          <circle cx="197.29" cy="195.75" r="4.09" fill="#eacf0c"/>
+        </g>
+        <g id="Layer_163" data-name="Layer 163">
+          <circle cx="237.51" cy="197.46" r="4.09" fill="#eacf0c"/>
+        </g>
+        <g id="Layer_162" data-name="Layer 162">
+          <path d="M236.44,221.72l85.47,3.64c-.29,3.62-2.54,7.14-6.74,10.59l-71.65-3.06Q235.8,227.13,236.44,221.72Z" transform="translate(-63.5 -7.14)" fill="#f4d916"/>
+        </g>
+        <g id="Layer_161" data-name="Layer 161">
+          <polygon points="195.37 226.39 191.85 224.42 188.23 226.19 189.02 222.24 186.21 219.34 190.22 218.87 192.11 215.31 193.79 218.97 197.77 219.67 194.8 222.4 195.37 226.39" fill="#42aeca"/>
+        </g>
+        <g id="Layer_160" data-name="Layer 160">
+          <polygon points="211.32 227.07 207.8 225.1 204.18 226.87 204.97 222.92 202.17 220.02 206.17 219.55 208.06 215.99 209.74 219.65 213.72 220.35 210.75 223.08 211.32 227.07" fill="#42aeca"/>
+        </g>
+        <g id="Layer_159" data-name="Layer 159">
+          <polygon points="232.16 227.96 228.64 225.99 225.02 227.76 225.81 223.81 223 220.91 227.01 220.44 228.9 216.88 230.58 220.54 234.56 221.24 231.59 223.97 232.16 227.96" fill="#42aeca"/>
+        </g>
+        <g id="Layer_158" data-name="Layer 158">
+          <polygon points="251.34 228.78 247.82 226.8 244.2 228.58 244.99 224.62 242.19 221.73 246.19 221.26 248.08 217.69 249.76 221.36 253.74 222.05 250.77 224.79 251.34 228.78" fill="#42aeca"/>
+        </g>
+        <g id="Layer_157" data-name="Layer 157">
+          <rect x="250.83" y="189.08" width="7.5" height="3.33" rx="1.67" ry="1.67" transform="translate(-55.14 -17.82) rotate(2.44)" fill="#42aeca"/>
+        </g>
+        <g id="Layer_156" data-name="Layer 156">
+          <rect x="259.04" y="189.43" width="7.5" height="3.33" rx="1.67" ry="1.67" transform="translate(-55.12 -18.17) rotate(2.44)" fill="#42aeca"/>
+        </g>
+        <g id="Layer_155" data-name="Layer 155">
+          <rect x="266.68" y="189.75" width="7.5" height="3.33" rx="1.67" ry="1.67" transform="translate(-55.1 -18.49) rotate(2.44)" fill="#42aeca"/>
+        </g>
+        <g id="Layer_154" data-name="Layer 154">
+          <rect x="274.99" y="190.11" width="7.5" height="3.33" rx="1.67" ry="1.67" transform="translate(-55.07 -18.84) rotate(2.44)" fill="#42aeca"/>
+        </g>
+        <g id="Layer_153" data-name="Layer 153">
+          <rect x="282.54" y="190.43" width="7.5" height="3.33" rx="1.67" ry="1.67" transform="translate(-55.05 -19.17) rotate(2.44)" fill="#42aeca"/>
+        </g>
+        <g id="Layer_152" data-name="Layer 152">
+          <rect x="291.01" y="190.79" width="7.5" height="3.33" rx="1.67" ry="1.67" transform="translate(-55.03 -19.53) rotate(2.44)" fill="#42aeca"/>
+        </g>
+        <g id="Layer_151" data-name="Layer 151">
+          <rect x="299.58" y="191.16" width="7.5" height="3.33" rx="1.67" ry="1.67" transform="translate(-55.01 -19.89) rotate(2.44)" fill="#42aeca"/>
+        </g>
+        <g id="Layer_150" data-name="Layer 150">
+          <rect x="307.21" y="191.48" width="7.5" height="3.33" rx="1.67" ry="1.67" transform="translate(-54.99 -20.22) rotate(2.44)" fill="#42aeca"/>
+        </g>
+        <g id="Layer_149" data-name="Layer 149">
+          <rect x="242.91" y="188.74" width="7.5" height="3.33" rx="1.67" ry="1.67" transform="translate(-55.16 -17.48) rotate(2.44)" fill="#42aeca"/>
+        </g>
+      </g>
+      <g id="cart7">
+        <g id="Layer_147" data-name="Layer 147">
+          <circle cx="327.19" cy="102.62" r="50.36" fill="#d00000"/>
+        </g>
+        <g id="Layer_146" data-name="Layer 146">
+          <path d="M353.05,100.32h75.27C427,77.42,405.51,64.16,390.69,67,370.75,68.66,359.44,81.35,353.05,100.32Z" transform="translate(-63.5 -7.14)" fill="#fff"/>
+        </g>
+        <g id="Layer_145" data-name="Layer 145">
+          <path d="M392.23,109.77v0Z" transform="translate(-63.5 -7.14)" fill="#1c1a17"/>
+        </g>
+        <g id="Layer_144" data-name="Layer 144">
+          <circle cx="307.95" cy="106.72" r="4.09" fill="#eacf0c"/>
+        </g>
+        <g id="Layer_143" data-name="Layer 143">
+          <circle cx="348.21" cy="106.72" r="4.09" fill="#eacf0c"/>
+        </g>
+        <g id="Layer_142" data-name="Layer 142">
+          <path d="M347.92,133.71h85.55q-.21,5.43-6.29,10.86H355.47Q347.51,139.14,347.92,133.71Z" transform="translate(-63.5 -7.14)" fill="#f4d916"/>
+        </g>
+        <g id="Layer_141" data-name="Layer 141">
+          <polygon points="307.33 137.42 303.74 135.59 300.19 137.52 300.82 133.53 297.89 130.76 301.87 130.12 303.61 126.48 305.44 130.07 309.44 130.59 306.6 133.45 307.33 137.42" fill="#42aeca"/>
+        </g>
+        <g id="Layer_140" data-name="Layer 140">
+          <polygon points="323.3 137.42 319.7 135.59 316.16 137.52 316.78 133.53 313.86 130.76 317.84 130.12 319.57 126.48 321.41 130.07 325.41 130.59 322.56 133.45 323.3 137.42" fill="#42aeca"/>
+        </g>
+        <g id="Layer_139" data-name="Layer 139">
+          <polygon points="344.16 137.42 340.56 135.59 337.02 137.52 337.64 133.53 334.71 130.76 338.7 130.12 340.43 126.48 342.27 130.07 346.27 130.59 343.42 133.45 344.16 137.42" fill="#42aeca"/>
+        </g>
+        <g id="Layer_138" data-name="Layer 138">
+          <polygon points="363.36 137.42 359.76 135.59 356.21 137.52 356.84 133.53 353.91 130.76 357.89 130.12 359.63 126.48 361.46 130.07 365.47 130.59 362.62 133.45 363.36 137.42" fill="#42aeca"/>
+        </g>
+        <g id="Layer_137" data-name="Layer 137">
+          <rect x="297.47" y="93.18" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_136" data-name="Layer 136">
+          <rect x="305.69" y="93.18" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_135" data-name="Layer 135">
+          <rect x="313.35" y="93.18" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_134" data-name="Layer 134">
+          <rect x="321.66" y="93.18" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_133" data-name="Layer 133">
+          <rect x="329.22" y="93.18" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_132" data-name="Layer 132">
+          <rect x="337.69" y="93.18" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_131" data-name="Layer 131">
+          <rect x="346.27" y="93.18" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_130" data-name="Layer 130">
+          <rect x="353.91" y="93.18" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_129" data-name="Layer 129">
+          <rect x="289.55" y="93.18" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+      </g>
+      <g id="cart6">
+        <g id="Layer_127" data-name="Layer 127">
+          <circle cx="595.33" cy="102.07" r="50.36" fill="#d00000"/>
+        </g>
+        <g id="Layer_126" data-name="Layer 126">
+          <path d="M621.2,99.77h75.27c-1.35-22.9-22.81-36.16-37.64-33.34C638.89,68.11,627.59,80.8,621.2,99.77Z" transform="translate(-63.5 -7.14)" fill="#fff"/>
+        </g>
+        <g id="Layer_125" data-name="Layer 125">
+          <path d="M660.37,109.21v0Z" transform="translate(-63.5 -7.14)" fill="#1c1a17"/>
+        </g>
+        <g id="Layer_124" data-name="Layer 124">
+          <circle cx="576.09" cy="106.17" r="4.09" fill="#eacf0c"/>
+        </g>
+        <g id="Layer_123" data-name="Layer 123">
+          <circle cx="616.35" cy="106.17" r="4.09" fill="#eacf0c"/>
+        </g>
+        <g id="Layer_122" data-name="Layer 122">
+          <path d="M616.07,133.16h85.55q-.21,5.43-6.29,10.86H623.62Q615.64,138.59,616.07,133.16Z" transform="translate(-63.5 -7.14)" fill="#f4d916"/>
+        </g>
+        <g id="Layer_121" data-name="Layer 121">
+          <polygon points="575.48 136.87 571.88 135.04 568.34 136.97 568.96 132.98 566.03 130.21 570.02 129.57 571.75 125.93 573.59 129.52 577.59 130.04 574.74 132.9 575.48 136.87" fill="#42aeca"/>
+        </g>
+        <g id="Layer_120" data-name="Layer 120">
+          <polygon points="591.45 136.87 587.85 135.04 584.3 136.97 584.93 132.98 582 130.21 585.98 129.57 587.72 125.93 589.55 129.52 593.56 130.04 590.71 132.9 591.45 136.87" fill="#42aeca"/>
+        </g>
+        <g id="Layer_119" data-name="Layer 119">
+          <polygon points="612.3 136.87 608.71 135.04 605.16 136.97 605.79 132.98 602.86 130.21 606.84 129.57 608.58 125.93 610.41 129.52 614.41 130.04 611.57 132.9 612.3 136.87" fill="#42aeca"/>
+        </g>
+        <g id="Layer_118" data-name="Layer 118">
+          <polygon points="631.5 136.87 627.9 135.04 624.36 136.97 624.98 132.98 622.05 130.21 626.04 129.57 627.77 125.93 629.61 129.52 633.61 130.04 630.76 132.9 631.5 136.87" fill="#42aeca"/>
+        </g>
+        <g id="Layer_117" data-name="Layer 117">
+          <rect x="565.62" y="92.63" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_116" data-name="Layer 116">
+          <rect x="573.84" y="92.63" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_115" data-name="Layer 115">
+          <rect x="581.49" y="92.63" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_114" data-name="Layer 114">
+          <rect x="589.81" y="92.63" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_113" data-name="Layer 113">
+          <rect x="597.36" y="92.63" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_112" data-name="Layer 112">
+          <rect x="605.83" y="92.63" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_111" data-name="Layer 111">
+          <rect x="614.41" y="92.63" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_110" data-name="Layer 110">
+          <rect x="622.06" y="92.63" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_109" data-name="Layer 109">
+          <rect x="557.7" y="92.63" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+      </g>
+      <g id="cart5">
+        <g id="Layer_107" data-name="Layer 107">
+          <circle cx="690.27" cy="206.36" r="50.36" fill="#d00000"/>
+        </g>
+        <g id="Layer_106" data-name="Layer 106">
+          <path d="M716.13,204.06H791.4c-1.34-22.9-22.81-36.16-37.63-33.33C733.83,172.4,722.52,185.09,716.13,204.06Z" transform="translate(-63.5 -7.14)" fill="#fff"/>
+        </g>
+        <g id="Layer_105" data-name="Layer 105">
+          <path d="M755.31,213.5v0Z" transform="translate(-63.5 -7.14)" fill="#1c1a17"/>
+        </g>
+        <g id="Layer_104" data-name="Layer 104">
+          <circle cx="671.03" cy="210.46" r="4.09" fill="#eacf0c"/>
+        </g>
+        <g id="Layer_103" data-name="Layer 103">
+          <circle cx="711.29" cy="210.46" r="4.09" fill="#eacf0c"/>
+        </g>
+        <g id="Layer_102" data-name="Layer 102">
+          <path d="M711,237.45h85.56q-.21,5.43-6.3,10.86H718.55Q710.59,242.88,711,237.45Z" transform="translate(-63.5 -7.14)" fill="#f4d916"/>
+        </g>
+        <g id="Layer_101" data-name="Layer 101">
+          <polygon points="670.41 241.16 666.82 239.33 663.27 241.26 663.9 237.27 660.97 234.5 664.95 233.86 666.69 230.22 668.52 233.81 672.52 234.33 669.68 237.19 670.41 241.16" fill="#42aeca"/>
+        </g>
+        <g id="Layer_100" data-name="Layer 100">
+          <polygon points="686.38 241.16 682.78 239.33 679.24 241.26 679.87 237.27 676.94 234.5 680.92 233.86 682.65 230.22 684.49 233.81 688.49 234.33 685.64 237.19 686.38 241.16" fill="#42aeca"/>
+        </g>
+        <g id="Layer_99" data-name="Layer 99">
+          <polygon points="707.24 241.16 703.64 239.33 700.1 241.26 700.72 237.27 697.79 234.5 701.78 233.86 703.51 230.22 705.35 233.81 709.35 234.33 706.5 237.19 707.24 241.16" fill="#42aeca"/>
+        </g>
+        <g id="Layer_98" data-name="Layer 98">
+          <polygon points="726.44 241.16 722.84 239.33 719.29 241.26 719.92 237.27 716.99 234.5 720.98 233.86 722.71 230.22 724.55 233.81 728.55 234.33 725.7 237.19 726.44 241.16" fill="#42aeca"/>
+        </g>
+        <g id="Layer_97" data-name="Layer 97">
+          <rect x="660.55" y="196.92" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_96" data-name="Layer 96">
+          <rect x="668.78" y="196.92" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_95" data-name="Layer 95">
+          <rect x="676.43" y="196.92" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_94" data-name="Layer 94">
+          <rect x="684.74" y="196.92" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_93" data-name="Layer 93">
+          <rect x="692.3" y="196.92" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_92" data-name="Layer 92">
+          <rect x="700.77" y="196.92" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_91" data-name="Layer 91">
+          <rect x="709.35" y="196.92" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_90" data-name="Layer 90">
+          <rect x="716.99" y="196.92" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_89" data-name="Layer 89">
+          <rect x="652.63" y="196.92" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+      </g>
+      <g id="cart4">
+        <g id="Layer_87" data-name="Layer 87">
+          <circle cx="727.31" cy="343.23" r="50.36" fill="#d00000"/>
+        </g>
+        <g id="Layer_86" data-name="Layer 86">
+          <path d="M753.18,340.93h75.26c-1.34-22.91-22.81-36.16-37.63-33.34C770.87,309.27,759.56,322,753.18,340.93Z" transform="translate(-63.5 -7.14)" fill="#fff"/>
+        </g>
+        <g id="Layer_85" data-name="Layer 85">
+          <path d="M792.35,350.37v0Z" transform="translate(-63.5 -7.14)" fill="#1c1a17"/>
+        </g>
+        <g id="Layer_84" data-name="Layer 84">
+          <circle cx="708.07" cy="347.32" r="4.09" fill="#eacf0c"/>
+        </g>
+        <g id="Layer_83" data-name="Layer 83">
+          <circle cx="748.33" cy="347.32" r="4.09" fill="#eacf0c"/>
+        </g>
+        <g id="Layer_82" data-name="Layer 82">
+          <path d="M748,374.31H833.6q-.21,5.43-6.29,10.87H755.59Q747.63,379.74,748,374.31Z" transform="translate(-63.5 -7.14)" fill="#f4d916"/>
+        </g>
+        <g id="Layer_81" data-name="Layer 81">
+          <polygon points="707.46 378.02 703.86 376.2 700.31 378.12 700.94 374.14 698.01 371.36 702 370.73 703.73 367.08 705.57 370.68 709.57 371.2 706.72 374.06 707.46 378.02" fill="#42aeca"/>
+        </g>
+        <g id="Layer_80" data-name="Layer 80">
+          <polygon points="723.42 378.02 719.82 376.2 716.28 378.12 716.91 374.14 713.98 371.36 717.96 370.73 719.7 367.08 721.53 370.68 725.53 371.2 722.68 374.06 723.42 378.02" fill="#42aeca"/>
+        </g>
+        <g id="Layer_79" data-name="Layer 79">
+          <polygon points="744.28 378.02 740.68 376.2 737.14 378.12 737.76 374.14 734.84 371.36 738.82 370.73 740.55 367.08 742.39 370.68 746.39 371.2 743.54 374.06 744.28 378.02" fill="#42aeca"/>
+        </g>
+        <g id="Layer_78" data-name="Layer 78">
+          <polygon points="763.48 378.02 759.88 376.2 756.34 378.12 756.96 374.14 754.03 371.36 758.02 370.73 759.75 367.08 761.59 370.68 765.59 371.2 762.74 374.06 763.48 378.02" fill="#42aeca"/>
+        </g>
+        <g id="Layer_77" data-name="Layer 77">
+          <rect x="697.59" y="333.79" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_76" data-name="Layer 76">
+          <rect x="705.82" y="333.79" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_75" data-name="Layer 75">
+          <rect x="713.47" y="333.79" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_74" data-name="Layer 74">
+          <rect x="721.78" y="333.79" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_73" data-name="Layer 73">
+          <rect x="729.34" y="333.79" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_72" data-name="Layer 72">
+          <rect x="737.81" y="333.79" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_71" data-name="Layer 71">
+          <rect x="746.39" y="333.79" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_70" data-name="Layer 70">
+          <rect x="754.03" y="333.79" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_69" data-name="Layer 69">
+          <rect x="689.68" y="333.79" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+      </g>
+      <g id="cart3">
+        <g id="Layer_67" data-name="Layer 67">
+          <circle cx="705.79" cy="467.96" r="50.36" fill="#d00000"/>
+        </g>
+        <g id="Layer_66" data-name="Layer 66">
+          <path d="M731.66,465.65h75.27c-1.35-22.9-22.82-36.16-37.64-33.33C749.35,434,738,446.69,731.66,465.65Z" transform="translate(-63.5 -7.14)" fill="#fff"/>
+        </g>
+        <g id="Layer_65" data-name="Layer 65">
+          <path d="M770.83,475.1v0Z" transform="translate(-63.5 -7.14)" fill="#1c1a17"/>
+        </g>
+        <g id="Layer_64" data-name="Layer 64">
+          <circle cx="686.55" cy="472.05" r="4.09" fill="#eacf0c"/>
+        </g>
+        <g id="Layer_63" data-name="Layer 63">
+          <circle cx="726.81" cy="472.05" r="4.09" fill="#eacf0c"/>
+        </g>
+        <g id="Layer_62" data-name="Layer 62">
+          <path d="M726.53,499h85.55q-.21,5.43-6.29,10.86H734.07Q726.11,504.47,726.53,499Z" transform="translate(-63.5 -7.14)" fill="#f4d916"/>
+        </g>
+        <g id="Layer_61" data-name="Layer 61">
+          <polygon points="685.94 502.75 682.34 500.93 678.79 502.85 679.42 498.87 676.49 496.09 680.48 495.45 682.21 491.81 684.05 495.4 688.05 495.93 685.2 498.79 685.94 502.75" fill="#42aeca"/>
+        </g>
+        <g id="Layer_60" data-name="Layer 60">
+          <polygon points="701.9 502.75 698.31 500.93 694.76 502.85 695.39 498.87 692.46 496.09 696.44 495.45 698.18 491.81 700.01 495.4 704.01 495.93 701.16 498.79 701.9 502.75" fill="#42aeca"/>
+        </g>
+        <g id="Layer_59" data-name="Layer 59">
+          <polygon points="722.76 502.75 719.16 500.93 715.62 502.85 716.25 498.87 713.32 496.09 717.3 495.45 719.03 491.81 720.87 495.4 724.87 495.93 722.02 498.79 722.76 502.75" fill="#42aeca"/>
+        </g>
+        <g id="Layer_58" data-name="Layer 58">
+          <polygon points="741.96 502.75 738.36 500.93 734.82 502.85 735.44 498.87 732.51 496.09 736.5 495.45 738.23 491.81 740.07 495.4 744.07 495.93 741.22 498.79 741.96 502.75" fill="#42aeca"/>
+        </g>
+        <g id="Layer_57" data-name="Layer 57">
+          <rect x="676.08" y="458.51" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_56" data-name="Layer 56">
+          <rect x="684.3" y="458.51" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_55" data-name="Layer 55">
+          <rect x="691.95" y="458.51" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_54" data-name="Layer 54">
+          <rect x="700.26" y="458.51" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_53" data-name="Layer 53">
+          <rect x="707.82" y="458.51" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_52" data-name="Layer 52">
+          <rect x="716.29" y="458.51" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_51" data-name="Layer 51">
+          <rect x="724.87" y="458.51" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_50" data-name="Layer 50">
+          <rect x="732.51" y="458.51" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_49" data-name="Layer 49">
+          <rect x="668.16" y="458.51" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+      </g>
+      <g id="cart2">
+        <g id="Layer_47" data-name="Layer 47">
+          <circle cx="609.05" cy="570.05" r="50.36" fill="#d00000"/>
+        </g>
+        <g id="Layer_46" data-name="Layer 46">
+          <path d="M634.92,567.75h75.27c-1.34-22.9-22.81-36.16-37.64-33.33C652.61,536.09,641.31,548.78,634.92,567.75Z" transform="translate(-63.5 -7.14)" fill="#fff"/>
+        </g>
+        <g id="Layer_45" data-name="Layer 45">
+          <path d="M674.09,577.19v0Z" transform="translate(-63.5 -7.14)" fill="#1c1a17"/>
+        </g>
+        <g id="Layer_44" data-name="Layer 44">
+          <circle cx="589.81" cy="574.15" r="4.09" fill="#eacf0c"/>
+        </g>
+        <g id="Layer_43" data-name="Layer 43">
+          <circle cx="630.07" cy="574.15" r="4.09" fill="#eacf0c"/>
+        </g>
+        <g id="Layer_42" data-name="Layer 42">
+          <path d="M629.79,601.14h85.55q-.21,5.43-6.29,10.86H637.34Q629.38,606.57,629.79,601.14Z" transform="translate(-63.5 -7.14)" fill="#f4d916"/>
+        </g>
+        <g id="Layer_41" data-name="Layer 41">
+          <polygon points="589.2 604.85 585.6 603.02 582.06 604.95 582.68 600.96 579.75 598.19 583.74 597.55 585.47 593.91 587.31 597.5 591.31 598.02 588.46 600.88 589.2 604.85" fill="#42aeca"/>
+        </g>
+        <g id="Layer_40" data-name="Layer 40">
+          <polygon points="605.17 604.85 601.57 603.02 598.02 604.95 598.65 600.96 595.72 598.19 599.71 597.55 601.44 593.91 603.28 597.5 607.28 598.02 604.43 600.88 605.17 604.85" fill="#42aeca"/>
+        </g>
+        <g id="Layer_39" data-name="Layer 39">
+          <polygon points="626.02 604.85 622.43 603.02 618.88 604.95 619.51 600.96 616.58 598.19 620.56 597.55 622.3 593.91 624.13 597.5 628.13 598.02 625.28 600.88 626.02 604.85" fill="#42aeca"/>
+        </g>
+        <g id="Layer_38" data-name="Layer 38">
+          <polygon points="645.22 604.85 641.62 603.02 638.08 604.95 638.71 600.96 635.78 598.19 639.76 597.55 641.49 593.91 643.33 597.5 647.33 598.02 644.48 600.88 645.22 604.85" fill="#42aeca"/>
+        </g>
+        <g id="Layer_37" data-name="Layer 37">
+          <rect x="579.34" y="560.61" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_36" data-name="Layer 36">
+          <rect x="587.56" y="560.61" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_35" data-name="Layer 35">
+          <rect x="595.21" y="560.61" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_34" data-name="Layer 34">
+          <rect x="603.53" y="560.61" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_33" data-name="Layer 33">
+          <rect x="611.08" y="560.61" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_32" data-name="Layer 32">
+          <rect x="619.55" y="560.61" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_31" data-name="Layer 31">
+          <rect x="628.13" y="560.61" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_30" data-name="Layer 30">
+          <rect x="635.78" y="560.61" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_29" data-name="Layer 29">
+          <rect x="571.42" y="560.61" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+      </g>
+      <g id="cart1">
+        <g id="Layer_27" data-name="Layer 27">
+          <circle cx="471.89" cy="60.05" r="50.36" fill="#d00000"/>
+        </g>
+        <g id="Layer_26" data-name="Layer 26">
+          <path d="M497.75,57.74H573c-1.34-22.9-22.81-36.16-37.63-33.33C515.44,26.08,504.14,38.77,497.75,57.74Z" transform="translate(-63.5 -7.14)" fill="#fff"/>
+        </g>
+        <g id="Layer_25" data-name="Layer 25">
+          <path d="M536.92,67.19v0Z" transform="translate(-63.5 -7.14)" fill="#1c1a17"/>
+        </g>
+        <g id="Layer_24" data-name="Layer 24">
+          <circle cx="452.64" cy="64.14" r="4.09" fill="#eacf0c"/>
+        </g>
+        <g id="Layer_23" data-name="Layer 23">
+          <circle cx="492.9" cy="64.14" r="4.09" fill="#eacf0c"/>
+        </g>
+        <g id="Layer_22" data-name="Layer 22">
+          <path d="M492.62,91.13h85.55Q578,96.56,571.88,102H500.17Q492.21,96.56,492.62,91.13Z" transform="translate(-63.5 -7.14)" fill="#f4d916"/>
+        </g>
+        <g id="Layer_21" data-name="Layer 21">
+          <polygon points="452.03 94.84 448.43 93.01 444.89 94.94 445.51 90.95 442.59 88.18 446.57 87.54 448.3 83.9 450.14 87.49 454.14 88.02 451.29 90.87 452.03 94.84" fill="#42aeca"/>
+        </g>
+        <g id="Layer_20" data-name="Layer 20">
+          <polygon points="468 94.84 464.4 93.01 460.86 94.94 461.48 90.95 458.55 88.18 462.54 87.54 464.27 83.9 466.11 87.49 470.11 88.02 467.26 90.87 468 94.84" fill="#42aeca"/>
+        </g>
+        <g id="Layer_19" data-name="Layer 19">
+          <polygon points="488.86 94.84 485.26 93.01 481.71 94.94 482.34 90.95 479.41 88.18 483.39 87.54 485.13 83.9 486.96 87.49 490.96 88.02 488.12 90.87 488.86 94.84" fill="#42aeca"/>
+        </g>
+        <g id="Layer_18" data-name="Layer 18">
+          <polygon points="508.05 94.84 504.45 93.01 500.91 94.94 501.54 90.95 498.61 88.18 502.59 87.54 504.32 83.9 506.16 87.49 510.16 88.02 507.31 90.87 508.05 94.84" fill="#42aeca"/>
+        </g>
+        <g id="Layer_17" data-name="Layer 17">
+          <rect x="442.17" y="50.6" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_16" data-name="Layer 16">
+          <rect x="450.39" y="50.6" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_15" data-name="Layer 15">
+          <rect x="458.04" y="50.6" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_14" data-name="Layer 14">
+          <rect x="466.36" y="50.6" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_13" data-name="Layer 13">
+          <rect x="473.92" y="50.6" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_12" data-name="Layer 12">
+          <rect x="482.39" y="50.6" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_11" data-name="Layer 11">
+          <rect x="490.97" y="50.6" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_10" data-name="Layer 10">
+          <rect x="498.61" y="50.6" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+        <g id="Layer_9" data-name="Layer 9">
+          <rect x="434.25" y="50.6" width="7.5" height="3.33" rx="1.67" ry="1.67" fill="#42aeca"/>
+        </g>
+      </g>
+    </g>
+    <g id="Layer_6" data-name="Layer 6">
+      <path d="M102,647.5l-15,85c45.23,12,90.22,13.15,135-2l-14.88-85.9C171.91,667.47,136.91,662.62,102,647.5Z" transform="translate(-63.5 -7.14)" fill="#f6ce2f"/>
+      <polygon points="41 646.86 28.5 719.36 53 728.69 41 646.86" fill="#f3812a"/>
+      <polygon points="71 652.92 60 728.69 87.5 728.69 76.5 652.92 71 652.92" fill="#f4822a"/>
+      <polygon points="106.61 652.05 93.5 730.86 123.5 728.69 112 652.05 106.61 652.05" fill="#f48229"/>
+      <polygon points="139.94 649.86 129.5 728.69 152.67 721.36 139.94 649.86" fill="#f4822a"/>
+      <polygon points="44.26 709.83 40.11 707.06 35.48 708.91 36.84 704.11 33.65 700.28 38.63 700.08 41.29 695.87 43.02 700.54 47.85 701.77 43.93 704.86 44.26 709.83" fill="#fff"/>
+      <polygon points="80.01 710.61 75.86 707.84 71.23 709.68 72.59 704.89 69.4 701.05 74.38 700.86 77.04 696.65 78.77 701.32 83.6 702.55 79.68 705.64 80.01 710.61" fill="#fff"/>
+      <polygon points="112.01 710.61 107.86 707.84 103.23 709.68 104.59 704.89 101.4 701.05 106.38 700.86 109.04 696.65 110.77 701.32 115.6 702.55 111.68 705.64 112.01 710.61" fill="#fefefe"/>
+      <polygon points="145.25 710.23 140.87 707.87 136.43 710.14 137.33 705.23 133.8 701.72 138.74 701.05 140.99 696.61 143.15 701.1 148.07 701.87 144.47 705.31 145.25 710.23" fill="#fefefe"/>
+      <path d="M103.08,650.46l-3.58-8.71c2.5-16,35.38-25.24,68.5-29.34,22.43,5,35,18,37.67,29.63,14.91,17.92-90.43,28.63-102.59,8.42Z" transform="translate(-63.5 -7.14)" fill="#b52024"/>
+      <path d="M70,589.19c8.5,0,13.48,1.93,27.15,23.22,9.85,5.48,33.16-9.93,33-16.68,4.74-11.67,6-22,3.85-34.86L123.5,536.5c5.94-12.66,15.08-19.47,24.13-26.45L154,512.5c4.91,3.73,3.73,15.86,3,27.36.78,8.27,15,19.71,26.5,36,3.35,11.62,4.66,22.93,3.5,33.83l20.12,9.67,14.21-1.48c1,10.84-9.68,17.91-23.84,23.86-9.17,3.58-14.14-.35-15.49-10.75-4.16,11.68-13.61,18.23-28,20-5.57,16.84-52.31.86-42.66-2,15.14-4.49,14.45-5,10.8-5.1-12.94-5-25.49-10-27.83-16.53-2.1,9.2-9.28,15.84-16.65,20.21-5.6,3.08-10.43,3.41-14.17-.08L81,619.37C73.4,609,75,599.27,70,589.19Z" transform="translate(-63.5 -7.14)" fill="#e2dee2"/>
+      <circle cx="78.67" cy="520.69" r="2.17"/>
+      <path d="M137.25,506.93" transform="translate(-63.5 -7.14)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+      <ellipse cx="87.06" cy="503.4" rx="3.46" ry="1.96" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g id="jumpingball">
+      <ellipse cx="87.5" cy="471.08" rx="27.8" ry="30.37" fill="#52b8b9"/>
+      <path d="M140.26,456" transform="translate(-63.5 -7.14)" fill="none"/>
+      <path d="M140.26,500.41" transform="translate(-63.5 -7.14)" fill="none"/>
+    </g>
+    <g id="rotatemonkey">
+      <circle cx="895" cy="497.57" r="8.16" fill="#eac09d"/>
+      <path d="M904.75,565.4l-12.58,7.7,7,13.75c5.23-6.38,16.08-15.85,16.08-15.85l-5.75-8.1Z" transform="translate(-63.5 -7.14)" fill="#f2cdb2" stroke="#0a0a0a" stroke-miterlimit="10" stroke-width="0.5"/>
+      <ellipse cx="866.25" cy="639.61" rx="36.75" ry="41.5" fill="#3e9385" stroke="#000" stroke-miterlimit="10"/>
+      <path d="M933.49,558.21c-2.26,10.61-5,16.24-15.37,16-2.09-.5-4.92-13-3.5-21.93,1.88-11.81,7.92-15.44,13.13-13.81S935.78,547.47,933.49,558.21Z" transform="translate(-63.5 -7.14)" fill="#f2cdb2" stroke="#0a0a0a" stroke-miterlimit="10"/>
+      <path d="M937.75,575.75c-4.06,4.31-8.53,4.94-13.25,3.25a23.17,23.17,0,0,1,1.25,18.25c5.8-2.77,10.15-2.91,13.5-1.25A69.38,69.38,0,0,0,937.75,575.75Z" transform="translate(-63.5 -7.14)" fill="#f2cdb2" stroke="#0a0a0a" stroke-miterlimit="10" stroke-width="0.5"/>
+      <path d="M939.41,565.4c4.63,0,8.45,1.22,10.59,4.85l11.75,12c11.22-1.4,13.54-6.1,14-11.5-.27-7.18-1.89-10.72-4.5-11.65l-6.75,2.13-1-4.05c2-2.09,4.11-2.92,6.25-2.68,3.77-1.11,6.6,1.61,9.25,5.07a22.79,22.79,0,0,1,0,14.88,18.45,18.45,0,0,1-8.75,12h-9L939.41,569l-2.91,11c-9.65,1-18.7,1.49-23.25-2.75l-7.5-16c8.65-19.47-1-5-11.5-16.23l6.25-9.75,7.5,4.25,9.25-4.25L922,538l16-2.75c2.08,3,5.19,4,8.75,4.25,4.82-.09,8.6-2.3,11.75-5.75,1.7,8.46,1.65,14.36-1.5,15.75l-10.25,2.25-6-1.75Z" transform="translate(-63.5 -7.14)" fill="#f2cdb2" stroke="#0a0a0a" stroke-miterlimit="10" stroke-width="0.5"/>
+      <path d="M898.75,538c0,4-2.74,7.25-6.13,7.25s-8.08-3.76-6.12-7.25c4.24-7.56,3.83-6.87,6.12-7.25C892.62,530.75,898.75,534,898.75,538Z" transform="translate(-63.5 -7.14)" fill="#f2cdad" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <path d="M969,541.62c1.76,4-2.35,7.88-5.25,7.88s-5.25-3.53-5.25-7.88,2.48-7,5.25-7.87C965.9,533.09,965.82,534.45,969,541.62Z" transform="translate(-63.5 -7.14)" fill="#eecfb4" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <path d="M897.25,582.12c4,3.88,6.74,14.25-4.81,5.57-5-3.75-7.94-2.94-12.94-5.57,0,0,0-10.62,8.75-13.11C893,567.67,893.27,578.27,897.25,582.12Z" transform="translate(-63.5 -7.14)" fill="#efccab" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <path d="M945,603.62c0,4.63-4.76,11.14-7.75,5.38-3.5-6.75-15.75-.75-15.75-5.38s5.26-8.37,11.75-8.37S945,599,945,603.62Z" transform="translate(-63.5 -7.14)" fill="#f4cdb2" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <circle cx="863.64" cy="503.7" r="28.9" fill="#95705a"/>
+      <path d="M906.58,497.15c2.61-2.5,5.48-4.35,9.09-4.4,6.67,1.39,9.53,4.06,9.7,7.64,6.07-2,8.3-2.09,9.42-1.6,4,0,7.64,3.52,11.2,7.62,10.7,10.25,3.59,19.93-14.93,29.26-9,1.73-24.48-10.74-24.48-10.74S899,503.84,906.58,497.15Z" transform="translate(-63.5 -7.14)" fill="#efcdae"/>
+      <path d="M891.75,494.43c12.9,1.29,24.88,3.71,34.26,9.29,9.78-1.39,33.44,1.86,36,3.95s1.55,5.63,1.55,5.63l-4,4.27c-1.12,5.64-3.13,10.84-7.3,14.94-16,5.52-20.12-8.44-24.7-21.59-3.31,5.78-6.82,10.3-10.61,13.15s-7.89,4-12.31,3.09c-4.71-.25-8.08-6.72-11.34-13.69.2-3.1.46-7.1.75-11.54Z" transform="translate(-63.5 -7.14)" fill="#0000f4" stroke="#161516" stroke-miterlimit="10" stroke-width="0.5"/>
+      <path d="M933.25,528.75c-5.31,1.43-10.23,1.28-14-3.59L923,532.5C925.93,533.71,929.46,531.9,933.25,528.75Z" transform="translate(-63.5 -7.14)" fill="#413637"/>
+      <ellipse cx="865.38" cy="511.93" rx="8.38" ry="4.69" fill="#6d5243"/>
+      <path d="M900.19,504.43c4.52-1,10.84.9,17.53,3.41,1.41,1.72,1.86,3.33,1.21,4.81.7,5.13-3.5,8.46-8.76,11.39-5.31-.18-8.35-1.47-10-3.9C896.88,512,898.26,508,900.19,504.43Z" transform="translate(-63.5 -7.14)" fill="#050505" stroke="#161516" stroke-miterlimit="10"/>
+      <path d="M937.1,508.47c5.39-.63,12.64.44,20.44,2,2.51,3.25-.11,8.8-5.53,15.6-4.17,4-8.45,3.81-12.84,0C931.87,518.89,931.34,513.05,937.1,508.47Z" transform="translate(-63.5 -7.14)" fill="#050505" stroke="#161516" stroke-miterlimit="10"/>
+      <path d="M907.25,479.25,911.41,467c2.15-4.52,6.08-4.37,10.09-4,4.52-1.06,14.89,1.09,24.84,3,5,6,6.95,7.07,8.16,10.5,0,0-2.75,12.25,0,12.25H964c3.15,5.7,1.16,8.93,0,6.75-11,12.92-70.17-12.29-67.71-11.25l1.94-8.75C902.23,473.58,905.65,474.14,907.25,479.25Z" transform="translate(-63.5 -7.14)" fill="#bb0826"/>
+      <path d="M946.34,492.75l20.16-13.5s5.49,3.05,1,2.69-12.24,6.26-19,11.9Z" transform="translate(-63.5 -7.14)" fill="#42934e"/>
+      <ellipse cx="835.81" cy="484.82" rx="7.94" ry="9.91" fill="#eac09d"/>
+      <path d="M899.75,486.55l4,2.57-2.43,8.76-5.14-.76C895.69,492.11,896.13,487.91,899.75,486.55Z" transform="translate(-63.5 -7.14)" fill="#a06b5c"/>
+      <path d="M957.89,499.87h2.49c2.58,1.58,3.46,3.34,3.24,5.22l-5.12-.38Z" transform="translate(-63.5 -7.14)" fill="#a06b5c"/>
+      <ellipse cx="924.5" cy="557.61" rx="15.02" ry="9.89" transform="translate(133.74 1348.42) rotate(-78.75)" fill="#ba7d6e" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <polygon points="888.56 665.14 875.53 653.62 881.13 670.09 871.52 655.59 872.67 672.94 867.14 656.45 863.76 673.51 862.69 656.15 855.01 671.75 858.47 654.71 847.01 667.79 854.76 652.22 840.31 661.89 851.82 648.86 835.36 654.46 849.86 644.86 832.51 646 849 640.48 831.94 637.09 849.29 636.02 833.7 628.34 850.74 631.8 837.66 620.34 853.22 628.09 843.56 613.64 856.58 625.16 850.99 608.69 860.59 623.19 859.45 605.84 864.97 622.33 868.36 605.27 869.42 622.63 877.11 607.03 873.65 624.07 885.11 610.99 877.35 626.55 891.81 616.89 880.29 629.92 896.75 624.32 882.26 633.92 899.61 632.78 883.12 638.3 900.17 641.69 882.82 642.75 898.42 650.44 881.38 646.98 894.46 658.44 878.89 650.69 888.56 665.14" fill="#b7897d" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+    </g>
+  </svg>
+  <footer style="padding:16px;"><p style="margin:0 0 16px;">© 2019, Kelley Vargas</p> <p style="margin:0;">This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p></footer>
+</wrapper>
+</body>
+	
+</html>

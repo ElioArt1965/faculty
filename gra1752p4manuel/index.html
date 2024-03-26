@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SVG Animations with CSS Rollovers | &copy;2019 Tony Manuel</title>
+<style type="text/css">
+body {
+	margin: 0;
+	background-color: #2D5347;
+}
+wrapper {
+	background-image: url(night%20sky1-01.jpg);
+	background-size: 100% auto;
+	width: 1175px;
+	height: 768px;
+	display: block;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+}
+#thorby {
+	height: 35%;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	position: absolute;
+	top: 68px;
+	left: 471px;
+	
+}
+	#thorby:hover, #con:hover, #kira:hover{
+		animation: spin infinite .5s;
+	}
+	@keyframes spin {
+		0% {
+			transform: rotate(-15deg);
+		}
+		50% {
+			transform: rotate(15deg);
+		}
+		100% {
+			transform: rotate(-15deg);
+		}
+	}
+	
+#con {
+	height: 35%;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	position: absolute;
+	top: 300px;
+	left: 194px;
+}
+#kira {
+	height: 35%;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	position: absolute;
+	top: 300px;
+	right: 154px;
+}
+#play {
+	height: 7%;
+	padding-right: 0px;
+	position: absolute;
+	top: 605px;
+	left: 502px;
+}
+	#play-button:hover{
+		fill:#D82163
+	}
+footer {
+	margin: 0 auto;
+	width: 1175px;
+	color: #FFFFFF;
+}
+</style>
+</head>
+
+<body>
+<wrapper><img src="thorby.svg" alt="" width="" height="" id="thorby"><img src="con.svg" alt="" width="" height="" id="con"><img src="kira.svg" alt="" width="" height="" id="kira"> <svg xmlns="http://www.w3.org/2000/svg" id="play" width="198.1" height="49.29" viewBox="0 0 198.1 49.29">
+  <title>Asset 13</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="playlayer">
+      <g>
+        <rect id="play-button" width="198.1" height="39.56" rx="19.78" ry="19.78" fill="#8c113d"/>
+        <text transform="translate(68.12 30.87)" font-size="30" fill="#fff" font-family="OriyaSangamMN-Bold, Oriya Sangam MN" font-weight="700">PL<tspan x="29.67" y="0" letter-spacing="-0.07em">A</tspan><tspan x="44.61" y="0" letter-spacing="0em">Y</tspan></text>
+      </g>
+     
+  </g>
+</svg>
+	</wrapper>
+	<footer style="padding:16px;"><p style="margin:0 0 16px;">© 2019, Tony Manuel</p> <p style="margin:0;">This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p></footer>
+
+</body>
+</html>
