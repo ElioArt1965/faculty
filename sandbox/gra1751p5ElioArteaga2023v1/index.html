@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Welcome to Michael Kors Apparel | Elio Arteaga, 2023</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap" rel="stylesheet">
+<style type="text/css">
+body {
+    margin: 0;
+    background-color: #ccc;
+	font-family: 'Red Hat Display', sans-serif;
+}
+wrapper {
+    width: 1200px;
+    margin: auto;
+    display: block;
+    background-color: white;
+}
+header {
+    height: 120px;
+    margin-bottom: 11px;
+}
+h1 {
+    margin: 0;
+    padding: 24px;
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+    border-bottom: thick double black;
+    background-color: white;
+    z-index: 10;
+}
+section {
+    width: 600px;
+    height: 621px;
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: top;
+}
+footer {
+    padding: 10px;
+    font-size: 12px;
+}
+#red-shirt, #green-shirt, #tan-shirt {
+    position: absolute;
+	left:0;
+	top:0;
+}
+section img {
+    width: 500px;
+    height: auto;
+    margin-left: 100px;
+}
+main {
+    position: relative;
+    margin-top: 7px;
+}
+button {
+    width: 50px;
+    margin: 10px;
+    border-radius: 25px;
+    border: medium solid white;
+    height: 50px;
+}
+button:hover {
+    border-color: black;
+}
+#red-swatch {
+    background-color: #722c2f;
+}
+#tan-swatch {
+    background-color: #6d5c3b;
+}
+#green-swatch {
+    background-color: #6a6d2c;
+}
+</style>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('red-back.jpg','green-back.jpg','tan-back.jpg')">
+<header>
+  <h1>Michael Kors</h1>
+</header>
+<wrapper>
+<main>
+    <section><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('red-shirt','','red-back.jpg',1)"><img src="red-front.jpg" alt="Red Polo Shirt" width="343" height="422" id="red-shirt"></a>
+	  
+	  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('green-shirt','','green-back.jpg',1)"><img src="green-front.jpg" alt="Green Polo Shirt" width="343" height="422" id="green-shirt"></a>
+	  
+	  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('tan-shirt','','tan-back.jpg',1)"><img src="tan-front.jpg" alt="Tan Polo Shirt" width="343" height="422" id="tan-shirt"></a> </section>
+    <section>
+      <h2>Long Sleeve Polo Shirt</h2>
+      <p>Description of product</p>
+      <h3>Color:</h3>
+      <button id="red-swatch" onClick="MM_showHideLayers('red-shirt','','show','green-shirt','','hide','tan-shirt','','hide')"></button>
+      <button id="green-swatch" onClick="MM_showHideLayers('red-shirt','','hide','green-shirt','','show','tan-shirt','','hide')"></button>
+      <button id="tan-swatch" onClick="MM_showHideLayers('red-shirt','','hide','green-shirt','','hide','tan-shirt','','show')"></button>
+    </section>
+  </main>
+  <footer>
+	<p>© 2023, Elio Arteaga. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+	</footer>
+</wrapper>
+</body>
+</html>

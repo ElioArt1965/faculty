@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Monterey Bay Submarine</title>
+<link href="oneColFixCtrHdr.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+</script>
+</head>
+
+<body>
+<div class="container">
+  <div class="header"><a href="#"><img src="" alt="Insert Logo Here" name="Insert_logo" width="180" height="90" id="Insert_logo" style="background-color: #C6D580; display:block;" /></a> 
+    <!-- end .header --></div>
+  <div class="content" id="seal" >
+    <h1 style="color:#FF0;">Monterey Bay Submarine</h1>
+    <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
+    <a href="#" onMouseOver="MM_showHideLayers('apDiv1','','show','apDiv2','','hide')" onMouseOut="MM_showHideLayers('apDiv1','','hide','apDiv2','','hide')"><img src="seal.gif" width="160" height="214" alt="Harbor Seal"></a>
+    </marquee>
+    <marquee behavior="scroll" direction="right" onmouseover="this.stop();" onmouseout="this.start();">
+    <a href="#" onMouseOver="MM_showHideLayers('apDiv1','','hide','apDiv2','','show')" onMouseOut="MM_showHideLayers('apDiv1','','hide','apDiv2','','hide')"><img src="rockfish.gif" width="193" height="140" alt="Rock Fish"></a>
+    </marquee>
+    <div id="apDiv1">Harbor Seal</div>
+    <div id="apDiv2">Rock Fish</div>
+    <!-- end .content --></div>
+  
+  <div class="footer">
+    <p>Monterey Bay Submarine, &copy; 2014 Elio L. Arteaga</p>
+    <!-- end .footer --></div>
+  <!-- end .container --></div>
+</body>
+</html>

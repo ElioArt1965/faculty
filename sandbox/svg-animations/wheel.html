@@ -1,0 +1,229 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<style type="text/css">
+body{
+	text-align: center;
+	}
+#wheel {
+	animation: spin infinite linear 10s;
+}
+	@keyframes spin {
+		0% {
+			transform: rotate(0deg);
+			transform-origin: 50% 50%;
+		}
+		33% {
+			transform: rotate(-120deg);
+			transform-origin: 50% 50%;
+		}
+		66% {
+			transform: rotate(-240deg);
+			transform-origin: 50% 50%;
+		}
+		100%{
+			transform: rotate(-360deg);
+			transform-origin: 50% 50%;
+		}
+	}
+	
+#cart1 {
+	animation: cart1spin infinite linear 10s;
+}
+	@keyframes cart1spin {
+		0% {
+			transform: rotate(0deg);
+			transform-origin: 38% 23%;
+		}
+		33% {
+			transform: rotate(120deg);
+			transform-origin: 38% 23%;
+		}
+		66% {
+			transform: rotate(240deg);
+			transform-origin: 38% 23%;
+		}
+		100%{
+			transform: rotate(360deg);
+			transform-origin: 38% 23%;
+		}
+	}
+#cart2 {
+	animation: cart2spin infinite linear 10s;
+}
+	@keyframes cart2spin {
+		0% {
+			transform: rotate(0deg);
+			transform-origin: 62% 23%;
+		}
+		33% {
+			transform: rotate(120deg);
+			transform-origin: 62% 23%;
+		}
+		66% {
+			transform: rotate(240deg);
+			transform-origin: 62% 23%;
+		}
+		100%{
+			transform: rotate(360deg);
+			transform-origin: 62% 23%;
+		}
+	}
+	
+#cart3 {
+	animation: cart3spin infinite linear 10s;
+}
+	@keyframes cart3spin {
+		0% {
+			transform: rotate(0deg);
+			transform-origin: 73% 50%;
+		}
+		33% {
+			transform: rotate(120deg);
+			transform-origin: 73% 50%;
+		}
+		66% {
+			transform: rotate(240deg);
+			transform-origin: 73% 50%;
+		}
+		100%{
+			transform: rotate(360deg);
+			transform-origin: 73% 50%;
+		}
+	}
+#cart4 {
+	animation: cart4spin infinite linear 10s;
+}
+	@keyframes cart4spin {
+		0% {
+			transform: rotate(0deg);
+			transform-origin: 62% 77%;
+		}
+		33% {
+			transform: rotate(120deg);
+			transform-origin: 62% 77%;
+		}
+		66% {
+			transform: rotate(240deg);
+			transform-origin: 62% 77%;
+		}
+		100%{
+			transform: rotate(360deg);
+			transform-origin: 62% 77%;
+		}
+	}
+#cart5 {
+	animation: cart5spin infinite linear 10s;
+}
+	@keyframes cart5spin {
+		0% {
+			transform: rotate(0deg);
+			transform-origin: 38% 77%;
+		}
+		33% {
+			transform: rotate(120deg);
+			transform-origin: 38% 77%;
+		}
+		66% {
+			transform: rotate(240deg);
+			transform-origin: 38% 77%;
+		}
+		100%{
+			transform: rotate(360deg);
+			transform-origin: 38% 77%;
+		}
+	}
+#cart6 {
+	animation: cart6spin infinite linear 10s;
+}
+	@keyframes cart6spin {
+		0% {
+			transform: rotate(0deg);
+			transform-origin: 26% 50%;
+		}
+		33% {
+			transform: rotate(120deg);
+			transform-origin: 26% 50%;
+		}
+		66% {
+			transform: rotate(240deg);
+			transform-origin: 26% 50%;
+		}
+		100%{
+			transform: rotate(360deg);
+			transform-origin: 26% 50%;
+		}
+	}
+</style>
+</head>
+
+<body>
+	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1024" height="768" viewBox="0 0 1024 768">
+  <defs>
+    <linearGradient id="Sky" x1="512" y1="765.07" x2="512" y2="1.43" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cce0f4"/>
+      <stop offset="0.06" stop-color="#c3dcf2"/>
+      <stop offset="0.17" stop-color="#a9d2ee"/>
+      <stop offset="0.31" stop-color="#80c2e7"/>
+      <stop offset="0.46" stop-color="#47acde"/>
+      <stop offset="0.57" stop-color="#1e9cd7"/>
+      <stop offset="0.87" stop-color="#0075be"/>
+      <stop offset="0.99" stop-color="#005b97"/>
+    </linearGradient>
+  </defs>
+  <title>Untitled-2</title>
+  <g id="background">
+    <rect width="1024" height="768" fill="url(#Sky)"/>
+  </g>
+  <g id="wheel">
+    <g>
+      <polygon points="391.54 593.52 270.58 384.01 391.54 174.5 633.46 174.5 754.42 384.01 633.46 593.52 391.54 593.52" fill="#ed1e79"/>
+      <path d="M633.17,175,753.84,384,633.17,593H391.83L271.15,384,391.83,175H633.17m.58-1H391.25L270,384,391.25,594h242.5L755,384,633.75,174Z"/>
+    </g>
+    <g id="cart1">
+      <g>
+        <polygon points="392.5 243.18 365.84 257.19 370.93 227.51 349.36 206.48 379.17 202.15 392.5 175.14 405.83 202.15 435.64 206.48 414.07 227.51 419.16 257.19 392.5 243.18" fill="#f7931e"/>
+        <path d="M392.5,176.27l12.77,25.87.23.47.52.08,28.54,4.14L413.91,227l-.38.36.09.52,4.88,28.43L393,242.86l-.47-.25-.47.25L366.5,256.28l4.88-28.43.09-.52-.38-.36-20.65-20.14L379,202.69l.52-.08.23-.47,12.77-25.87m0-2.26L378.84,201.7l-30.55,4.43,22.1,21.55-5.21,30.43,27.32-14.37,27.32,14.37-5.21-30.43,22.1-21.55-30.55-4.43L392.5,174Z"/>
+      </g>
+    </g>
+    <g id="cart2">
+      <g>
+        <polygon points="633.5 243.18 606.84 257.19 611.93 227.51 590.36 206.48 620.17 202.15 633.5 175.14 646.83 202.15 676.64 206.48 655.07 227.51 660.16 257.19 633.5 243.18" fill="#f7931e"/>
+        <path d="M633.5,176.27l12.77,25.87.23.47.52.08,28.54,4.14L654.91,227l-.38.36.09.52,4.88,28.43L634,242.86l-.47-.25-.47.25L607.5,256.28l4.88-28.43.09-.52-.38-.36-20.65-20.14L620,202.69l.52-.08.23-.47,12.77-25.87m0-2.26L619.84,201.7l-30.55,4.43,22.1,21.55-5.21,30.43,27.32-14.37,27.32,14.37-5.21-30.43,22.1-21.55-30.55-4.43L633.5,174Z"/>
+      </g>
+    </g>
+    <g id="cart3">
+      <g>
+        <polygon points="754.5 453.18 727.84 467.19 732.93 437.51 711.36 416.48 741.17 412.15 754.5 385.14 767.83 412.15 797.64 416.48 776.07 437.51 781.16 467.19 754.5 453.18" fill="#f7931e"/>
+        <path d="M754.5,386.27l12.77,25.87.23.47.52.08,28.54,4.14L775.91,437l-.38.36.09.52,4.88,28.43L755,452.86l-.47-.25-.47.25L728.5,466.28l4.88-28.43.09-.52-.38-.36-20.65-20.14L741,412.69l.52-.08.23-.47,12.77-25.87m0-2.26L740.84,411.7l-30.55,4.43,22.1,21.55-5.21,30.43,27.32-14.37,27.32,14.37-5.21-30.43,22.1-21.55-30.55-4.43L754.5,384Z"/>
+      </g>
+    </g>
+    <g id="cart4">
+      <g>
+        <polygon points="633.5 663.18 606.84 677.19 611.93 647.51 590.36 626.48 620.17 622.15 633.5 595.14 646.83 622.15 676.64 626.48 655.07 647.51 660.16 677.19 633.5 663.18" fill="#f7931e"/>
+        <path d="M633.5,596.27l12.77,25.87.23.47.52.08,28.54,4.14L654.91,647l-.38.36.09.52,4.88,28.43L634,662.86l-.47-.25-.47.25L607.5,676.28l4.88-28.43.09-.52-.38-.36-20.65-20.14L620,622.69l.52-.08.23-.47,12.77-25.87m0-2.26L619.84,621.7l-30.55,4.43,22.1,21.55-5.21,30.43,27.32-14.37,27.32,14.37-5.21-30.43,22.1-21.55-30.55-4.43L633.5,594Z"/>
+      </g>
+    </g>
+    <g id="cart5">
+      <g>
+        <polygon points="392.5 663.18 365.84 677.19 370.93 647.51 349.36 626.48 379.17 622.15 392.5 595.14 405.83 622.15 435.64 626.48 414.07 647.51 419.16 677.19 392.5 663.18" fill="#f7931e"/>
+        <path d="M392.5,596.27l12.77,25.87.23.47.52.08,28.54,4.14L413.91,647l-.38.36.09.52,4.88,28.43L393,662.86l-.47-.25-.47.25L366.5,676.28l4.88-28.43.09-.52-.38-.36-20.65-20.14L379,622.69l.52-.08.23-.47,12.77-25.87m0-2.26L378.84,621.7l-30.55,4.43,22.1,21.55-5.21,30.43,27.32-14.37,27.32,14.37-5.21-30.43,22.1-21.55-30.55-4.43L392.5,594Z"/>
+      </g>
+    </g>
+    <g id="cart6">
+      <g>
+        <polygon points="269.5 453.18 242.84 467.19 247.93 437.51 226.36 416.48 256.17 412.15 269.5 385.14 282.83 412.15 312.64 416.48 291.07 437.51 296.16 467.19 269.5 453.18" fill="#f7931e"/>
+        <path d="M269.5,386.27l12.77,25.87.23.47.52.08,28.54,4.14L290.91,437l-.38.36.09.52,4.88,28.43L270,452.86l-.47-.25-.47.25L243.5,466.28l4.88-28.43.09-.52-.38-.36-20.65-20.14L256,412.69l.52-.08.23-.47,12.77-25.87m0-2.26L255.84,411.7l-30.55,4.43,22.1,21.55-5.21,30.43,27.32-14.37,27.32,14.37-5.21-30.43,22.1-21.55-30.55-4.43L269.5,384Z"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="512" cy="384" r="12.5" fill="#f7931e"/>
+      <path d="M512,372a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-1a13,13,0,1,0,13,13,13,13,0,0,0-13-13Z"/>
+    </g>
+  </g>
+</svg>
+
+</body>
+</html>
