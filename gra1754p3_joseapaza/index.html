@@ -1,0 +1,265 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Responsibe Layout | Jose Apaza</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+<style type="text/css">
+	body  {
+		padding: 0;
+		margin: 0;
+		font-family: 'Poppins', sans-serif;
+		background-color:#0D0D0D;
+		
+	}
+	wrapper{
+    width: 100%;
+    min-width: 810px;
+    max-width: 1550px;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+    background-color: #012340;
+	}
+	.content{
+    display: flex;
+	height:120px;
+	align-items: center;
+    justify-content: space-around;
+    background-color: #382F73;
+	}
+	
+	.logo{
+	position:relative;
+	-webkit-box-reflect:below -32px linear-gradient(transparent, rgba(0,0,0,0.2))
+	
+}
+.logo span{
+	position:relative;
+	display:inline-block;
+	color:#fff;
+	font-weight: bold;
+	padding: 15px 0;
+    font-size: 1.8em;
+	animation:animate 1s infinite;
+	animation-delay: calc(0.1s * var(--flow));
+}
+	@keyframes animate{
+		0%{
+			transform:translateY(0px);
+		}
+		40%{
+			transform:translateY(-5px);
+		}
+		100%{
+			transform:translateY(0px);
+		}
+	}
+	ul li {
+		display: inline-block;
+		padding:10px 15px;
+		font-size:1.2em;
+		color:#FFFFFF;
+	}
+	a{
+		text-decoration:none;
+	}
+	ul li:hover{
+    background-color: rgba(132,135,191,.5);
+    color: #121D40;
+    transition: .3s;
+    border-radius: 5px;
+    box-shadow: 0 0 10px;
+	}
+
+	
+	
+.banner {
+    background-image:url("Background-2.jpg");
+    background-repeat: no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+	height:700px;
+}
+section {
+    margin: 2%;
+    padding: 2%;
+	color:white;
+}
+		.image-1 {
+			background-image: url("article-1.jpg");
+			height: 300px;
+			background-size: cover;
+		}
+		.image-2 {
+			background-image: url("article-2.jpg");
+			height: 300px;
+			background-size: cover;
+		}
+		.image-3 {
+			background-image: url("article-3.jpg");
+			height: 300px;
+			background-size: cover;
+		}
+		.image-4 {
+			background-image: url("article-4.jpg");
+			height: 300px;
+			background-size: cover;
+		}
+		.image-5 {
+			background-image: url("article-5.jpg");
+			height: 300px;
+			background-size: cover;
+		}
+		.image-6 {
+			background-image: url("article-6.jpg");
+			height: 300px;
+			background-size: cover;
+		}
+h1 {
+    color: #FEFEFE;
+    margin: 0 50px;
+    padding-top: 20%;
+    font-size: 8em;
+	 position: relative;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,0.2));
+}
+	.container-2{
+		background-image: url("image-1.jpg");
+    	background-repeat: no-repeat;
+		background-size:cover;
+		background-attachment: fixed;
+		height:700px;
+	}
+	
+	social-media{
+    	display: flex;
+		justify-content: space-around;
+		margin:3% 15% 0%;
+		cursor:pointer;
+	}
+footer {
+    padding:2%;
+	color:white;
+}
+
+@media (min-width:64em){
+section {
+    width: 40%;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 6%;
+}
+}
+
+@media (min-width:72em){
+.image-1, .image-2, .image-3, .image-4,.image-5,.image-6,article {
+    width: 40%;
+    display: inline-block;
+    margin: 2%;
+    vertical-align: top;	
+    
+}
+}
+
+@media (min-width:84em){
+section {
+    width: 24%;
+}
+.image-1, .image-2, .image-3, .image-4,.image-5,.image-6, article {
+    width: auto;
+    display: block;
+	
+}
+}
+</style>
+</head>
+
+<body>
+<wrapper>
+  <nav>
+	  	<div class="content">
+	  	<a href="#"><div class="logo">
+			<span style="--flow:1">C</span>
+			<span style="--flow:2">o</span>
+			<span style="--flow:3">d</span>
+			<span style="--flow:4">i</span>
+			<span style="--flow:5">n</span>
+			<span style="--flow:6">g</span>
+			<span style="--flow:7">L</span>
+			<span style="--flow:8">i</span>
+			<span style="--flow:9">f</span>
+			<span style="--flow:10">e</span>
+			</div></a>
+		<ul class="links">
+			<a href="#"><li>About</li></a>
+			<a href="#"><li>Features</li></a>
+			<a href="#"><li>Services</li></a>
+			<a href="#"><li>Feedback</li></a>
+			</ul>
+	</div>
+  </nav>
+<banner>
+	<div class="banner"><h1>SPACE</h1></div>
+	</banner>
+<section>
+  <div class="image-1"></div>
+  <article>
+    <h2>Space adverts are now economically viable but potentially dangerous</h2>
+    <p>Falling launch costs for satellites mean space advertising may now make commercial sense, according to a feasibility study, but the idea remains controversial</p>
+    </article>
+  </section>
+<section>
+  <div class="image-2"></div>
+  <article>
+    <h2>A long-lost rogue planet could explain unexpectedly distant asteroids</h2>
+    <p>The outer solar system holds some chunks of ice and rock that orbit so far from the sun it’s hard to imagine how they got there – but an ancient rogue planet may hold the key</p>
+    </article>
+  </section>
+<section>
+  <div class="image-3"></div>
+  <article>
+    <h2>SpaceX may help the Hubble Space Telescope boost its lifespan</h2>
+    <p>NASA and SpaceX are studying whether it would be possible to use a Dragon spacecraft to boost the Hubble Space Telescope’s orbit, extending its lifetime by up to 20 years</p>
+    </article>
+  </section>
+<section>
+  <div class="image-4"></div>
+  <article>
+    <h2>Return to the moon: Why are we restarting human lunar exploration now?</h2>
+    <p>NASA and SpaceX are among the key players leading a surge of missions to the moon, including crewed ones. Here’s what is special about this moment – and why it is happening</p>
+    </article>
+  </section>
+<section>
+  <div class="image-5"></div>
+  <article>
+    <h2>NASA is planning a permanent moon base. What will it take to build it?</h2>
+    <p>The US wants to build a long-term human outpost on the moon by around 2030. Here is all the tech that will be needed, from a space station in lunar orbit to a way to avoid 'space hay fever'</p>
+    </article>
+ </section>
+<section>
+  <div class="image-6"></div>
+  <article>
+    <h2>JWST and Hubble teamed up to take a stunning image of two galaxies</h2>
+    <p>The James Webb Space Telescope and the Hubble Space Telescope observe the universe in different wavelengths, and combining their data has given astronomers a detailed look at the interstellar dust in a pair of galaxies</p>
+    </article>
+  </section>
+	<div class="container-2">
+	<h1>Earth</h1>
+	</div>
+	<social-media>
+    <img src="fb.png" width="64" height="64" alt=""/><img src="ig.png" width="64" height="62" alt=""/><img src="tw.png" width="64" height="61" alt=""/><img src="info.png" width="64" height="62" alt=""/><img src="share.png" width="64" height="61" alt=""/></social-media>
+	<footer>
+	<p>&copy; 2022, Jose Apaza
+This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+	</footer>
+	
+	
+	
+</wrapper>
+</body>
+</html>
