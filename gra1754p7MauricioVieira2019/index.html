@@ -1,0 +1,222 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Central Bank of Swaziland</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(
+        function() {
+            $('#icon').click (
+                function() {
+                    $('#nav').show();
+                    $('#icon').hide();
+                    $('#x_icon').show();
+                }
+            );
+            $('#x_icon').click (
+                function() {
+                    $('#nav').hide();
+                    $('#icon').show();
+                    $('#x_icon').hide();
+                }
+            );
+        }
+    );
+</script>
+<style type="text/css">
+body {
+	padding: 0;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-color: #372928;
+	background-image: url(background.jpg);
+}
+wrapper {
+	width: 90%;
+	margin-top: 0;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 1em;
+	display: block;
+	background-color: rgba(0,0,0,0.50);
+	padding-top: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-bottom: 0.5em;
+}
+header {
+        background-color: #000000;
+        padding-top: 1em;
+        padding-right: 1em;
+        padding-bottom: 1em;
+        padding-left: 1em;
+}
+h1 {
+        text-align: center;
+        color: #FFFFFF;
+        font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+        text-transform: uppercase;
+}
+label {
+	color: #FFFFFF;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	padding-bottom: 16px;
+	display: block;
+	vertical-align: top;
+	padding-top: 9px;
+}
+span {
+        color: #DE7500;
+}
+input {
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-left: 16px;
+        border-radius: 7px;
+        font-size: 1em;
+        display: block;
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        margin-bottom: 16px;
+}
+.accept {
+	width: auto;
+	display: inline-block;
+	margin-right: 8px;
+	padding-top: 1px;
+}
+.create {
+	color: #FFFFFF;
+	background-color: rgba(116,238,244,0.48);
+	text-transform: uppercase;
+	font-size: 1.25em;
+}
+#nav {
+        display: none;
+}
+#nav ul li {
+        list-style-type: none;
+        width: 25%;
+        display: block;
+        padding: 1em;
+        color: #FFFFFF;
+        text-align: center;
+        font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+        font-size: 1.5em;
+        background-color: #000000;
+}
+#nav ul li:hover {
+	background-color: #13316F;
+}
+.pass {
+	height: 100px;
+}
+p {
+	color: rgba(255,255,255,1.00);
+	text-align: center;
+	font-size: 1.5em;
+}
+hr {
+	margin-top: -7px;
+}
+@media (min-width:76em){
+.pass,.phone {
+        width: 50%;
+}
+.create {
+        width: 20%;
+}
+#nav ul {
+        padding: 0;
+        margin: 0;
+}
+
+header {
+        margin: 0;
+        padding: 0;
+        height: auto;
+        width: auto;
+}
+#nav {
+        padding: 0;
+        display: block;
+}
+#icon {
+        display: none;
+}
+#nav ul li {
+	width: 14%;
+	display: inline-block;
+	padding-top: 1em;
+	padding-right: 0em;
+	padding-left: 0em;
+	padding-bottom: 1em;
+}
+}
+
+@media (min-width:100em){
+label {
+        width: 25%;
+        display: inline-block;
+}
+input {
+        width: 50%;
+        display: inline-block;
+}
+.create {
+        margin-left: 25%;
+        display: block;
+}
+#terms, #age {
+        margin-left: 25%;
+}
+}
+</style>
+</head>
+
+<body>
+        <header>
+       <img id="icon" src="images/navigation_icon.png" alt="Navigation icon. Click to expand navigation menu."/>
+        <img id="x_icon" src="images/x_icon.png" alt="Exit out icon. Click to close the navigation menu." style="display: none;"/> 
+      <nav id="nav">
+                <ul>
+                  <li>HOME</li>
+                  <li>ABOUT US</li>
+                  <li>MONETARY POLICY</li>
+                  <li>FINANCIAL STABILITY</li>
+                  <li>FINANCIAL MARKET</li>
+                  <li>CURRENCY</li>
+                  <li>CONTACT US</li>
+                </ul>
+                </nav>
+    </header>
+        <h1>Central Bank of Swaziland</h1>
+<p>You may fill in the form below to send a message to Central Bank of Swaziland</p>
+<wrapper>
+        <form action="/project7/thankyou.html">
+        <label>Enter Your Full Name:<span>*</span></label>
+                <input type="text" required="required" placeholder="Your Name">
+        <label>Your Country<span>*</span></label>
+                <input type="text" required="required" placeholder="Your Country">
+        <label>Enter Your Contact Number:<span>*</span></label>
+                <input type="tel" required="required" class="phone" placeholder="XX (XXX) XXX-XXXX">
+        <label>Enter Your Email Address:<span>*</span></label>
+                <input type="email" required="required" placeholder="you@example.com">
+        <label class="massage">Enter Your Message:<span>*</span></label>
+                <input required="required" class="pass" placeholder="Your Message:">
+        <label><span>*Required</span></label>
+        <hr />
+        <input type="checkbox" required="required" class="accept" id="terms"><label class="accept">I agree to the <span>Terms of Use.</span></label><br/>
+       <input type="submit" class="create">
+        </form>
+  </wrapper>
+</body>
+</html>

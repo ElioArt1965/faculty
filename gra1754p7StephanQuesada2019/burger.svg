@@ -1,0 +1,9 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="92" height="92" viewBox="0 0 92 92">
+  <title>burger</title>
+  <g id="burger">
+    <circle cx="46" cy="46" r="46" fill="#e8eff2"/>
+    <rect x="11" y="42" width="68" height="8" rx="2.71" ry="2.71" fill="#ef4825"/>
+    <rect x="17" y="25" width="56" height="8" rx="2.71" ry="2.71" fill="#ef4825"/>
+    <rect x="17" y="59" width="56" height="8" rx="2.71" ry="2.71" fill="#ef4825"/>
+  </g>
+</svg>
