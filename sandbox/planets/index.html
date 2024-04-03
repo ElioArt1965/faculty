@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Planets of the Solar System</title>
+<link href="solarSystem.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+#apDiv9 {
+	position: absolute;
+	width: 936px;
+	height: 117px;
+	z-index: 2;
+	background-color: #FFF;
+	left: 936px;
+	top: 150px;
+}
+</style>
+<script type="text/javascript">
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+function moveBox()
+{
+    var moreBox = document.getElementById("all_planets");
+    var currentLeft = moreBox.offsetLeft;
+    var newLocation;
+    if (currentLeft > 0)
+    {
+        newLocation = currentLeft-2;
+        moreBox.style.left = newLocation + "px";
+    }
+}
+function setTimer_onLoad()
+{
+    var myTimer = setInterval("moveBox()", 1);
+}
+</script>
+</head>
+
+<body onload="setTimer_onLoad()">
+
+<div class="container">
+  <div class="header"><a href="#"><img src="" alt="Insert Logo Here" name="Insert_logo" width="180" height="90" id="Insert_logo" style="background-color: #C6D580; display:block;" /></a> 
+  <!-- end .header --></div>
+  <div class="content">
+    <h1>Planets of the Solar System    <!-- end .content --></h1>
+    <div class="planet_name" id="mecury_name">Mercury<br>
+      |
+    </div>
+    <div class="planet_name" id="venus_name">Venus<br>
+      |
+    </div>
+    <div class="planet_name" id="earth_name">Earth<br>
+      |
+    </div>
+    <div class="planet_name" id="mars_name">Mars<br>
+      |
+    </div>
+    <div class="planet_name" id="jupiter_name">Jupiter<br>
+    |</div>
+    <div class="planet_name" id="saturn_name">Saturn<br>
+      |
+    </div>
+    <div class="planet_name" id="uranus_name">Uranus<br>
+      |
+    </div>
+    <div class="planet_name" id="neptune_name">Neptune<br>
+    |</div>
+    <br>
+    <div id="all_planets"><a href="#" onClick="MM_showHideLayers('apDiv1','','show','apDiv2','','hide','apDiv3','','hide','apDiv4','','hide','apDiv5','','hide','apDiv6','','hide','apDiv7','','hide','apDiv8','','hide')" onMouseOver="MM_showHideLayers('mecury_name','','show','venus_name','','hide','earth_name','','hide','mars_name','','hide','jupiter_name','','hide','saturn_name','','hide','uranus_name','','hide','neptune_name','','hide')" onMouseOut="MM_showHideLayers('mecury_name','','hide')"><img src="sm_mercury.jpg" width="117" height="117" alt="Mercury"></a><a href="#" onClick="MM_showHideLayers('apDiv1','','hide','apDiv2','','show','apDiv3','','hide','apDiv4','','hide','apDiv5','','hide','apDiv6','','hide','apDiv7','','hide','apDiv8','','hide')" onMouseOver="MM_showHideLayers('mecury_name','','hide','venus_name','','show','earth_name','','hide','mars_name','','hide','jupiter_name','','hide','saturn_name','','hide','uranus_name','','hide','neptune_name','','hide')" onMouseOut="MM_showHideLayers('venus_name','','hide')"><img src="sm_venus.jpg" width="117" height="117" alt="Venus"></a><a href="#" onClick="MM_showHideLayers('apDiv1','','hide','apDiv2','','hide','apDiv3','','show','apDiv4','','hide','apDiv5','','hide','apDiv6','','hide','apDiv7','','hide','apDiv8','','hide')" onMouseOver="MM_showHideLayers('mecury_name','','hide','venus_name','','hide','earth_name','','show','mars_name','','hide','jupiter_name','','hide','saturn_name','','hide','uranus_name','','hide','neptune_name','','hide')" onMouseOut="MM_showHideLayers('earth_name','','hide')"><img src="sm_earth.jpg" width="117" height="117" alt="Earth"></a><a href="#" onClick="MM_showHideLayers('apDiv1','','hide','apDiv2','','hide','apDiv3','','hide','apDiv4','','show','apDiv5','','hide','apDiv6','','hide','apDiv7','','hide','apDiv8','','hide')" onMouseOver="MM_showHideLayers('mecury_name','','hide','venus_name','','hide','earth_name','','hide','mars_name','','show','jupiter_name','','hide','saturn_name','','hide','uranus_name','','hide','neptune_name','','hide')" onMouseOut="MM_showHideLayers('mars_name','','hide')"><img src="sm_mars.jpg" alt="Mars" width="117" height="117"></a><a href="#" onClick="MM_showHideLayers('apDiv1','','hide','apDiv2','','hide','apDiv3','','hide','apDiv4','','hide','apDiv5','','show','apDiv6','','hide','apDiv7','','hide','apDiv8','','hide')" onMouseOver="MM_showHideLayers('mecury_name','','hide','venus_name','','hide','earth_name','','hide','mars_name','','hide','jupiter_name','','show','saturn_name','','hide','uranus_name','','hide','neptune_name','','hide')" onMouseOut="MM_showHideLayers('jupiter_name','','hide')"><img src="sm_jupiter.jpg" width="117" height="117" alt="Jupiter"></a><a href="#" onClick="MM_showHideLayers('apDiv1','','hide','apDiv2','','hide','apDiv3','','hide','apDiv4','','hide','apDiv5','','hide','apDiv6','','show','apDiv7','','hide','apDiv8','','hide')" onMouseOver="MM_showHideLayers('mecury_name','','hide','venus_name','','hide','earth_name','','hide','mars_name','','hide','jupiter_name','','hide','saturn_name','','show','uranus_name','','hide','neptune_name','','hide')" onMouseOut="MM_showHideLayers('saturn_name','','hide')"><img src="sm_saturn.jpg" width="117" height="117" alt="Saturn"></a><a href="#" onClick="MM_showHideLayers('apDiv1','','hide','apDiv2','','hide','apDiv3','','hide','apDiv4','','hide','apDiv5','','hide','apDiv6','','hide','apDiv7','','show','apDiv8','','hide')" onMouseOver="MM_showHideLayers('mecury_name','','hide','venus_name','','hide','earth_name','','hide','mars_name','','hide','jupiter_name','','hide','saturn_name','','hide','uranus_name','','show','neptune_name','','hide')" onMouseOut="MM_showHideLayers('uranus_name','','hide')"><img src="sm_uranus.jpg" width="117" height="117" alt="Uranus"></a><a href="#" onClick="MM_showHideLayers('apDiv1','','hide','apDiv2','','hide','apDiv3','','hide','apDiv4','','hide','apDiv5','','hide','apDiv6','','hide','apDiv7','','hide','apDiv8','','show')" onMouseOver="MM_showHideLayers('mecury_name','','hide','venus_name','','hide','earth_name','','hide','mars_name','','hide','jupiter_name','','hide','saturn_name','','hide','uranus_name','','hide','neptune_name','','show')" onMouseOut="MM_showHideLayers('neptune_name','','hide')"><img src="sm_neptune.jpg" width="117" height="117" alt="Neptune"></a></div>
+  <div class="planet_detail" id="apDiv1">
+    <img src="lg_mercury.jpg" alt="Mercury" width="350" height="350" class="fltlft"><h2>Mercury</h2>
+  </div>
+  <div class="planet_detail" id="apDiv2"><img src="lg_venus.jpg" alt="Venus" width="350" height="350" class="fltlft"><h2>Venus</h2></div>
+  <div class="planet_detail" id="apDiv3"><img src="lg_earth.jpg" alt="Earth" width="350" height="350" class="fltlft"><h2>Earth</h2></div>
+  <div class="planet_detail" id="apDiv4"><img src="lg_mars.jpg" alt="Mars" width="350" height="350" class="fltlft"><h2>Mars</h2>
+    <video width="320" height="240" controls>
+  <source src="mars.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+  </div>
+  <div class="planet_detail" id="apDiv5"><img src="lg_jupiter.jpg" alt="Jupiter" width="350" height="350" class="fltlft"><h2>Jupiter</h2></div>
+  <div class="planet_detail" id="apDiv6"><img src="lg_saturn.jpg" alt="Saturn" width="350" height="350" class="fltlft"><h2>Saturn</h2></div>
+  <div class="planet_detail" id="apDiv7"><img src="lg_uranus.jpg" alt="Uranus" width="350" height="350" class="fltlft"><h2>Uranus</h2></div>
+  <div class="planet_detail" id="apDiv8"><img src="lg_neptune.jpg" alt="Neptune" width="350" height="350" class="fltlft"><h2>Neptune</h2></div>
+<!--  <div id="apDiv9"></div> -->
+  </div>
+  <div class="footer">
+    <p>Planets of the Solar System Tutorial, &copy; 2014 Elio L. Arteaga</p>
+    <!-- end .footer --></div>
+<!-- end .container --></div>
+</body>
+</html>
