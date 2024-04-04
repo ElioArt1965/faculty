@@ -1,0 +1,381 @@
+@charset "UTF-8";
+body {
+    margin: 0;
+    background-image: -webkit-linear-gradient(90deg,rgba(86,59,16,1.00) 0%,rgba(186,147,44,1.00) 100%);
+    background-image: -moz-linear-gradient(90deg,rgba(86,59,16,1.00) 0%,rgba(186,147,44,1.00) 100%);
+    background-image: -o-linear-gradient(90deg,rgba(86,59,16,1.00) 0%,rgba(186,147,44,1.00) 100%);
+    background-image: linear-gradient(0deg,rgba(86,59,16,1.00) 0%,rgba(186,147,44,1.00) 100%);
+    display: block;
+}
+wrapper {
+    width: 1366px;
+    margin: auto;
+    display: block;
+    height: 1024px;
+}
+header {
+    padding: 16px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+nav {
+    background-color: rgba(0,0,0,0.76);
+    color: rgba(255,255,255,1.00);
+    display: inherit;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    display: inherit;
+}
+
+nav ul a {
+    display: inline-block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-decoration: none;
+    list-style-type: none;
+    color: rgba(255,255,255,1.00);
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 47px;
+}
+nav ul a:hover  {
+    display: inline-block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-decoration: none;
+    list-style-type: none;
+    color: rgba(255,255,255,1.00);
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: rgba(127,93,12,1.00);
+}
+h1 {
+    padding: 16px;
+    margin: 0;
+}
+footer {
+}
+main {
+    height: 800px;
+}
+.home {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 17% 0%;
+    background-image: url(ABBAhomebanner.png);
+    color: rgba(255,255,255,1.00);
+}
+.fade-in-text {
+    color: rgba(255,255,255,1.00);
+    font-size: 128px;
+    margin-right: 529px;
+    animation: fadeIn 3s;
+    font-family: Lexend;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+
+.news {
+}
+.store {
+}
+.videos {
+    font-family: Lexend;
+    color: rgba(255,255,255,1.00);
+    font-size: 56px;
+}
+.tour {
+}
+.photo {
+}
+.mailings {
+}
+.merch {
+}
+.blog {
+    font-family: Lexend;
+}
+.privacy {
+}
+.synopsis {
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 30px;
+    text-align: center;
+    border: thick solid rgba(10,10,10,1.00);
+    border-radius: 0px 0px 35px 35px;
+    background-color: rgba(10,10,10,1.00);
+    margin-top: -6px;
+    padding-bottom: 22px;
+    padding-top: 6px;
+}
+#myVideo {
+    position: static;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-image: url(url);
+    background-color: rgba(0,0,0,0.00);
+    width: 1366px;
+    height: 512px;
+    margin-left: -604px;
+    object-fit: cover;
+    margin-top: 0px;
+    margin-bottom: 167px;
+
+}
+.voyageintro {
+    color: rgba(255,255,255,1.00);
+    font-size: 40px;
+    text-align: right;
+    margin-right: 23px;
+    margin-top: -155px;
+    font-family: Lexend;
+}
+
+.concerts h1 {
+    color: rgba(255,255,255,1.00);
+    text-align: center;
+    letter-spacing: 32px;
+    font-size: 68px;
+}
+
+.map {
+    margin-bottom: -54px;
+
+}
+.voyagesynopsis {
+    margin-top: -14px;
+    text-align: left;
+    color: rgba(255,255,255,1.00);
+    font-size: 23px;
+    margin-right: -63px;
+    margin-left: 626px;
+    font-family: Lexend;
+
+}
+
+button {
+}
+.newsletter {
+    text-align: center;
+    font-size: 101px;
+    font-family: Lexend;
+}
+.signup {
+    background-color: rgba(0,0,0,1.00);
+    text-align: center;
+    margin-left: 515px;
+    margin-right: 0px;
+    font-size: 45px;
+    color: rgba(255,255,255,1.00);
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: 65px;
+    font-family: Lexend;
+}
+
+.signup:hover{
+	background-color:white;
+	color:black;
+}
+.logo {
+}
+.voyageheadline {
+    display: inline-block;
+    margin-left: 158px;
+    text-decoration: underline;
+    color: rgba(255,255,255,1.00);
+    font-family: Lexend;
+    text-align: left;
+}
+.waterlooimg {
+    width: 150px;
+    height: 150px;
+    margin-left: 1052px;
+    margin-right: 0px;
+    margin-top: -9px;
+    margin-bottom: -96px;
+}
+.voyageart {
+    width: 300px;
+    margin-left: 155px;
+    margin-bottom: 0px;
+    margin-top: -56px;
+    text-decoration: underline;
+}
+
+
+.waterlooheadline {
+    display: inline-block;
+    margin-left: 458px;
+    color: rgba(255,255,255,1.00);
+    text-decoration: underline;
+    font-family: Lexend;
+}
+.waterloostore {
+    text-align: center;
+    color: rgba(255,255,255,1.00);
+    font-size: 80px;
+    font-family: Lexend;
+}
+.waterlooshirt {
+    width: 300px;
+    display: inline-block;
+    margin-left: 171px;
+}
+.tshirt {
+    color: rgba(255,255,255,1.00);
+    text-decoration: underline;
+    font-weight: bold;
+    margin-left: 184px;
+    display: inline-block;
+    font-size: 32px;
+    margin-top: 4px;
+    font-family: Lexend;
+}
+.tshirtprice {
+    color: rgba(255,255,255,1.00);
+    margin-left: 258px;
+    margin-top: -23px;
+    font-size: 30px;
+    font-family: Lexend;
+}
+
+
+.waterloovest {
+    width: 300px;
+    display: inline-block;
+    margin-left: 45px;
+    color: rgba(255,255,255,1.00);
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 32px;
+}
+.vest {
+    color: rgba(255,255,255,1.00);
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 30px;
+    display: block;
+    margin-left: 501px;
+    margin-top: -115px;
+    margin-bottom: 15px;
+    font-family: Lexend;
+}
+.vestprice {
+    font-size: 30px;
+    color: rgba(255,255,255,1.00);
+    margin-left: 598px;
+    margin-top: -7px;
+    display: block;
+    font-family: Lexend;
+}
+.vinyl {
+    color: rgba(255,255,255,1.00);
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 30px;
+    display: block;
+    margin-left: 907px;
+    margin-top: -114px;
+    font-family: Lexend;
+}
+.vinylprice {
+    color: rgba(255,255,255,1.00);
+    font-size: 30px;
+    margin-left: 972px;
+    margin-top: -28px;
+    font-family: Lexend;
+}
+
+
+
+
+.waterloovinyl {
+    width: 300px;
+    display: inline-block;
+    margin-top: 64px;
+    margin-left: 45px;
+    color: rgba(255,255,255,1.00);
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 32px;
+}
+.dancingqueen {
+}
+.voulezvous {
+}
+.waterloomv {
+}
+.manaftermidnight {
+}
+.privacypolicy {
+    text-align: left;
+    font-size: 12px;
+    background-color: rgba(255,255,255,1.00);
+    border-radius: 13px;
+    color: rgba(0,0,0,1.00);
+    border-width: medium;
+}
+.blog h2 {
+    color: rgba(255,255,255,1.00);
+    text-decoration: underline;
+}
+.blogheader {
+    color: rgba(255,255,255,1.00);
+    font-size: 59px;
+}
+.newsmain {
+    font-family: Lexend;
+}
+.newsmain h2 {
+    color: rgba(255,255,255,1.00);
+    text-decoration: underline;
+    font-size: 32px;
+}
+.1975 {
+    display: block;
+    margin-left: 87px;
+
+}
+.1974 {
+    display: inline-block;
+    margin-bottom: -34px;
+
+}
+.photoh1 {
+    color: rgba(255,255,255,1.00);
+    font-family: Lexend;
+}
+
+.today {
+    display: inline-block;
+    margin-left: 36px;
+    margin-bottom: 133px;
+}
+.eurovision {
+    display: inline-block;
+    padding-left: 0px;
+    margin-left: 745px;
+    margin-top: -117px;
+}
+.newsh1 {
+    color: rgba(255,255,255,1.00);
+    font-size: 89px;
+}
+.abbavid {
+    margin-left: 101px;
+}

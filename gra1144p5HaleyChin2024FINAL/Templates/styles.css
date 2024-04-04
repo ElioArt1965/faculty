@@ -1,0 +1,19 @@
+@charset "utf-8";
+.img {
+    width: 0px;
+}
+img {
+    margin-top: -48px;
+    margin-bottom: -43px;
+}
+nav {
+    margin-left: 25px;
+    font-family: Lexend;
+    margin-top: 3px;
+    padding-left: 60px;
+}
+footer {
+    margin: auto;
+    display: block;
+    font-family: Lexend;
+}
