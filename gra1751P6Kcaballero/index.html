@@ -1,0 +1,218 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Trivago | Kimberly Caballero, 2024</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<style type="text/css">
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(CAT35510_Colourful_walls_and_buildings_in_park_Guell__Barcelona._Shutterstock.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Oswald", sans-serif;
+    height: 100vh;
+}
+header {
+    color: #fff;
+    background-color: #fff;
+}
+.logo {
+    height: 75px;
+    width: auto;
+    margin-left: 53px;
+}
+wrapper {
+    width: 1366px;
+    margin: 32px auto;
+    display: block;
+    border-radius: 16px;
+    background-color: rgba(0,0,0,0.48);
+}
+#Tabs1 ul {
+    background-color: transparent;
+    border: none;
+    background-image: none;
+}
+#Tabs1 {
+    background-image: none;
+    border: none;
+    background-color: transparent;
+}
+#Tabs1 li {
+    background-image: none;
+    background-color: rgba(255,255,255,0.25);
+    margin: 8px;
+    text-align: center;
+    border-width: thin;
+    border-radius: 8px;
+    border-style: solid;
+}
+#Tabs1 li:hover {
+    background-color: rgba(0,128,174,0.53);
+}
+#Tabs1 a {
+    color: rgba(245,144,2,1.00);
+    font-family: Oswald, sans-serif;
+}
+input ,select{
+    margin: 8px;
+    padding: 8px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Oswald,sans-serif;
+    border-radius: 8px;
+    border: thin solid #09f;
+}
+section {
+    width: 50%;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: -4px;
+}
+label {
+    color: rgba(255,255,255,1.00);
+}
+#Submit {
+    width: 200px;
+    margin: 0 auto;
+    background-color: rgba(202,72,44,1.00);
+    display: block;
+    color: rgba(255,255,255,1.00);
+}
+footer {
+    color: #FFFFFF;
+    font-family: oswald, sans-serif;
+    padding: 4px 16px;
+    background-color: rgba(0,0,0,0.50);
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+</style>
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+</head>
+
+<body>
+<header><img src="2560px-Trivago.svg.png" alt="" width="2560" height="768" class="logo"></header>
+<wrapper>
+  <div id="Tabs1">
+    <ul>
+      <li><a href="#tabs-1"><img src="noun-airplane-taking-off-6442401.png" alt="" width="71" height="50"><br>
+      Flights</a></li>
+      <li><a href="#tabs-2"><img src="noun-cars-6005043.png" alt="" width="56" height="50"><br>
+      Cars</a></li>
+      <li><a href="#tabs-3"><img src="noun-train-6749307.png" alt="" width="34" height="50"><br>
+      Trains</a></li>
+      <li><a href="#tabs-4"><img src="noun-hotel-1219942.png" alt="" width="50" height="50"><br>
+      Hotels</a></li>
+      <li><a href="#tabs-5"><img src="noun-travelling-5629222.png" alt="" width="64" height="50"><br>
+      Things to Do</a></li>
+    </ul>
+    <div id="tabs-1">
+<section>
+  <input placeholder="From...">
+</section>
+<section>
+  <input placeholder="To...">
+</section>
+<section>
+  <label for="">&nbsp;One Way:</label>
+        <input type="date" name="date" id="date">
+</section>
+<section>
+  <label for="date2">Round Trip:&nbsp;</label>
+        <input type="date" name="date2" id="date2">
+</section>
+<select>
+  <option value="0">Number of Travelers</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+</select>
+		<input name="Submit" type="submit" id="Submit">
+</div>
+    <div id="tabs-2"> 
+      <input type="text" placeholder="Pick up Location">
+<section>
+  <input type="date" name="date3" id="date4">
+  </section>
+      <section>
+<input name="date3" type="date" id="date5">
+      </section>
+      <input name="Submit" type="submit" id="Submit">
+</div>
+    <div id="tabs-3"> 
+      <section>
+        <input placeholder="From...">
+      </section>
+      <section>
+        <input placeholder="To...">
+      </section>
+      <section>
+        <label for="label">&nbsp;One Way:</label>
+        <input type="date" name="date4" id="date5">
+      </section>
+      <section>
+        <label for="date5">Round Trip:&nbsp;</label>
+        <input type="date" name="date4" id="date5">
+      </section>
+      <select name="select">
+        <option value="0">Number of Travelers</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select> 
+		<input name="Submit" type="submit" id="Submit">
+    </div>
+    <div id="tabs-4"> 
+      <input type="text" placeholder="City">
+      <section>
+        <label for="label">&nbsp;Check-in:</label>
+        <input type="date" name="date4" id="date8">
+      </section>
+      <section>
+        <label for="date6">Check-out:&nbsp;</label>
+        <input type="date" name="date4" id="date6">
+      </section>
+		<input name="Submit" type="submit" id="Submit">
+              </div>
+    <div id="tabs-5">
+      <input type="text" placeholder="City">
+      <section>
+        <input type="date" name="date4" id="date10">
+      </section>
+      <section>
+        <input name="date4" type="date" id="date11">
+      </section>
+      <input name="Submit" type="submit" id="Submit">
+    </div>
+</div>
+</wrapper>
+<script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+</script>
+</body>
+<footer><p>© 2024, Kimberly Caballero. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p></footer>
+</html>
