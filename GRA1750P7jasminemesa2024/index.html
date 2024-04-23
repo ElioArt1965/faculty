@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+		
+<head>
+<meta charset="UTF-8">
+<title>Movie Site - Jasmine Mesa</title>
+<style>
+	
+	body{
+		padding: 0;
+		margin: 0;
+		height:auto;
+		text-align: center;
+		background-color: black;
+	}
+	
+	header{
+		background-color: black;
+		padding: 25px;
+		box-shadow: 0 0 3px black;
+	}
+	
+	header li{
+		display: inline;
+		padding-left: 45px;
+	}
+	
+	header li a{
+		font-family: "Staatliches", sans-serif;
+		color: #FDC201;
+		font-size: 20px;
+		text-decoration: none;
+		padding: 13px;
+		transition: .3s ease;
+	}
+		
+	header li a:hover{
+		color: #B51B0F;
+	}
+	
+	header ul #order a{
+		color: white;
+		background-color: #B51B0F;
+		border-radius: 30px;
+		float: right;
+		position: relative;
+		top: -15px;
+		transition: .3s ease;
+	}
+	
+	header ul #order a:hover{
+		background-color: #84130D;
+	}
+	
+	header li img{
+		width: 250px;
+		float: left;
+		margin-top: -20px;
+	}
+	
+	.home{
+		min-height: 100vh;
+		display: flex;
+		align-items: center;
+		background: url("background.jpeg");
+		background-size: cover;
+		background-position: center
+	}
+	
+	iframe{
+		padding-top: 50px;
+		width: 80rem;
+		height: 780px;
+		position: left;
+	}
+	
+	* {
+		box-sizing: border-box;
+	}
+	
+	.column {
+		margin-top: 10px;
+		border: solid #B51B0F 5px;
+		float: left;
+		width: 33.33%;
+		padding: 5px;
+		margin-bottom: 30px;
+	}
+	
+section{
+	padding: 50px;
+	}
+	
+	.home .content{
+		max-width: 80rem;
+	}
+
+		.home .content p{
+		font-size: 25px;
+		line-height: 1.8;
+		padding: 1rem 0;
+		color: #B51B0F;
+		font-family: "Staatliches", sans-serif;
+			background:rgba(253,194,1,0.82)
+	}
+	
+	.btn{
+		margin-top: 1rem;
+		display: inline-block;
+		padding: .9rem 3rem;
+		font-size: 1.7rem;
+		color: white;
+		background-color: #B51B0F;
+		cursor: pointer;
+		font-family: "Staatliches", sans-serif;
+	}
+	
+	footer{ 
+		position:bottom;
+		width: 100%;
+		color: #E2B566;
+		text-align: center;
+		padding: 10px;
+   }
+	
+	p{ font-size: 17px; 
+		color: #FDC201;
+		font-family: "Staatliches", sans-serif;
+		font-weight: 500px;
+		text-align: center; 
+	}
+	
+</style>
+</head>
+
+<body>
+		<header>
+		<ul>
+		<li><img src="logo.png" alt="Chucky Logo"></li>
+		<li><a href="#" class="active">Synopsis</a></li>
+		<li><a href="https://www.syfy.com/chucky/photos">Gallery</a></li>
+		<li><a href="https://www.google.com/search?q=Chucky&sca_esv=1a57d827cf09faae&sca_upv=1&ei=NLUeZsvlBe7Jp84P0_iXgAM&ved=0ahUKEwjLz8iDoceFAxXu5MkDHVP8BTAQ4dUDCBA&uact=5&oq=Chucky&gs_lp=Egxnd3Mtd2l6LXNlcnAiBkNodWNreTIIEAAYBRgeGA0yCBAAGAgYHhgNMggQABgIGB4YDTILEAAYgAQYigUYhgMyCxAAGIAEGIoFGIYDMgsQABiABBiKBRiGAzILEAAYgAQYigUYhgMyCBAAGIAEGKIEMggQABiABBiiBDIIEAAYiQUYogRI-ChQAFieKHAAeACQAQCYAfwBoAG_B6oBBTIuMi4yuAEDyAEA-AEBmAIGoALSB8ICDRAAGIAEGA0YsQMYsQPCAgcQABiABBgNmAMAkgcFMS4zLjKgB5Qr&sclient=gws-wiz-serp#wptab=si:AKbGX_rMbXn0zD54JvtMkox8Go9KMoDCoMgk8tnnxMakE56x2XOf_umeYgcbMSULlsqtQ6I1K7AbAMTop4weYS0HL-5rhAiMag7_T_mqWyyWSEz8NEtkU0r7oF4AVCfbjDeHEUFUiIlUvvQcIDQdJ8VLPbTLVO_5AQ%3D%3D">Cast &amp; Crew</a></li>
+		<li><a href="https://www.google.com/search?q=Chucky&sca_esv=1a57d827cf09faae&sca_upv=1&ei=NLUeZsvlBe7Jp84P0_iXgAM&ved=0ahUKEwjLz8iDoceFAxXu5MkDHVP8BTAQ4dUDCBA&uact=5&oq=Chucky&gs_lp=Egxnd3Mtd2l6LXNlcnAiBkNodWNreTIIEAAYBRgeGA0yCBAAGAgYHhgNMggQABgIGB4YDTILEAAYgAQYigUYhgMyCxAAGIAEGIoFGIYDMgsQABiABBiKBRiGAzILEAAYgAQYigUYhgMyCBAAGIAEGKIEMggQABiABBiiBDIIEAAYiQUYogRI-ChQAFieKHAAeACQAQCYAfwBoAG_B6oBBTIuMi4yuAEDyAEA-AEBmAIGoALSB8ICDRAAGIAEGA0YsQMYsQPCAgcQABiABBgNmAMAkgcFMS4zLjKgB5Qr&sclient=gws-wiz-serp#wptab=si:AKbGX_pl4bfA-33T8OqMdeHZNROFP2zD0YzUyJB79S2S7uqAtFNrvAuW_HCXb4bd9RO2pzOy8N02pGWiI0d7pNC6Yr6BWydMsA402zSE--sxGofng6I82zCBzXQQLfN60dPr47S8lu9LaJlUeGFaeLajNXHXInmZ083HMt6oYPFAG7ROzqFx_wk_OII3rA_QHjiKt-tWWtJH">Seasons</a></li>
+		<li id="order"><a href="https://www.syfy.com/chucky/watch/episodes">Watch Now</a></li>
+		</ul>
+	</header>
+	
+<section class="home" id="home">
+		<div class="content">
+			<iframe width="1280" height="720" src="https://www.youtube.com/embed/UA-4e4bE1Ck" title="Chucky TV Series - Official Trailer (2021)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			<p>Before Annabelle of the "Conjuring" movie series, there was another terrifying doll. After a vintage Chucky doll turns up at a suburban yard sale, an idyllic American town is thrown into chaos as a series of horrifying murders begins to expose the town's hypocrisies and secrets. Meanwhile, the arrival of enemies and allies from Chucky's past threatens to expose the truth behind the killings, as well as the demon doll's untold origins as a seemingly ordinary child who somehow became this notorious monster.
+			</p>
+			<a href="https://www.syfy.com/chucky/watch/episodes" class="btn"> Watch Now</a>
+		</div>
+	</section>
+	
+	<div class="row">
+  <div class="column">
+    <img src="image1.jpeg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="image2.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="image3.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+	
+	<footer><p>&copy; 2024, Jasmine Mesa. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p></footer>
+	
+	
+</body>
+</html>
