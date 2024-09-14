@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  margin:0;
+}
+#upper-jaw{
+animation: openup .1s alternate infinite linear;
+transform-origin: 22.49% 38.70%;
+}
+@keyframes openup{
+0%{transform:rotate(-20deg);}
+100%{transform:rotate(0deg);}
+}
+#lower-jaw{
+animation: opendown .1s alternate infinite linear;
+transform-origin: 22.49% 38.70%;
+}
+@keyframes opendown{
+0%{transform:rotate(20deg);}
+100%{transform:rotate(0deg);}
+}
+#pac-man{
+animation: chasing 5s infinite linear;
+}
+@keyframes chasing{
+0%{transform:translate(-400px);}
+100%{transform:translate(1400px);}
+}
+#small-upper-jaw{
+animation:small-openup .1s alternate infinite linear;
+transform-origin:62.63% 29.22%;
+}
+@keyframes small-openup{
+0%{transform:rotate(20deg);}
+100%{transform:rotate(0deg);}
+}
+#small-lower-jaw{
+animation:small-opendown .1s alternate infinite linear;
+transform-origin:62.63% 29.22%;
+}
+@keyframes small-opendown{
+0%{transform:rotate(-20deg);}
+100%{transform:rotate(0deg);}
+}
+#small-pac-man{
+animation: chasingleft 5s infinite linear;
+}
+@keyframes chasingleft{
+0%{transform:translate(500px);}
+100%{transform:translate(-900px);}
+}
+</style>
+</head>
+<body>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1366" height="768" viewBox="0 0 1366 768">
+  <g id="background">
+    <rect width="1366" height="768" fill="aqua"/>
+  </g>
+  <g id="pac-man">
+    <g id="head">
+      <path d="M306.39,460.83c-89.87-.27-162.89-73.46-162.89-163.39s73.02-163.12,162.89-163.39v326.78Z" fill="#ff0"/>
+      <path d="M305.89,134.56v325.77c-43.13-.26-83.65-17.18-114.18-47.71-30.77-30.77-47.71-71.67-47.71-115.18s16.94-84.41,47.71-115.18c30.53-30.53,71.05-47.45,114.18-47.71M306.89,133.56c-90.51,0-163.89,73.38-163.89,163.89s73.38,163.89,163.89,163.89V133.56h0Z"/>
+    </g>
+    <g id="upper-jaw">
+      <path d="M307.39,296.94v-162.89c89.7.27,162.62,73.19,162.89,162.89h-162.89Z" fill="#ff0"/>
+      <path d="M307.89,134.56c43.13.26,83.65,17.18,114.18,47.71,30.53,30.53,47.45,71.05,47.71,114.18h-161.89v-161.89M306.89,133.56v163.89h163.89c0-90.51-73.38-163.89-163.89-163.89h0Z"/>
+    </g>
+    <g id="lower-jaw">
+      <path d="M307.39,297.94h162.89c-.27,89.7-73.19,162.62-162.89,162.89v-162.89Z" fill="#ff0"/>
+      <path d="M469.77,298.44c-.26,43.13-17.18,83.65-47.71,114.18-30.53,30.53-71.05,47.45-114.18,47.71v-161.89h161.89M470.78,297.44h-163.89v163.89c90.51,0,163.89-73.38,163.89-163.89h0Z"/>
+    </g>
+    <g id="eye">
+      <circle cx="306.89" cy="215.5" r="16.53"/>
+    </g>
+  </g>
+  <g id="small-pac-man">
+    <g id="small-head">
+      <path d="M855.22,302.44c42.34,0,76.67-34.32,76.67-76.67s-34.32-76.67-76.67-76.67v153.33Z" fill="#ff0"/>
+    </g>
+    <g id="small-upper-jaw">
+      <path d="M778.56,225.78h76.67s0-76.67,0-76.67c-42.34,0-76.67,34.32-76.67,76.67Z" fill="#ff0"/>
+    </g>
+    <g id="small-lower-jaw">
+      <path d="M778.56,225.78c0,42.34,34.32,76.67,76.67,76.67v-76.67c-42.34,0-76.67,0-76.67,0Z" fill="#ff0"/>
+    </g>
+    <circle id="small-eye" cx="855.22" cy="182.44" r="15.56"/>
+  </g>
+</svg>
+</body>
+</html>
+
+
