@@ -55,28 +55,41 @@ animation: chasingleft 5s infinite linear;
 </head>
 <body>
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1366" height="768" viewBox="0 0 1366 768">
+<svg xmlns="http://www.w3.org/2000/svg" width="1366" height="768" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1366 768">
+  <defs>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="7"/>
+      <feGaussianBlur result="blur" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".25"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-2" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="7"/>
+      <feGaussianBlur result="blur-2" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".25"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
   <g id="background">
     <rect width="1366" height="768" fill="aqua"/>
   </g>
-  <g id="pac-man">
+  <g id="pac-man" filter="url(#drop-shadow-1)">
     <g id="head">
-      <path d="M306.39,460.83c-89.87-.27-162.89-73.46-162.89-163.39s73.02-163.12,162.89-163.39v326.78Z" fill="#ff0"/>
-      <path d="M305.89,134.56v325.77c-43.13-.26-83.65-17.18-114.18-47.71-30.77-30.77-47.71-71.67-47.71-115.18s16.94-84.41,47.71-115.18c30.53-30.53,71.05-47.45,114.18-47.71M306.89,133.56c-90.51,0-163.89,73.38-163.89,163.89s73.38,163.89,163.89,163.89V133.56h0Z"/>
+      <path d="M306.89,461.33c-90.51,0-163.89-73.38-163.89-163.89s73.38-163.89,163.89-163.89v327.78Z" fill="#ff0"/>
     </g>
     <g id="upper-jaw">
-      <path d="M307.39,296.94v-162.89c89.7.27,162.62,73.19,162.89,162.89h-162.89Z" fill="#ff0"/>
-      <path d="M307.89,134.56c43.13.26,83.65,17.18,114.18,47.71,30.53,30.53,47.45,71.05,47.71,114.18h-161.89v-161.89M306.89,133.56v163.89h163.89c0-90.51-73.38-163.89-163.89-163.89h0Z"/>
+      <path d="M470.78,297.44h-163.89v-163.89c90.51,0,163.89,73.38,163.89,163.89Z" fill="#ff0"/>
     </g>
     <g id="lower-jaw">
-      <path d="M307.39,297.94h162.89c-.27,89.7-73.19,162.62-162.89,162.89v-162.89Z" fill="#ff0"/>
-      <path d="M469.77,298.44c-.26,43.13-17.18,83.65-47.71,114.18-30.53,30.53-71.05,47.45-114.18,47.71v-161.89h161.89M470.78,297.44h-163.89v163.89c90.51,0,163.89-73.38,163.89-163.89h0Z"/>
+      <path d="M470.78,297.44c0,90.51-73.38,163.89-163.89,163.89v-163.89s163.89,0,163.89,0Z" fill="#ff0"/>
     </g>
     <g id="eye">
       <circle cx="306.89" cy="215.5" r="16.53"/>
     </g>
   </g>
-  <g id="small-pac-man">
+  <g id="small-pac-man" filter="url(#drop-shadow-2)">
     <g id="small-head">
       <path d="M855.22,302.44c42.34,0,76.67-34.32,76.67-76.67s-34.32-76.67-76.67-76.67v153.33Z" fill="#ff0"/>
     </g>
