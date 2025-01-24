@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Bouncing Ball</title>
+	<style>
+		body{
+			margin:0;
+		}
+		svg{
+			display:block;
+			margin:auto;
+			width:100%;
+		}
+		#ball{
+			animation: bounce 1s infinite linear;
+		}
+		@keyframes bounce {
+			0%{transform: translateY(0);}
+			50%{transform: translateY(-300px);}
+			100%{transform: translateY(0);}
+		}
+		#horizontal{
+			animation: moving 3s infinite linear;
+		}
+		@keyframes moving {
+			0%{transform: translateX(-490px);}
+			100%{transform: translateX(530px);}
+		}
+		#shrink{
+			animation: shrinking 3s infinite linear;
+		}
+		@keyframes shrinking {
+			0%{transform: scale(1);
+			transform-origin: 100% 83.468%;}
+			100%{transform: scale(.1);
+			transform-origin: 100% 83.468%;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<svg id="scene" xmlns="http://www.w3.org/2000/svg" width="1243" height="744" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1243 744">
+  <defs>
+    <radialGradient id="radial-gradient" cx="582.66" cy="470.07" fx="582.66" fy="470.07" r="153.47" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".49" stop-color="#ed1c24"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+  </defs>
+  <rect id="wall" x=".5" y=".5" width="1242" height="743" fill="#e6e6e6" stroke="#000" stroke-miterlimit="10"/>
+  <g id="floor">
+    <rect x=".5" y="625.5" width="1242" height="117" fill="#999"/>
+    <path d="M1242,626v116H1v-116h1241M1243,625H0v118h1243v-118h0Z"/>
+  </g>
+  <g id="shrink">
+    <g id="horizontal">
+      <g id="ball">
+        <path d="M612,623.5c-60.93,0-110.5-49.57-110.5-110.5s49.57-110.5,110.5-110.5,110.5,49.57,110.5,110.5-49.57,110.5-110.5,110.5Z" fill="url(#radial-gradient)"/>
+        <path d="M612,403c29.38,0,57.01,11.44,77.78,32.22,20.78,20.78,32.22,48.4,32.22,77.78s-11.44,57.01-32.22,77.78-48.4,32.22-77.78,32.22-57.01-11.44-77.78-32.22-32.22-48.4-32.22-77.78,11.44-57.01,32.22-77.78c20.78-20.78,48.4-32.22,77.78-32.22M612,402c-61.3,0-111,49.7-111,111s49.7,111,111,111,111-49.7,111-111-49.7-111-111-111h0Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
+</body>
+</html>
