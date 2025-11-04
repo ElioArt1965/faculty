@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Michaels</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+function myFunction() {
+  var x = document.getElementById("nav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+<style type="text/css">
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+p {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+section img {
+    padding-right: 0px;
+    margin: 0 auto;
+    width: 50%;
+    display: block;
+}
+wrapper {
+    width: 100%;
+    height: 100vh;
+    background-color: #F3F3F3;
+    display: block;
+}
+.topnav a {
+    display: block;
+    text-align: right;
+	margin-right:10px;
+    text-decoration: none;
+    font-size: 24px;
+    list-style-type: none;
+    color: #333;
+}
+.topnav a:hover {
+    background-color: red;
+    color: white;
+}
+.topnav .icon:hover {
+    background-color: transparent;
+    color: black;
+}
+ul a {
+    text-decoration: none;
+}
+ul li {
+    padding: 8px;
+    font-size: 1em;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    border-bottom: 1px solid #000000;
+}
+.logo {
+    width: 25%;
+    padding-left: 43%;
+    padding-right: 43%;
+    margin-top: 45px;
+}
+.products {
+    width: 100%;
+}
+.sales {
+    width: 100%;
+}
+.topnav.responsive a:not(:first-child) {
+    display: none;
+}
+
+
+@media (min-width:900px) {
+section img {
+    width: 30.3%;
+    padding-left: 20px;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+
+ul li {
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: none;
+}
+.topnav a, .topnav.responsive a {
+    display: inline-block;
+	font-size:17px;
+}
+.topnav.responsive .icon {
+    display: none;
+}
+.topnav.responsive a:not(:first-child) {
+    display: inline-block;
+}
+}
+</style>
+</head>
+
+<body>
+<wrapper>
+  <header>
+    <nav id="nav" class="topnav responsive">
+      <ul>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i> <a href="#art_supplies" id="artSupplies_link">
+        <li>Art Supplies</li>
+        </a> <a href="#baking_supplies" id="bakingSupplies_link">
+        <li>Baking Supplies</li>
+        </a> <a href="#beads_jewelry" id="beadJewelry_link">
+        <li>Beads &amp; Jewelry</li>
+        </a> <a href="#crafts_hobbies" id="craftsHobbies_link">
+        <li>Crafts &amp; Hobbies</li>
+        </a> <a href="#decor" id="decor_link">
+        <li>Decor</li>
+        </a> <a href="#bead" id="beadsJewelry_link">
+        <li>Beads &amp; Jewelry</li>
+        </a> </a>
+      </ul>
+    </nav>
+  </header>
+  <img src="sales.svg" class="sales"> <img src="products.jpg" alt="" width="800" height="315" class="products">
+  <section>
+    <p> – COUPONS, DEALS &amp; MORE – </p>
+    <img src="RegularPrice.jpg" alt="" width="412" height="232"><img src="customFrame.jpg" alt="" width="412" height="232"><img src="fortyPercent.jpg" alt="" width="412" height="232"></section>
+</wrapper>
+</body>
+</html>
