@@ -1,0 +1,223 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Planting World</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	
+<style type="text/css">
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+	
+	body{
+		font-family: 'Josefin Sans', sans-serif;
+		color: #fff;
+	}
+	
+	nav{
+		background-color: #333;
+		text-align:right;
+	}
+	
+	
+.hero {
+	background: url("images/gardening-small.jpg") no-repeat center center/cover;
+	padding: .5rem;
+	position: relative;
+	height: 100vh;
+	z-index: 0;
+}
+	
+	.background-overlay{
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		background-color: rgba(0,0,0,0.50);
+		top: 0;
+		left: 0;
+		opacity: 0.7;
+		z-index: -1;
+	}
+	
+	h1{
+		margin-top: 1rem;
+	}
+	
+
+	h2{
+		margin-top: 5rem;
+		font-size: 40px;
+	}
+	
+	nav a, nav li{
+		text-decoration: none;
+		color: #fff;
+		padding: 1rem;
+	}
+	
+	nav li{
+		border-bottom: 1px solid #fff;
+		list-style-type:none;
+	}
+	
+	.logo{
+		width: 4rem;
+		
+		
+	}
+	
+	.button-container{
+		margin: 3rem;
+	}
+	.btn, .btn-2{
+		display: block;
+		color: #fff;
+		text-decoration: none;
+		padding: 12px 20px;
+		margin-bottom: 1rem;
+		text-align: center;
+		
+	}
+	
+	.btn{
+		background-color:#2A3B2B;
+		
+	}
+	
+	.btn-2{
+		background-color: #333;
+	}
+	
+	.flex-row{
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	.special-color{
+		color:#507149;
+	}
+	
+.topnav.responsive a:not(:first-child) {
+    display: block;
+}
+.topnav a:not(:first-child) {
+    display: none;
+}
+
+	.icon{
+		display:block;
+		padding:16px;
+	}
+@media screen and (min-width:64em){
+	.topnav.responsive a:not(:first-child),.topnav a:not(:first-child) {
+    display: block;
+}
+	.hero{
+		background: url('images/gardening-big.jpg')center center/cover no-repeat;
+	}
+	nav{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		background-color: transparent;
+	}
+	
+	nav ul{
+		display: flex;
+		
+	}
+	
+	nav ul a li, a {
+		margin-right: 3rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-decoration: none;
+		color: #fff;
+		list-style: none;
+		
+	}
+	
+	nav a li{
+		padding: 0;
+		border: none;
+	}
+	
+	.topnav .icon{display:none;}
+
+	.content{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	h2{
+		font-size: 60px;
+		margin-top: 10rem;
+	}
+
+	.logo{
+		width: 6rem;
+		margin: 1rem 0 0 1rem;
+	}
+	
+}
+</style>
+</head>
+
+
+<body>
+	<div class="hero">
+	<div class="background-overlay"></div>
+	<header>
+
+		<nav class="topnav" id="myTopnav">
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+<a href="#about_us" id="about_us_link"><li>About Us</li></a>
+                <a href="#blogs" id="blogs_link"><li>Blogs</li></a>
+                <a href="#contact_us" id="contact_us_link"><li>Contact Us</li></a>
+
+  </a>
+</nav>
+		</header>
+		
+		<div class="content">
+			<h2>Plant Trees All Over the World</h2>
+			<p>Be part of the PlantingWorld organization and help us have a better world for our future.</p>
+			<div class="button-container">
+				<a href="#" class="btn">About Us</a>
+				<a href="#" class="btn-2">Register my business</a>
+			</div>
+		</div>
+		
+		
+	</div>
+    
+		<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+	
+</body>
+
+
+</html>
