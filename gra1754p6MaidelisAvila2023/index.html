@@ -1,0 +1,303 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Gardening Website | Maidelis Avila</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+<style type="text/css">
+body {
+    padding: 0;
+    margin: 0;
+    min-width: 300px;
+}
+footer {
+    background-color: hsla(88,59%,36%,1.00);
+    color: hsla(0,0%,100%,1.00);
+    padding: 50px;
+    width: auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+#longnav {
+    width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+#nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#longul li {
+    padding-right: 4vw;
+    padding-left: 4vw;
+    display: inline-block;
+    float: right;
+    padding-top: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+#longul li:hover {
+    padding-right: 4vw;
+    padding-left: 4vw;
+    display: inline-block;
+    float: right;
+    padding-top: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: hsla(88,59%,36%,1.00);
+}
+#nav ul li {
+    margin: 0;
+    list-style-type: none;
+    padding: 1em;
+    border-bottom: thin solid hsla(0,0%,39%,1.00);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+#longul {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    float: right;
+}
+#nav ul li:hover {
+    margin: 0;
+    list-style-type: none;
+    border-bottom: thin solid hsla(0,0%,39%,1.00);
+    background-color: hsla(0,0%,90%,1.00);
+    color: hsla(88,59%,36%,1.00);
+}
+#nav ul a {
+    margin: 0;
+    list-style-type: none;
+    border-bottom: thin solid hsla(0,0%,39%,1.00);
+    color: hsla(0,0%,0%,1.00);
+    text-decoration: none;
+}
+#logo {
+    height: 62px;
+    width: 138px;
+    margin-left: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+#icon {
+    float: right;
+    margin-right: 5%;
+    margin-top: 34px;
+}
+#x_icon {
+    float: right;
+    margin-right: 5%;
+    margin-top: 30px;
+}
+#banner {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-position: 0% 0%;
+    text-align: center;
+    position: relative;
+}
+#bannerdiv {
+    text-align: center;
+    width: 30%;
+    position: absolute;
+    margin-left: 35vw;
+    margin-top: 15vw;
+    border-radius: 11px;
+    padding-bottom: 20px;
+    background-color: hsla(0,0%,0%,0.50);
+}
+h1 {
+    color: hsla(0,0%,100%,1.00);
+    margin: 0;
+    padding: 10px 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7vw;
+}
+h5 {
+    color: hsla(99,60%,48%,1.00);
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    font-size: 0.9vw;
+}
+button {
+    padding-top: 12px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 12px;
+    border: 0;
+    background-color: hsla(109,52%,55%,1.00);
+    color: hsla(0,0%,100%,1.00);
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 60%;
+}
+button:hover {
+    background-color: hsla(0,0%,100%,1.00);
+    color: hsla(92,51%,51%,1.00);
+}
+#services {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: hsla(102,61%,43%,1.00);
+    display: block;
+    padding-top: 16px;
+}
+.servicesdiv {
+    display: inline-block;
+    width: 25%;
+    margin: 70px 40px;
+    height: 226px;
+}
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: hsla(102,61%,43%,1.00);
+}
+p {
+    padding-right: 1vw;
+    padding-left: 1vw;
+}
+#garden {
+    width: 100%;
+    padding: 0;
+    margin-top: 73px;
+}
+.topnav {
+    background-color: #333;
+
+}
+.topnav a {
+    display: block;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+	width:80%;
+	margin:0 100px;
+}
+.topnav a:hover {
+    background-color: rgba(102,200,81,1.00);
+}
+.topnav.responsive a {
+    display: block;
+	width:80%;
+}
+.topnav.responsive a:not(:first-child) {
+    display: block;
+}
+.topnav a:not(:first-child) {
+    display: none;
+}
+.topnav.responsive .fa-bars {
+    display: none;
+}
+.topnav.responsive .fa-times {
+    display: block;
+}
+.topnav .fa-times {
+    display: none;
+}
+.topnav .fa-bars {
+    display: block;
+}
+
+@media (min-width:58em) {
+.topnav a:not(:first-child),.topnav.responsive a:not(:first-child){
+display:inline-block;
+	width:auto;
+	margin:0 25px;
+}
+.topnav .icon{display:none;}
+}
+#longul {
+    display: none;
+}
+#icon {
+    display: none;
+}
+#x_icon {
+    display: none;
+}
+#nav ul li {
+    display: none;
+}
+#nav ul a {
+    display: none;
+}
+#nav ul {
+    display: none;
+}
+}
+</style>
+</head>
+
+<body>
+<nav class="topnav" id="myTopnav">
+	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		<i class="fa fa-bars"></i><i class="fa fa-times"></i>
+		<a href="#banner" class="active">Home</a>
+		<a href="#services">Services</a>
+		<a href="#garden">Garden</a>
+	</a>
+	</nav>
+<section id="banner">
+  <div id="bannerdiv">
+    <h5>GUARANTEED QUALITY</h5>
+    <h1>Your lawn and garden cared for the way they should be</h1>
+    <button>OUR SERVICES</button>
+  </div>
+  <img src="banner.png" alt="" width="100%" height="auto"> </section>
+<section id="services">
+  <h2>Services We Offer</h2>
+  <div class="servicesdiv"> <img src="Lawn,%20Turf%20and%20Garden%20Care.png" alt="" width="100%" height="auto">
+    <h4>Lawn, Turf and Garden Care</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+  <div class="servicesdiv"> <img src="Planting%20and%20Removal.png" alt="" width="100%" height="auto">
+    <h4>Planting and Removal</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+  <div class="servicesdiv"> <img src="Irrigation%20and%20Drainage.png" alt="" width="100%" height="auto">
+    <h4>Irrigation aand Drainage</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+</section>
+<section id="garden"><img src="garden.jpg" alt="" width="100%" height="auto"></section>
+<footer>© 2023, Maidelis Avila
+  This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category. </footer>
+</body>
+</html>
