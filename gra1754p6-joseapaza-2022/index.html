@@ -1,0 +1,354 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Responsive Nav bar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+<style type="text/css">
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    background-color: #1E0126;
+}
+.logo {
+    padding: 20px;
+    filter: drop-shadow(10px 10px 10px rgba(80,87,148,0.7));
+}
+.logo:hover {
+    filter: drop-shadow(10px 10px 10px rgba(183,34,36,1.00));
+    cursor: pointer;
+    transition: 0.4s;
+}
+.HM-button {
+    background-color: #460259;
+    padding: 10px 20px;
+    text-align: center;
+    display: block;
+}
+nav {
+    width: 100%;
+    background: #460259;
+}
+ul {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+    text-align: center;
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+/*Nav-Animation*/
+a {
+    position: relative;
+    display: inline-block;
+    padding: 16px 30%;
+    color: #AB04D9;
+	text-decoration:none;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: 700;
+    overflow: hidden;
+    cursor: pointer;
+}
+a:hover {
+    color: #0D0D0D;
+    box-shadow: 0 0 10px #AB04D9, 0 0 40px #AB04D9, 0 0 80px #AB04D9;
+    transition-delay: 1s;
+    background-color: rgba(171,4,217,1.00);
+}
+a span {
+    position: absolute;
+    display: block;
+}
+a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, transparent, rgba(171,4,217,1.00));
+}
+a:hover span:nth-child(1) {
+    left: 100%;
+    transition: 1s;
+}
+a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(270deg, transparent, rgba(171,4,217,1.00));
+}
+a:hover span:nth-child(3) {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, rgba(171,4,217,1.00));
+}
+a:hover span:nth-child(2) {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, rgba(171,4,217,1.00));
+}
+a:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+.section-1 {
+    background-image: url("florian-olivo-Mf23RF8xArY-unsplash.jpg");
+    background-repeat: no-repeat;
+    height: 800px;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.section-1 h1 {
+    position: absolute;
+    font-size: 4em;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: white;
+    left: 10%;
+    bottom: 10%;
+    filter: drop-shadow(10px 10px 10px rgba(183,34,36,0.5));
+}
+.transition-1 {
+    width: 100%;
+    position: absolute;
+    height: 60px;
+    display: block;
+    background: linear-gradient(180deg, transparent, #1E0126);
+    bottom: 0%;
+}
+main {
+    display: block;
+    width: 85%;
+    margin: 0 auto;
+    color: white;
+    padding: 50px 0px;
+}
+.store {
+    margin: 0 auto;
+    padding: 40px;
+}
+.store .image-box {
+    height: auto;
+    filter: drop-shadow(10px 10px 10px rgba(80,87,148,0.5));
+    transition: 0.4s;
+}
+.store .image-box:hover {
+    filter: drop-shadow(10px 10px 10px rgba(183,34,36,1.00));
+    cursor: pointer;
+}
+h2 {
+    font-size: 3em;
+}
+p {
+    font-size: 1.2em;
+}
+.section-2 {
+    background-image: url("Tower-section.jpg");
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.transition-2 {
+    width: 100%;
+    position: absolute;
+    height: 60px;
+    display: block;
+    background: linear-gradient(360deg, transparent, #1E0126);
+    top: 0%;
+}
+.gaming img {
+    width: 70%;
+    height: auto;
+    padding: 80px;
+    filter: drop-shadow(10px 10px 10px rgba(80,87,148,0.5));
+}
+.gaming img:hover {
+    filter: drop-shadow(10px 10px 10px rgba(183,34,36,1.00));
+    cursor: pointer;
+    transition: 0.4s;
+}
+.PC-content {
+    color: white;
+    padding: 20px;
+}
+.video {
+    display: flex;
+    justify-content: space-around;
+}
+.social-container h2 {
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.social-icons:hover {
+    cursor: pointer;
+    filter: drop-shadow(5px 5px 5px rgba(183,34,36,1.00));
+    transition: 0.4s;
+}
+footer {
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+.topnav a:not(:first-child) {
+    display: none;
+}
+.topnav.responsive a:not(:first-child) {
+    display: block;
+}
+
+@media (min-width:768px) {
+.logo img {
+    width: 200px;
+    height: auto;
+}
+.icon {
+    display: none;
+}
+ul {
+    display: flex;
+    justify-content: flex-end;
+}
+a {
+    padding: 15px 27.5px;
+}
+.main-content-1 {
+    display: flex;
+    align-items: flex-start;
+    padding: 70px 0px;
+}
+.store {
+    width: 40%;
+}
+.store .image-box {
+    width: 90%;
+    height: auto;
+    filter: drop-shadow(10px 10px 10px rgba(80,87,148,0.5));
+}
+h2 {
+    font-size: 2em;
+}
+p {
+    font-size: 1em;
+}
+.gaming {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.gaming img {
+    width: 35%;
+    height: auto;
+}
+.PC-content {
+    width: 40%;
+}
+}
+</style>
+</head>
+
+<body>
+<header>
+  <div class="logo"><img src="Main-logo.png" width="500" height="104" alt=""/></div>
+  <div class="HM-button">
+    <nav class="topnav" id="myTopnav">
+      <ul>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><span></span><span></span><span></span><span></span><i class="fa fa-bars"></i>
+        <a href="#"><li><span></span><span></span><span></span><span></span>MENU</li></a>
+       <a href="#"> <li><span></span><span></span><span></span><span></span>PRODUCTS</li></a>
+        <a href="#"><li><span></span><span></span><span></span><span></span>INNOVATION</li></a>
+        <a href="#"><li><span></span><span></span><span></span><span></span>DOWNLOADS</li></a>
+        <a href="#"><li><span></span><span></span><span></span><span></span>SUPPORT</li></a>
+</a>
+      </ul>
+    </nav>
+  </div>
+  <section class="section-1">
+    <h1>IMPROVE YOUR<br>
+      GAMING EXPERIENCE</h1>
+    <div class="transition-1"></div>
+  </section>
+</header>
+<main class="main-content-1">
+  <section class="store"> <img class="image-box" src="laptop-shape-1.png" width="600" height="337" alt=""/>
+    <div class="content">
+      <h2>Rog Flow Z13</h2>
+      <p>Take the Z13 wherever you need to go. The built-in kickstand can be opened up to 170 degrees, ensuring optimal viewing angles for your favorite games or movies, no matter where you use the Z13.</p>
+    </div>
+  </section>
+  <section class="store"> <img class="image-box" src="Headphones.png" width="600" height="641" alt=""/>
+    <div class="content">
+      <h2>Rog delta S</h2>
+      <p>ROG Delta S gaming headset delivers impeccably clear, detailed audio to give serious gamers the edge to win. It features industry-leading, hi-fi-grade ESS 9281 with QUAD DAC™ technology and the ASUS AI Noise-Canceling Microphone. </p>
+    </div>
+  </section>
+</main>
+<section class="section-2">
+  <div class="transition-2"></div>
+</section>
+<div class="gaming"> <img src="Tower.png" width="679" height="839" alt=""/>
+  <div class="PC-content">
+    <h2>ROG STRIX GT35</h2>
+    <p>Compete at a new level with a tournament-ready gaming desktop built to deliver an exhilarating esports experience with Windows 10 Pro. Up to an NVIDIA® GeForce RTX™ 2080 Ti graphics card amps up your frames per second to make fast-paced gaming silky smooth. A powerful 10-core Intel® Core™ i9 CPU accelerates content creation and can even be overclocked with an AI-enhanced system that makes overclocking easier for everyone. The GT35's high end performance is bolstered by a cooling-focused, multi-chambered chassis design and liquid cooling system. Aura Sync accents and Keystone II technology deepen the customization options, allowing it to truly become the perfect machine for every gamer.</p>
+  </div>
+</div>
+<div class="video">
+  <iframe src="https://www.youtube-nocookie.com/embed/iHCQKKPkwwI?vq=hd1080&autoplay=1&loop=1&playlist=iHCQKKPkwwI" width="1360" height="765" title="ROG Phone 6 Series - Official product video | ROG" frameborder="0" allowfullscreen></iframe>
+</div>
+<div class="social-container">
+  <h2>Social Media</h2>
+  <div class="social-icons"> <img src="facebook-white.png" width="100" height="100" alt=""/> <img src="instagram-white.png" width="100" height="100" alt=""/> <img src="twitter-white.png" width="100" height="100" alt=""/> <img src="youtube-white.png" width="100" height="100" alt=""/> </div>
+</div>
+<footer>
+  <p>&copy; 2022, Jose Apaza<br>
+    This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+</footer>
+</body>
+</html>
