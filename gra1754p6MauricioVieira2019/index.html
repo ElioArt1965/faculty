@@ -1,0 +1,214 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Strange Garden</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+<style type="text/css">
+body {
+	padding: 0;
+	margin: 0;
+	background-image: url(backgroundsmall.png);
+	background-position: 0% 37px;
+	background-repeat: no-repeat;
+	background-color: #E7E1D1;
+}
+wrapper {
+	margin: 0 auto;
+	display: block;
+	width: 90%;
+}
+#logo {
+	width: 37%;
+	margin: 0;
+	padding: 0;
+}
+header {
+	text-align: left;
+}
+header div {
+	text-align: right;
+	background-image: url(imgtop.png);
+	background-repeat: no-repeat;
+	background-position: 0% bottom;
+	background-color: rgba(44,28,15,1.00);
+}
+nav {
+        background-color: #1e1e1e;
+padding:20px;
+	margin: 0 5%;
+
+}
+section img {
+	width: 100%;
+	height: auto;
+}
+li {
+        list-style-type: none;
+        color: #FFFFFF;
+        font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+        font-size: 1.5em;
+        padding-top: 8px;
+        padding-right: 8px;
+        padding-bottom: 8px;
+        padding-left: 44px;
+        background-color: #1E1E1E;
+}
+p {
+	font-size: 1.5em;
+}
+ul {
+	padding: 0;
+	margin: 0;
+	background-color: 2f1d0e;
+}
+a {
+        text-decoration: none;
+}
+li:hover {
+        background-color: #000000;
+}
+footer {
+	background-image: url(imgf.png);
+	background-repeat: repeat-x;
+	height: 103px;
+	clear: both;
+	text-align: right;
+	padding-right: 10px;
+	padding-top: 20px;
+}
+.socialm {
+	width: 13em;
+	padding-top: 6px;
+	padding-right: 4px;
+}
+.topnav.responsive a{
+display:block;
+	text-align:right;
+	margin-right:20px;
+}
+.topnav.responsive a:not(:first-child) {display: block;}
+.topnav a:not(:first-child) {display: none;}
+
+.topnav.responsive .fa-bars {
+    display: none;
+}
+.topnav.responsive .fa-times {
+    display: block;
+	text-align:right;
+	margin-right:20px;
+	color:#4CAF50;
+}
+.topnav .fa-times {
+    display: none;
+}
+.topnav .fa-bars {
+    display: block;
+	text-align:right;
+	margin-right:20px;
+	color:#4CAF50;
+}
+@media (min-width:70em){
+
+
+li {
+        float: left;
+        font-size: 1.2em;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        padding: 10px;
+        text-align: center;
+}
+p {
+	font-size: 1em;
+}
+section {
+	width: 30%;
+	float: left;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	margin-top: 58px;
+}
+section img {
+	width: 100%;
+	height: auto;
+}
+#logo {
+	width: 19%;
+	max-width: 241px;
+}
+body {
+	background-image: url(bodybackground.png);
+}
+footer {
+	padding-top: 41px;
+	padding-right: 41px;
+	position: fixed;
+	bottom: -5px;
+	width: 100%;
+}
+.socialm {
+	width: 10em;
+}
+.topnav a:not(:first-child),.topnav.responsive a:not(:first-child){
+display:inline-block;
+}
+.topnav .icon{display:none;}
+}
+        
+}
+</style>
+</head>
+
+
+<body>
+     <header>	 
+	 <img src="logomedium.png" alt="" id="logo"/>
+	</header>
+<nav class="topnav" id="myTopnav">
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i><i class="fa fa-times"></i>
+
+                <a href="#home" id="home_link"><li>Home</li></a>
+                <a href="#gallery" id="gallery_link"><li>Gallery</li></a>
+                <a href="#useful_links" id="useful_links_link"><li>Links</li></a>
+				<a href="#blog" id="blog_link"><li>Blog</li></a>
+                <a href="#about" id="about_link"><li>About</li></a>
+	  <a href="#contact_us" id="contact_us_link"><li>Contact Us</li></a></a>
+        </nav>
+	<wrapper>
+	<section><img src="img1.png" width="535" height="357" alt=""/>
+	  <h1>The Lost Gardens of Heligan</h1>
+      <p>Location: Cornwall, England Background: England's Lost Gardens of Heligan have a storied history of prosperity, neglect and rejuvenation. The once glorious Heligan estate fell into disrepair as World War I creeped into England and priorities shifted. Nature took its course in the decades that followed, swallowing the gardens and obscuring the walkways. It wasn't until 1990 that two descendants of the Tremayne family.</p>
+ </section>
+ <section>
+      <img src="img2.png" width="535" height="357" alt=""/>
+<h1>Jardin Exotique</h1>
+      <p>Location: Monaco Background: Opened to the public in 1933, Le Jardin Exotique, or the Exotic Garden, is home to an array of cacti and other succulents. If visitors grow tired of hundred-year-old cacti and plants imported from Africa, Mexico and the Arabian Peninsula, they can wander into the nearby cave and check out some stalactites, stalagmites and helictites.</p>
+    </section>
+	<section>
+      <img src="img3.png" width="535" height="357" alt=""/>
+<h1>Mudmaid Garden</h1>
+      <p>Location: Eureka, Calif. Background: Amy Stewart, author of Wicked Plants: The Weed That Killed Lincoln's Mother and Other Botanical Atrocities, tends this small garden off the side of her home in aptly named Eureka, Calif. Stewart, who also runs an antiquarian bookstore with her husband, recycles damaged books by burying them.</p>
+    </section>
+	</wrapper>
+	<footer>
+	  <img src="social-media.png" alt="" class="socialm" />
+    </footer>
+
+</body>
+
+
+</html>
